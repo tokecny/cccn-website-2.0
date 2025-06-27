@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+// next.config.js
+import withMDX from '@next/mdx'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const withMDXConfig = withMDX({
+  extension: /\.mdx$/,
+})
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  pageExtensions: ['ts', 'tsx', 'mdx'],
+  // คุณสามารถใส่ config อื่นๆ ที่ต้องการได้ที่นี่
+}
+
+export default withMDXConfig(nextConfig)
+
