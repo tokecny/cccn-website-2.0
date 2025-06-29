@@ -3,8 +3,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Radiant',
-    default: 'Radiant - Close every deal',
+    default: 'CCCN Lab',
+    template: '%s – CCCN Lab',
+  },
+  icons: {
+    icon: '/favicon-rounded.ico',
   },
 }
 
