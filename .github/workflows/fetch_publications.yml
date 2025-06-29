@@ -2,7 +2,7 @@ name: Update Publications Every 6 Months
 
 on:
   schedule:
-    - cron: '0 0 1 1,7 *'  # ทุกวันที่ 1 เดือนมกราคมและกรกฎาคม เวลา 00:00 UTC
+    # - cron: '0 0 1 1,7 *'  # ทุกวันที่ 1 เดือนมกราคมและกรกฎาคม เวลา 00:00 UTC
   workflow_dispatch:       # สามารถสั่งรันเองด้วยมือได้
 
 jobs:
