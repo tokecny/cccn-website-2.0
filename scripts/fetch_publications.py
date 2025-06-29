@@ -6,7 +6,7 @@ import os
 
 USER_IDS = [
     "Xo-8O_UAAAAJ",  # Chaipat Chunharas
-    "zZDl3-AAAAAJ"   # เพิ่มผู้ใช้เพิ่มเติมที่นี่
+    "zZDl3-AAAAAJ"   # Anthipa Chokesuwattanaskul
 ]
 
 OUTPUT_PATH = "public/publications.json"
@@ -111,7 +111,7 @@ def fetch_user_publications(user_id):
     print(f"📥 Fetching publications for user {user_id}...")
     author = scholarly.search_author_id(user_id)
     filled = scholarly.fill(author, sections=["publications"])
-    # pubs = filled.get("publications", [])[:20]
+    # pubs = filled.get("publications", [])[:20] // เอาไว้รันเช็คว่า fetch มาไหม
     pubs = filled.get("publications", [])
 
     detailed_pubs = []

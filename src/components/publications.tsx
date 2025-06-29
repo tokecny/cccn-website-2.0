@@ -24,6 +24,9 @@ const filters = [
   { key: 'neuro', label: 'Neuroscience' },
 ]
 
+const authorsInLab = ['Chunharas C', 'Chokesuwattanaskul A', ' Chunamchai S.', 'Phusuwan W.', 'Jarukasemkit S.', 'Poungtubtim C.', 'SINGTOKUM N.', 'Jongmekwamsuk K.', 'Panyanirun N.'];
+const boldPattern = new RegExp(`(${authorsInLab.join('|')})`, 'g');
+
 export default function Publications() {
   const [publications, setPublications] = useState<Publication[]>([])
   const [filter, setFilter] = useState<string>('all')
@@ -119,7 +122,7 @@ export default function Publications() {
                 <p
                   className="text-sm text-gray-700 leading-snug"
                   dangerouslySetInnerHTML={{
-                      __html: pub.authors.replace(/(Chunharas C|Chokesuwattanaskul A)/g, '<strong>$1</strong>'),
+                      __html: pub.authors.replace(boldPattern, '<strong>$1</strong>'),
                     }}
                 />
               </CardContent>
