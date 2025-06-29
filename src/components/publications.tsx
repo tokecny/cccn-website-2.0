@@ -54,14 +54,14 @@ export default function Publications() {
   const paginated = filtered.slice(0, page * perPage)
 
   return (
-    <section id="publications" className="py-16">
+    <section id="publications" className="">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="mb-8 text-center"
       >
-        <h2 className="text-4xl font-bold tracking-tight text-pink-600 mb-6">Publications</h2>
+        <h2 className="text-3xl font-semibold tracking-tight text-pink-600 mb-6">Publications</h2>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {filters.map(({ key, label }) => (
             <Button
