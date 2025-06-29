@@ -155,17 +155,18 @@ function TestimonialCard({
 function CallToAction() {
   return (
     <div>
+      {/* UNUSED Text */}
       <p className="max-w-sm text-sm/6 text-gray-600">
-        Join the best sellers in the business and start using Radiant to hit
-        your targets today.
+        {/* Join the best sellers in the business and start using Radiant to hit
+        your targets today. */}
       </p>
       <div className="mt-2">
         <Link
           href="#"
           className="inline-flex items-center gap-2 text-sm/6 font-medium text-pink-600"
         >
-          Get started
-          <ArrowLongRightIcon className="size-5" />
+          {/* Get started */}
+          {/* <ArrowLongRightIcon className="size-5" /> */}
         </Link>
       </div>
     </div>
@@ -192,10 +193,11 @@ export function Testimonials() {
     <div className="overflow-hidden">
       <Container>
         <div ref={setReferenceWindowRef}>
-          <Subheading>What everyone is saying</Subheading>
+          {/* UNUSED Heading */}
+          {/* <Subheading>What everyone is saying</Subheading>
           <Heading as="h3" className="mt-2">
             Trusted by professionals.
-          </Heading>
+          </Heading> */}
         </div>
       </Container>
       <div
