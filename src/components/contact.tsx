@@ -30,7 +30,7 @@ export function Contact() {
 
           <p className="mb-4 text-lg font-semibold">Location</p>
           <p className="mb-1">Sor Thor Building, Chula Neuroscience Center</p>
-          <p className="text-sm text-gray-500">1873 Rama IV Rd, Pathum Wan, Bangkok, 10330</p>
+          <p className="text-sm text-gray-500">1873 Ratchadamri Rd, Pathum Wan, Bangkok, 10330</p>
         </div>
       </div>
     </section>
