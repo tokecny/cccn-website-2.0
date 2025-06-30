@@ -1,35 +1,35 @@
-name: Update Publications Every 6 Months
+# name: Update Publications Every 6 Months
 
-on:
-  schedule:
-    # - cron: '0 0 1 1,7 *'  # ทุกวันที่ 1 เดือนมกราคมและกรกฎาคม เวลา 00:00 UTC
-  workflow_dispatch:       # สามารถสั่งรันเองด้วยมือได้
+# on:
+#   schedule:
+#     - cron: '0 0 1 1,7 *'  # ทุกวันที่ 1 เดือนมกราคมและกรกฎาคม เวลา 00:00 UTC
+#   workflow_dispatch:       # สามารถสั่งรันเองด้วยมือได้
 
-jobs:
-  update-publications:
-    runs-on: ubuntu-latest
+# jobs:
+#   update-publications:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+#       - name: Install dependencies
+#         run: |
+#           pip install -r requirements.txt
 
-      - name: Run fetch_publications.py
-        run: |
-          python scripts/fetch_publications.py
+#       - name: Run fetch_publications.py
+#         run: |
+#           python scripts/fetch_publications.py
 
-      - name: Commit and push if there are changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add public/publications.json
-          git diff --cached --quiet || git commit -m "🔄 Update publications"
-          git push
+#       - name: Commit and push if there are changes
+#         run: |
+#           git config user.name "GitHub Actions"
+#           git config user.email "actions@github.com"
+#           git add public/publications.json
+#           git diff --cached --quiet || git commit -m "🔄 Update publications"
+#           git push
