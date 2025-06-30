@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="#people" className="hover:underline text-cccn-accent">People</a>
               <a href="#publications" className="hover:underline text-cccn-accent">Publications</a>
               <a href="#collaborators" className="hover:underline text-cccn-accent">Collaborators</a>
-              <a href="#activity" className="hover:underline text-cccn-accent">Activity</a>
+              <a href="#activities" className="hover:underline text-cccn-accent">Activities</a>
               <a href="#resources" className="hover:underline text-cccn-accent">Resources</a>
               <a href="#contact" className="hover:underline text-cccn-accent">Contact</a>
             </nav>
