@@ -1,10 +1,12 @@
-'use client'
+"use client";
 
 export function Contact() {
   return (
     <section id="contact" className="">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-semibold text-pink-600 mb-4">Contact Us</h2>
+        <h2 className="text-3xl font-semibold text-pink-600 mb-4">
+          Contact Us
+        </h2>
       </div>
 
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -30,9 +32,11 @@ export function Contact() {
 
           <p className="mb-4 text-lg font-semibold">Location</p>
           <p className="mb-1">Sor Thor Building, Chula Neuroscience Center</p>
-          <p className="text-sm text-gray-500">1873 Ratchadamri Rd, Pathum Wan, Bangkok, 10330</p>
+          <p className="text-sm text-gray-500">
+            1873 Ratchadamri Rd, Pathum Wan, Bangkok, 10330
+          </p>
         </div>
       </div>
     </section>
-  )
+  );
 }
