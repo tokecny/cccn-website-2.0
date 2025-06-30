@@ -16,6 +16,6 @@ export function Home() {
           <p className="italic">"Curiosity. Critical Thinking. Creativity. Nerds!"</p>
           <p className="mt-2 text-sm ">– Chunharas C., 2025 –</p>
         </div>
-      </section>
+    </section>
   )
 }
