@@ -9,6 +9,7 @@ export function Contact() {
         </h2>
       </div>
 
+      <div className="max-w-5xl mx-auto px-6 md:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="h-[300px] w-full rounded-xl overflow-hidden shadow-md">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1041.437982519937!2d100.5370975686862!3d13.73392455276756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f621d051795%3A0x66bffe068bf3a36c!2sSor%20Thor%20Building!5e0!3m2!1sen!2sth!4v1751246405881!5m2!1sen!2sth"
