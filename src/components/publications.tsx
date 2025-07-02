@@ -27,7 +27,7 @@ const filters = [
 const authorsInLab = [
   "Chunharas C",
   "Chokesuwattanaskul A",
-  " Chunamchai S.",
+  "Chunamchai S.",
   "Phusuwan W.",
   "Jarukasemkit S.",
   "Poungtubtim C.",
@@ -76,14 +76,14 @@ export default function Publications() {
         transition={{ duration: 0.6 }}
         className="mb-8 text-center"
       >
-        <h2 className="text-3xl font-semibold tracking-tight text-pink-600 mb-6">
+        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-6">
           Publications
         </h2>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {filters.map(({ key, label }) => (
             <Button
               key={key}
-              variant={filter === key ? "default" : "outline"}
+              variant={filter === key ? "pinkClicked" : "pink"}
               onClick={() => {
                 setFilter(key);
                 setPage(1);
@@ -95,7 +95,7 @@ export default function Publications() {
         </div>
         <div className="mb-6">
           <select
-            className="text-sm font-medium text-pink-600 border border-pink-300 rounded-xl px-4 py-2 text-center focus:outline-none focus:ring-2 focus:ring-pink-500 bg-white hover:bg-pink-50 transition-colors"
+            className="text-sm font-medium text-pink-500 border border-pink-300 rounded-md px-2 py-2 text-center focus:outline-none hover:ring-1 hover:ring-pink-500 bg-white hover:bg-pink-500 hover:text-white transition-colors"
             value={selectedYear}
             onChange={(e) => {
               setSelectedYear(e.target.value);
@@ -120,21 +120,21 @@ export default function Publications() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.05 }}
           >
-            <Card className="relative rounded-2xl shadow-md hover:shadow-lg transition-all h-full flex flex-col justify-between border border-pink-200">
+            <Card className="relative rounded-2xl shadow-md hover:shadow-lg transition-all h-full flex flex-col justify-between border border-pink-100">
               {pub.badge && (
-                <Badge className="absolute top-3 right-3 bg-pink-200 text-pink-800 text-xs font-semibold">
+                <Badge className="absolute top-3 right-3 bg-pink-500 text-pink-100 text-xs font-semibold">
                   {pub.badge}
                 </Badge>
               )}
               <CardContent className="p-6 flex flex-col gap-2">
-                <p className="text-lg font-semibold text-pink-700">
+                <p className="text-xl font-semibold text-pink-500">
                   {pub.year}
                 </p>
                 <a
                   href={pub.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-2 text-base font-semibold text-pink-600 hover:underline leading-snug"
+                  className="mt-2 text-base font-semibold text-pink-500 hover:underline leading-snug"
                 >
                   {pub.title}
                 </a>
@@ -155,7 +155,7 @@ export default function Publications() {
 
       {paginated.length < filtered.length && (
         <div className="mt-8 text-center">
-          <Button onClick={() => setPage(page + 1)} variant="outline">
+          <Button onClick={() => setPage(page + 1)} variant="pink">
             Show more
           </Button>
         </div>
