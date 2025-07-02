@@ -229,7 +229,7 @@ function TestimonialCard({
         <figcaption className="mt-6 border-t border-white/20 pt-6">
           <p className="text-sm/6 font-medium text-white">{name}</p>
           <p className="text-sm/6 font-medium">
-            <span className="bg-gradient-to-r from-gray-200 via-gray-400 via-pink-100 to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-gray-200 via-gray-400 via-pink-300 to-pink-500 bg-clip-text text-transparent">
               {title}
             </span>
           </p>
@@ -279,7 +279,7 @@ export function Testimonials() {
   return (
     <div className="overflow-hidden">
       <Container>
-        <h2 className="text-3xl font-semibold tracking-tight text-pink-600 mb-6">
+        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-6">
           People
         </h2>
         <div ref={setReferenceWindowRef}>
