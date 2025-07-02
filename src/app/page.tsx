@@ -4,6 +4,7 @@ import { Home } from "@/components/home";
 import { Testimonials } from "@/components/testimonials";
 import { Contact } from "@/components/contact";
 import { Activities } from "@/components/activities";
+import Collaborators from "@/components/collaborators";
 
 export default function Landing() {
   return (
@@ -33,7 +34,9 @@ export default function Landing() {
       <div className="py-6 bg-white" />
 
       {/* Collaborators Section */}
-      <section id="collaborators" className="py-16 bg-gray-50"></section>
+      <section id="collaborators" className="py-16 bg-gray-50">
+        <Collaborators />
+      </section>
 
       <div className="py-6 bg-white" />
 
