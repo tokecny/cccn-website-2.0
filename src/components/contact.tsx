@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <section id="contact" className="">
       <div className="text-center">
-        <h2 className="text-3xl font-semibold text-pink-500 mb-6">
+        <h2 className="text-3xl font-semibold text-pink-500 mb-8">
           Contact Us
         </h2>
       </div>

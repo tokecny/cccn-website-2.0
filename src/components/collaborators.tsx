@@ -41,7 +41,7 @@ const collaborators = [
 export default function Collaborators() {
   return (
     <section className="" id="collaborators">
-      <div className="text-center mb-6">
+      <div className="text-center mb-8">
         <h2 className="text-3xl font-semibold text-pink-500 relative inline-block">
           Collaborators
         </h2>

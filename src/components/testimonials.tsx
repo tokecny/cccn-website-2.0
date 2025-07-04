@@ -279,7 +279,7 @@ export function Testimonials() {
   return (
     <div className="overflow-hidden">
       <Container>
-        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-6">
+        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-8">
           People
         </h2>
         <div ref={setReferenceWindowRef}>

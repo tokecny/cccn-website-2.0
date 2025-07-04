@@ -1,6 +1,6 @@
 export function Home() {
   return (
-    <section id="home" className="">
+    <section id="home">
       <img
         src="/favicon-rounded.ico"
         alt="CCCN Lab Logo"

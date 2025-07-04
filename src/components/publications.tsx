@@ -76,7 +76,7 @@ export default function Publications() {
         transition={{ duration: 0.6 }}
         className="mb-8 text-center"
       >
-        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-6">
+        <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-8">
           Publications
         </h2>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
