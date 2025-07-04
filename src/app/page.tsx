@@ -6,6 +6,7 @@ import { Contact } from "@/components/contact";
 import { Activities } from "@/components/activities";
 import Collaborators from "@/components/collaborators";
 import Navbar from "@/components/navbar";
+import Resources from "@/components/resources";
 
 export default function Landing() {
   return (
@@ -47,7 +48,7 @@ export default function Landing() {
 
       {/* Resources Section */}
       <section id="resources" className="scroll-mt-16 py-8 bg-gray-50">
-
+        <Resources />
       </section>
 
       <div className="py-6 bg-white" />
