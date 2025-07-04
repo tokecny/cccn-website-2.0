@@ -5,15 +5,25 @@ import { Testimonials } from "@/components/testimonials";
 import { Contact } from "@/components/contact";
 import { Activities } from "@/components/activities";
 import Collaborators from "@/components/collaborators";
-import Navbar from "@/components/navbar";
 import Resources from "@/components/resources";
+import Waves from "@/blocks/Backgrounds/Waves/Waves";
 
 export default function Landing() {
   return (
     <div>
       {/* Home Section */}
-      <section id="home" className="scroll-mt-26 py-16 px-6 text-center bg-gradient-to-b from-stone-200 to-pink-500">
-        <Home />
+      <section id="home" className="relative scroll-mt-26 py-16 px-6 text-center bg-gradient-to-b from-stone-200 to-pink-500">
+        <div className="absolute inset-0 z-0">
+          <Waves
+            lineColor="rgba(255, 255, 255, 0.2)"
+            backgroundColor="transparent"
+            className="pointer-events-none"
+          />
+        </div>
+
+        <div className="relative z-10">
+          <Home />
+        </div>
       </section>
 
       <div className="py-6 bg-white" />

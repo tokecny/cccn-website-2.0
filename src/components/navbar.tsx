@@ -16,14 +16,14 @@ export default function Navbar() {
       className={`sticky top-0 z-50 w-full px-4 sm:px-6 transition-all duration-300 py-4 ${
         scrolled
           ? "bg-pink-400 text-white"
-          : "bg-white text-black shadow-sm border-b" 
+          : "bg-white shadow-sm border-b" 
       }`}
     >
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
         <a
           href="#home"
           className={`font-bold transition-all duration-300 ${
-            scrolled ? "text-2xl tracking-wide" : "text-3xl"
+            scrolled ? "text-2xl tracking-wide" : "text-3xl text-pink-500"
           }`}
         >
           CCCN
