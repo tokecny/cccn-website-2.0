@@ -42,7 +42,7 @@ export function Contact() {
           <p className="mb-4">(+66)-2-256-4000 ext.71108</p>
 
           <p className="text-lg font-semibold">Location</p>
-          <p className="mb-2">Sor Thor Building, Chula Neuroscience Center</p>
+          <p className="mb-2">Sor Thor Building, Floor 11, Chula Neuroscience Center</p>
           <p className="text-sm text-gray-500">
             1873 Ratchadamri Rd, Pathum Wan, Bangkok, 10330
           </p>
