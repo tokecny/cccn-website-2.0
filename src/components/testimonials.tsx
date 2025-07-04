@@ -191,7 +191,7 @@ const testimonials = [
     img: "/testimonials/Guy.jpg",
     name: "Pattarathorn Jongjarearnsuntikul",
     title: "Psychologist (2020 - 2023)",
-    quote: `"Behind every bright smile, a silent flame."`,
+    quote: `"Behind every bright smile, \na silent flame."`,
     isAlumni: true, 
   },
   {
