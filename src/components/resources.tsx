@@ -6,11 +6,11 @@ export default function Resources() {
           Resources
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Block 1 */}
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all">
             <h3 className="text-lg font-semibold text-center mb-4 text-pink-500">
-              Neocortex Notes
+              Prefrontal Pages
             </h3>
             <div className="space-y-3 text-gray-800 text-sm">
                 <p>
@@ -71,12 +71,53 @@ export default function Resources() {
                     📖 Discover  
                     <a href="https://bookscape.co/?s=%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3" target="_blank" className="text-pink-500 hover:underline ml-1">
                     books 
-                    </a> that Dr.Chaipat <br></br>has lovingly translated with<br></br> <b>Bookscape Publishing</b> 
+                    </a> that Dr.Chaipat has lovingly translated with<br></br> <b>Bookscape Publishing</b> 
                 </p>
             </div>
-        </div>
+          </div>
+
 
           {/* Block 3 */}
+          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all">
+            <h3 className="text-lg font-semibold text-center mb-4 text-pink-500">
+              Basal Toolbox
+            </h3>
+            <div className="grid grid-cols-2 gap-2">
+              <div className="space-y-3 text-gray-800 text-sm">
+                <p>
+                  📂 <a href="https://openneuro.org/" target="_blank" className="text-pink-500 hover:underline">OpenNeuro</a>: Public neuroimaging dataset repository
+                </p>
+                <p>
+                  📂 <a href="https://osf.io/" target="_blank" className="text-pink-500 hover:underline">OSF.io</a>: Open science data & material sharing
+                </p>
+                <p>
+                  📂 <a href="https://www.nature.com/sdata/" target="_blank" className="text-pink-500 hover:underline">Nature Scientific Data</a>: Peer-reviewed open datasets
+                </p>
+                <p>
+                  📂 <a href="https://www.kaggle.com/datasets" target="_blank" className="text-pink-500 hover:underline">Kaggle</a>: Datasets for ML/AI & neuroscience
+                </p>
+              </div>
+              <div className="space-y-3 text-gray-800 text-sm">
+                <p>
+                  🔬 <a href="https://mne.tools/stable/index.html" target="_blank" className="text-pink-500 hover:underline">MNE</a>: EEG/MEG preprocessing in Python
+                </p>
+                <p>
+                  🔬 <a href="https://fmriprep.org/" target="_blank" className="text-pink-500 hover:underline">fMRIPrep</a>: Robust fMRI preprocessing
+                </p>
+                <p>
+                  🔬 <a href="https://surfer.nmr.mgh.harvard.edu/" target="_blank" className="text-pink-500 hover:underline">FreeSurfer</a>: Cortical reconstruction & segmentation
+                </p>
+                <p>
+                  🔬 <a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/" target="_blank" className="text-pink-500 hover:underline">FSL</a>: Oxford's neuroimaging toolkit
+                </p>
+                <p>
+                  🔬 <a href="https://bids.neuroimaging.io/" target="_blank" className="text-pink-500 hover:underline">BIDS</a>: Brain Imaging Data Structure standard
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Block 4 */}
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all">
             <h3 className="text-lg font-semibold text-center mb-4 text-pink-500">
               Hippocampus Highlights
