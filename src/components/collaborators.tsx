@@ -40,13 +40,13 @@ const collaborators = [
 
 export default function Collaborators() {
   return (
-    <section className="" id="collaborators">
+    <section className="px-4" id="collaborators">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-semibold text-pink-500 relative inline-block">
           Collaborators
         </h2>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center px-4 sm:px-0">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center px-4 sm:px-0">
         {collaborators.map((collab, i) => (
         <a
             key={collab.name}
@@ -57,7 +57,7 @@ export default function Collaborators() {
             className="flex flex-col items-center group animate-fade-in-up"
             style={{ animationDelay: `${i * 100}ms` }}
         >
-            <div className="w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-gray-200 shadow-md group-hover:shadow-xl transform group-hover:scale-105 transition duration-300 ease-in-out">
+            <div className="w-30 h-30 sm:w-30 sm:h-30 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-gray-200 shadow-md group-hover:shadow-xl transform group-hover:scale-105 transition duration-300 ease-in-out">
             <Image
                 src={collab.img}
                 alt={collab.name}

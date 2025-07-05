@@ -394,6 +394,7 @@ export function Testimonials() {
       <div
         ref={scrollRef}
         className={clsx([
+          "max-w-6xl mx-auto",
           "flex gap-8 px-(--scroll-padding)",
           "[scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
           "snap-x snap-mandatory overflow-x-auto overscroll-x-contain scroll-smooth",
@@ -416,7 +417,7 @@ export function Testimonials() {
         ))}
         <div className="w-2xl shrink-0 sm:w-216" />
       </div>
-      <Container className="mt-16">
+      <Container className="mt-4 sm:mt-16">
         <div className="flex justify-between">
           <CallToAction />
           <div className="hidden sm:flex sm:gap-2">
@@ -430,7 +431,7 @@ export function Testimonials() {
                 aria-label={`Scroll to testimonial from ${name}`}
                 className={clsx(
                   "size-2.5 rounded-full border border-transparent bg-gray-300 transition",
-                  "data-active:bg-gray-400 data-hover:bg-gray-400",
+                  "data-active:bg-pink-400 data-hover:bg-pink-400",
                   "forced-colors:data-active:bg-[Highlight] forced-colors:data-focus:outline-offset-4",
                 )}
               />

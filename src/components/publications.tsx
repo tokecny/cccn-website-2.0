@@ -79,7 +79,7 @@ export default function Publications() {
         <h2 className="text-3xl font-semibold tracking-tight text-pink-500 mb-8">
           Publications
         </h2>
-        <div className="flex flex-wrap justify-center gap-2 mb-4">
+        <div className="flex flex-wrap justify-center gap-2 mb-4 px-4">
           {filters.map(({ key, label }) => (
             <Button
               key={key}
@@ -112,7 +112,7 @@ export default function Publications() {
         </div>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
         {paginated.map((pub, idx) => (
           <motion.div
             key={idx}

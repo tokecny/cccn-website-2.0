@@ -12,7 +12,8 @@ export default function Landing() {
   return (
     <div>
       {/* Home Section */}
-      <section id="home" className="relative scroll-mt-26 py-16 px-6 text-center bg-gradient-to-b from-stone-200 to-pink-500">
+      {/* <section id="home" className="relative scroll-mt-26 py-18 px-6 text-center bg-gradient-to-b from-stone-200 to-pink-500"> */}
+      <section id="home" className="relative scroll-mt-26 py-18 px-6 text-center bg-black">
         <div className="absolute inset-0 z-0">
           <Waves
             lineColor="rgba(255, 255, 255, 0.2)"
@@ -26,47 +27,47 @@ export default function Landing() {
         </div>
       </section>
 
-      <div className="py-6 bg-white" />
+      <div className="px-4  py-4 sm:px-8 sm:py-8">
+        {/* People Section */}
+        <section id="people" className="scroll-mt-16 py-8 bg-gray-50 text-center rounded-lg">
+          <Testimonials />
+        </section>
 
-      {/* People Section */}
-      <section id="people" className="scroll-mt-16 py-8 bg-gray-50 text-center">
-        <Testimonials />
-      </section>
+        <div className="py-2 sm:py-4 bg-white" />
 
-      <div className="py-6 bg-white" />
+        {/* Publications Section */}
+        <section id="publications" className="scroll-mt-16 py-8 bg-pink-100 rounded-lg">
+          <Publications />
+        </section>
 
-      {/* Publications Section */}
-      <section id="publications" className="scroll-mt-16 py-8 bg-pink-100">
-        <Publications />
-      </section>
+        <div className="py-2 sm:py-4 bg-white" />
 
-      <div className="py-6 bg-white" />
+        {/* Collaborators Section */}
+        <section id="collaborators" className="scroll-mt-16 py-8 bg-gray-50 rounded-lg">
+          <Collaborators />
+        </section>
 
-      {/* Collaborators Section */}
-      <section id="collaborators" className="scroll-mt-16 py-8 bg-gray-50">
-        <Collaborators />
-      </section>
+        <div className="py-2 sm:py-4 bg-white" />
 
-      <div className="py-6 bg-white" />
+        {/* Activity Section */}
+        <section id="activity" className="scroll-mt-16 py-8 bg-pink-100 text-center rounded-lg">
+          <Activities />
+        </section>
 
-      {/* Activity Section */}
-      <section id="activity" className="scroll-mt-16 py-8 bg-pink-100 text-center">
-        <Activities />
-      </section>
+        <div className="py-2 sm:py-4 bg-white" />
 
-      <div className="py-6 bg-white" />
+        {/* Resources Section */}
+        <section id="resources" className="scroll-mt-16 py-8 bg-gray-50 rounded-lg">
+          <Resources />
+        </section>
 
-      {/* Resources Section */}
-      <section id="resources" className="scroll-mt-16 py-8 bg-gray-50">
-        <Resources />
-      </section>
+        <div className="py-2 sm:py-4 bg-white" />
 
-      <div className="py-6 bg-white" />
-
-      {/* Contact Section */}
-      <section id="contact" className="py-8 bg-pink-100">
-        <Contact />
-      </section>
+        {/* Contact Section */}
+        <section id="contact" className="py-8 bg-pink-100 rounded-lg">
+          <Contact />
+        </section>
+      </div>
     </div>
   );
 }
