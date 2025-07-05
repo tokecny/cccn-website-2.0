@@ -317,7 +317,7 @@ function TestimonialCard({
         />
       <figure className="relative p-10">
         <blockquote>
-          <p className="relative text-xl/7 text-white text-center">
+          <p className="relative text-sm leading-snug sm:text-base sm:leading-normal md:text-lg md:leading-relaxed lg:text-xl lg:leading-loose text-white text-center">
               {typeof children === "string"
                 ? children.split("\n").map((line, idx) => (
                     <span key={idx} className="block">
@@ -328,8 +328,8 @@ function TestimonialCard({
           </p>
         </blockquote>
         <figcaption className="mt-6 border-t border-white/20 pt-6">
-          <p className="text-sm/6 font-medium text-white">{name}</p>
-          <p className="text-sm/6 font-medium">
+          <p className="text-xs sm:text-sm md:text-base font-medium text-white">{name}</p>
+          <p className="text-xs sm:text-sm md:text-base font-medium">
             <span className="bg-gradient-to-r from-gray-200 via-gray-400 via-pink-300 to-pink-500 bg-clip-text text-transparent">
               {title}
             </span>
@@ -418,7 +418,7 @@ export function Testimonials() {
         <div className="w-2xl shrink-0 sm:w-216" />
       </div>
       <Container className="mt-4 sm:mt-16">
-        <div className="flex justify-between">
+        <div className="flex justify-center">
           <CallToAction />
           <div className="hidden sm:flex sm:gap-2">
             {testimonials.map(({ name }, testimonialIndex) => (
