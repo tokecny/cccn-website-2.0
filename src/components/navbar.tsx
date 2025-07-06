@@ -41,7 +41,7 @@ export default function Navbar() {
     <>
       {/* Top Navbar (desktop only) */}
       <header
-        className={`hidden md:block sticky top-0 z-50 w-full px-4 sm:px-6 transition-all duration-300 py-4 ${
+        className={`hidden lg:block sticky top-0 z-50 w-full px-4 sm:px-6 transition-all duration-300 py-4 ${
           scrolled ? "bg-pink-400 text-white" : "bg-white shadow-sm border-b"
         }`}
       >
@@ -76,7 +76,7 @@ export default function Navbar() {
       </header>
 
       {/* Bottom Navbar (mobile only) */}
-      <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow md:hidden h-14">
+      <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow lg:hidden h-14">
         <a href="#home" className="flex flex-col items-center text-xs">
           <Home size={20} className="text-pink-500" />
         </a>

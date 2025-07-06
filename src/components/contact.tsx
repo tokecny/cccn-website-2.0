@@ -24,13 +24,13 @@ export function Contact() {
         </div>
 
         <div className="text-left text-gray-700">
-          <p className="text-md mb-4">
+          <p className="mb-2 lg:mb-4 text-sm lg:text-base">
             We’re always excited to welcome new minds passionate about science and collaboration.<br></br> 
             <a className="text-pink-500 hover:underline transition" href="/cccn-lab-joining-details.pdf" download>Read through the details</a> — then drop us an email!
           </p>
 
-          <p className="text-lg font-semibold">Email</p>
-          <p className="mb-4">
+          <p className="text-base lg:text-lg font-semibold">Email</p>
+          <p className="mb-2 lg:mb-4 text-sm lg:text-base">
             <a
               href={`mailto:cccn.lab@gmail.com?subject=Join%20CCCN%20Lab&body=Hi%20CCCN%20Lab%2C%0A%0AMy%20name%20is%20[Your%20Name]%20and%20I%E2%80%99m%20interested%20in%20joining%20the%20lab.%0A%0APlease%20find%20attached%20my%20CV%2C%20one-page%20summary%2C%20and%20certificate.%0A%0ALooking%20forward%20to%20hearing%20from%20you!%0A%0ABest%20regards%2C%0A[Your%20Name]`}
               className="hover:text-pink-500 hover:underline transition">
@@ -38,11 +38,11 @@ export function Contact() {
             </a>
           </p>
 
-          <p className="text-lg font-semibold">Phone</p>
-          <p className="mb-4">(+66)-2-256-4000 ext.71108</p>
+          <p className="text-base lg:text-lg font-semibold">Phone</p>
+          <p className="mb-2 lg:mb-4 text-sm lg:text-base">(+66)-2-256-4000 ext.71108</p>
 
-          <p className="text-lg font-semibold">Location</p>
-          <p className="mb-2">Sor Thor Building, Floor 11, Chula Neuroscience Center</p>
+          <p className="text-base lg:text-lg font-semibold">Location</p>
+          <p className="mb-1 lg:mb-2 text-sm lg:text-base">Sor Thor Building, Floor 11, Chula Neuroscience Center</p>
           <p className="text-sm text-gray-500">
             1873 Ratchadamri Rd, Pathum Wan, Bangkok, 10330
           </p>

@@ -30,42 +30,42 @@ export default function Landing() {
 
       <div className="px-4  py-4 sm:px-8 sm:py-8">
         {/* People Section */}
-        <section id="people" className="scroll-mt-16 py-8 bg-gray-50 text-center rounded-lg">
+        <section id="people" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-gray-50 text-center rounded-lg">
           <Testimonials />
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
 
         {/* Publications Section */}
-        <section id="publications" className="scroll-mt-16 py-8 bg-pink-100 rounded-lg">
+        <section id="publications" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg">
           <Publications />
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
 
         {/* Collaborators Section */}
-        <section id="collaborators" className="scroll-mt-16 py-8 bg-gray-50 rounded-lg">
+        <section id="collaborators" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-gray-50 rounded-lg">
           <Collaborators />
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
 
         {/* Activity Section */}
-        <section id="activity" className="scroll-mt-16 py-8 bg-pink-100 text-center rounded-lg">
+        <section id="activity" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-pink-100 text-center rounded-lg">
           <Activities />
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
 
         {/* Resources Section */}
-        <section id="resources" className="scroll-mt-16 py-8 bg-gray-50 rounded-lg">
+        <section id="resources" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-gray-50 rounded-lg">
           <Resources />
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
        
         {/* Culture Section */}
-        <section id="culture" className="scroll-mt-16 py-8 bg-pink-100 rounded-lg">
+        <section id="culture" className="scroll-mt-0 lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg">
           <Culture />
         </section>
 

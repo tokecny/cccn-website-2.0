@@ -12,11 +12,11 @@ export function Home() {
         COMPUTATIONAL <br />
         NEUROSCIENCE
       </h1>
-      <div className="py-6 text-md text-zinc-100 max-w-2xl mx-auto">
+      <div className="py-6 text-sm lg:text-base text-zinc-100 max-w-2xl mx-auto">
         <p className="italic">
           "Curiosity. Critical Thinking. Creativity. Nerds!"
         </p>
-        <p className="mt-2 text-sm ">– Chunharas C., 2025 –</p>
+        <p className="mt-2 text-sm">– Chunharas C., 2025 –</p>
       </div>
     </section>
   );
