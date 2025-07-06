@@ -9,6 +9,7 @@ import {
   Handshake,
   CalendarDays,
   PackageOpen,
+  HandHeart
 } from "lucide-react"; // ไอคอนจาก lucide-react
 
 const navItems = [
@@ -17,6 +18,7 @@ const navItems = [
   { label: "Collaborators", href: "#collaborators", icon: <Handshake size={20} /> },
   { label: "Activities", href: "#activities", icon: <CalendarDays size={20} /> },
   { label: "Resources", href: "#resources", icon: <PackageOpen size={20} /> },
+  { label: "Culture", href: "#culture", icon: <HandHeart size={20} /> },
   { label: "Contact", href: "#contact", icon: <Mail size={20} /> },
 ];
 
@@ -66,6 +68,8 @@ export default function Navbar() {
             <span>|</span>
             <a href="#resources" className={linkClass(scrolled)}>Resources</a>
             <span>|</span>
+            <a href="#culture" className={linkClass(scrolled)}>Culture</a>
+            <span>|</span>
             <a href="#contact" className={linkClass(scrolled)}>Contact</a>
           </nav>
         </div>
@@ -90,6 +94,9 @@ export default function Navbar() {
         </a>
         <a href="#resources" className="flex flex-col items-center text-xs">
           <PackageOpen size={20} />
+        </a>
+        <a href="#culture" className="flex flex-col items-center text-xs">
+          <HandHeart size={20} />
         </a>
         <a href="#contact" className="flex flex-col items-center text-xs">
           <Mail size={20} />

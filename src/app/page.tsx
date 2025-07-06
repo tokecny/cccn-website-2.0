@@ -7,6 +7,7 @@ import { Activities } from "@/components/activities";
 import Collaborators from "@/components/collaborators";
 import Resources from "@/components/resources";
 import Waves from "@/blocks/Backgrounds/Waves/Waves";
+import { Culture } from "@/components/culture";
 
 export default function Landing() {
   return (
@@ -62,9 +63,16 @@ export default function Landing() {
         </section>
 
         <div className="py-2 sm:py-4 bg-white" />
+       
+        {/* Culture Section */}
+        <section id="culture" className="scroll-mt-16 py-8 bg-pink-100 rounded-lg">
+          <Culture />
+        </section>
+
+        <div className="py-2 sm:py-4 bg-white" />
 
         {/* Contact Section */}
-        <section id="contact" className="py-8 bg-pink-100 rounded-lg">
+        <section id="contact" className="py-8 bg-gray-50 rounded-lg">
           <Contact />
         </section>
       </div>
