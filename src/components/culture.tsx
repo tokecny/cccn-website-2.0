@@ -15,7 +15,7 @@ export function Culture() {
         <div className="bg-white rounded-xl shadow-md p-10 hover:shadow-lg transition-all">
             <ul className="text-gray-800 text-left space-y-6 max-w-2xl mx-auto">
             <li>
-                <strong className="text-pink-500 text-sm sm:text-base">Regular lab meetings (every 1–2 times per week):</strong> 
+                <strong className="text-pink-500 text-sm sm:text-base">Regular lab meetings (once or twice a week):</strong> 
                 <p className="text-sm">for sharing ideas, progress, and cool brain-related stuff.</p>
             </li>
             <li> 
