@@ -13,6 +13,7 @@ export default function ClientLayout({
   useEffect(() => {
     setYear(new Date().getFullYear());
   }, []);
+
   return (
     <>
       <Navbar />

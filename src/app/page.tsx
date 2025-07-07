@@ -13,6 +13,7 @@ export default function Landing() {
   return (
     <div>
       {/* Home Section */}
+      {/* Another Version */}
       {/* <section id="home" className="relative scroll-mt-26 py-18 px-6 text-center bg-gradient-to-b from-stone-200 to-pink-500"> */}
       <section id="home" className="relative scroll-mt-26 py-18 px-6 text-center bg-black">
         <div className="absolute inset-0 z-0">
