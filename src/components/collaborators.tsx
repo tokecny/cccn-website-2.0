@@ -22,6 +22,11 @@ const collaborators = [
     url: "https://www.rademakerlab.com/",
   },
   {
+    img: "/collaborators/drc.png",
+    name: "The UCL Dementia Research Centre",
+    url: "https://www.ucl.ac.uk/drc/dementia-research-centre",
+  },
+  {
     img: "/collaborators/cbc.png",
     name: "Center for Brain and Cognition",
     url: "https://psychology.ucsd.edu/people/profiles/vramachandran.html",
