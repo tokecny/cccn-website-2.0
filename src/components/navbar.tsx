@@ -11,8 +11,14 @@ import {
   PackageOpen,
   HandHeart
 } from "lucide-react"; // ไอคอนจาก lucide-react
+import React from "react";
 
-const navItems = [
+export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState<string>("home"); 
+
+   const navItems = [
+  { label: "Home", href: "#home", icon: <Home size={20} /> },
   { label: "People", href: "#people", icon: <User size={20} /> },
   { label: "Publications", href: "#publications", icon: <BookOpen size={20} /> },
   { label: "Collaborators", href: "#collaborators", icon: <Handshake size={20} /> },
@@ -20,10 +26,7 @@ const navItems = [
   { label: "Resources", href: "#resources", icon: <PackageOpen size={20} /> },
   { label: "Culture", href: "#culture", icon: <HandHeart size={20} /> },
   { label: "Contact", href: "#contact", icon: <Mail size={20} /> },
-];
-
-export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -76,32 +79,20 @@ export default function Navbar() {
       </header>
 
       {/* Bottom Navbar (mobile only) */}
-      <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow lg:hidden h-14">
-        <a href="#home" className="flex flex-col items-center text-xs">
-          <Home size={20} className="text-pink-500" />
+       <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow lg:hidden h-14">
+      {navItems.map((item) => (
+        <a
+          key={item.href}
+          href={item.href}
+          onClick={() => setActive(item.href)}
+          className="flex flex-col items-center text-xs"
+        >
+          {React.cloneElement(item.icon, {
+            className: active === item.href ? "text-pink-500" : "text-gray-600",
+          })}
         </a>
-        <a href="#people" className="flex flex-col items-center text-xs">
-          <User size={20} />
-        </a>
-        <a href="#publications" className="flex flex-col items-center text-xs">
-          <BookOpen size={20} />
-        </a>
-        <a href="#collaborators" className="flex flex-col items-center text-xs">
-          <Handshake size={20} />
-        </a>
-        <a href="#activities" className="flex flex-col items-center text-xs">
-          <CalendarDays size={20} />
-        </a>
-        <a href="#resources" className="flex flex-col items-center text-xs">
-          <PackageOpen size={20} />
-        </a>
-        <a href="#culture" className="flex flex-col items-center text-xs">
-          <HandHeart size={20} />
-        </a>
-        <a href="#contact" className="flex flex-col items-center text-xs">
-          <Mail size={20} />
-        </a>
-      </nav>
+      ))}
+    </nav>
     </>
   );
 }
