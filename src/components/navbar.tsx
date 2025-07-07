@@ -2,30 +2,30 @@
 
 import { useEffect, useState } from "react";
 import {
+  Home,
   User,
   BookOpen,
-  Mail,
-  Home,
   Handshake,
   CalendarDays,
   PackageOpen,
-  HandHeart
+  HandHeart,
+  Mail,
 } from "lucide-react"; // ไอคอนจาก lucide-react
 import React from "react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [active, setActive] = useState<string>("home"); 
+  const [active, setActive] = useState<string>("");
 
-   const navItems = [
-  { label: "Home", href: "#home", icon: <Home size={20} /> },
-  { label: "People", href: "#people", icon: <User size={20} /> },
-  { label: "Publications", href: "#publications", icon: <BookOpen size={20} /> },
-  { label: "Collaborators", href: "#collaborators", icon: <Handshake size={20} /> },
-  { label: "Activities", href: "#activities", icon: <CalendarDays size={20} /> },
-  { label: "Resources", href: "#resources", icon: <PackageOpen size={20} /> },
-  { label: "Culture", href: "#culture", icon: <HandHeart size={20} /> },
-  { label: "Contact", href: "#contact", icon: <Mail size={20} /> },
+  const navItems = [
+    { label: "Home", href: "#home", icon: <Home size={20} /> },
+    { label: "People", href: "#people", icon: <User size={20} /> },
+    { label: "Publications", href: "#publications", icon: <BookOpen size={20} /> },
+    { label: "Collaborators", href: "#collaborators", icon: <Handshake size={20} /> },
+    { label: "Activities", href: "#activities", icon: <CalendarDays size={20} /> },
+    { label: "Resources", href: "#resources", icon: <PackageOpen size={20} /> },
+    { label: "Culture", href: "#culture", icon: <HandHeart size={20} /> },
+    { label: "Contact", href: "#contact", icon: <Mail size={20} /> },
   ];
 
   useEffect(() => {
@@ -33,6 +33,13 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleClick = (href: string) => {
+    setActive(href);
+    setTimeout(() => {
+      setActive("");
+    }, 500);
+  };
 
   const linkClass = (scrolled: boolean) =>
     `relative inline-block px-1 py-1
@@ -79,16 +86,17 @@ export default function Navbar() {
       </header>
 
       {/* Bottom Navbar (mobile only) */}
-       <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow lg:hidden h-14">
+      <nav className="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-white border-t shadow lg:hidden h-14">
       {navItems.map((item) => (
         <a
           key={item.href}
           href={item.href}
-          onClick={() => setActive(item.href)}
+          onClick={() => handleClick(item.href)}
           className="flex flex-col items-center text-xs"
         >
           {React.cloneElement(item.icon, {
-            className: active === item.href ? "text-pink-500" : "text-gray-600",
+            className:
+              active === item.href ? "text-pink-500" : "text-gray-500",
           })}
         </a>
       ))}

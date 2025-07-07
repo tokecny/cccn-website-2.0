@@ -1,6 +1,6 @@
 export function Activities() {
   return (
-    <section  className="px-6">
+    <section className="px-6">
       <h2 id="activities" className="text-3xl font-semibold tracking-tight text-pink-500 mb-8 scroll-mt-8 lg:scroll-mt-24">
         Activities
       </h2>
