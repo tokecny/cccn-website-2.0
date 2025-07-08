@@ -53,7 +53,7 @@ export default function Collaborators() {
       </div>
       <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center px-4 sm:px-0">
         {collaborators.map((collab, i) => (
-        <a
+          <a
             key={collab.name}
             href={collab.url}
             target="_blank"
@@ -61,20 +61,20 @@ export default function Collaborators() {
             title={collab.name}
             className="flex flex-col items-center group animate-fade-in-up"
             style={{ animationDelay: `${i * 100}ms` }}
-        >
+          >
             <div className="w-30 h-30 sm:w-30 sm:h-30 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-gray-200 shadow-md group-hover:shadow-xl transform group-hover:scale-105 transition duration-300 ease-in-out">
-            <Image
+              <Image
                 src={collab.img}
                 alt={collab.name}
                 width={176}
                 height={176}
                 className="object-cover w-full h-full"
-            />
+              />
             </div>
             <p className="text-sm sm:text-base text-center mt-4 text-gray-500 group-hover:text-pink-500 font-medium transition-colors duration-300 leading-snug max-w-[10rem] sm:max-w-[12rem]">
-            {collab.name}
+              {collab.name}
             </p>
-        </a>
+          </a>
         ))}
       </div>
     </section>
