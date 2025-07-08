@@ -69,7 +69,7 @@ export default function Publications() {
   const paginated = filtered.slice(0, page * perPage);
 
   return (
-    <section id="" className="">
+    <>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -160,6 +160,6 @@ export default function Publications() {
           </Button>
         </div>
       )}
-    </section>
+    </>
   );
 }
