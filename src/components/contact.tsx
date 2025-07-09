@@ -38,10 +38,10 @@ export function Contact() {
           <p className="text-base lg:text-lg font-semibold">Email</p>
           <p className="mb-2 lg:mb-4 text-sm lg:text-base">
             <a
-              href={`mailto:cccn.lab@gmail.com?subject=Join%20CCCN%20Lab&body=Hi%20CCCN%20Lab%2C%0A%0AMy%20name%20is%20[Your%20Name]%20and%20I%E2%80%99m%20interested%20in%20joining%20the%20lab.%0A%0APlease%20find%20attached%20my%20CV%2C%20one-page%20summary%2C%20and%20certificate.%0A%0ALooking%20forward%20to%20hearing%20from%20you!%0A%0ABest%20regards%2C%0A[Your%20Name]`}
+              href={`mailto:cccnlab@gmail.com?subject=Join%20CCCN%20Lab&body=Hi%20CCCN%20Lab%2C%0A%0AMy%20name%20is%20[Your%20Name]%20and%20I%E2%80%99m%20interested%20in%20joining%20the%20lab.%0A%0APlease%20find%20attached%20my%20CV%2C%20one-page%20summary%2C%20and%20certificate.%0A%0ALooking%20forward%20to%20hearing%20from%20you!%0A%0ABest%20regards%2C%0A[Your%20Name]`}
               className="hover:text-pink-500 hover:underline transition"
             >
-              cccn.lab@gmail.com
+              cccnlab@gmail.com
             </a>
           </p>
 
