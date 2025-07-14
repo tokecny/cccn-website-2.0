@@ -20,7 +20,7 @@ export function Culture() {
             </li>
             <li>
               <strong className="text-pink-500 text-sm sm:text-base">
-                Team learning spirit:
+                Team-learning spirit:
               </strong>
               <p className="text-sm">
                 We value learning how to learn – independently and together.
