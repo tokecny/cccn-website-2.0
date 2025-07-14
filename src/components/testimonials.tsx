@@ -57,7 +57,7 @@ const testimonials = [
     title: "Clinician-Scientist",
     quote: `"Post-rock for peace, \njazz for the madness."`,
     isAlumni: false,
-    info: `Arp-Arpa graduated from New York University (NYU) and previously worked as a research assistant under Dr. Marjorie Rhodes at the Conceptual Development and Social Cognition (CDSC) Lab, before joining the CCCN Lab as a medical student. \n\nRecently, she completed her CU-MEDi program and spent a year interning in Boston, further expanding her academic and clinical experience. Now back in Thailand and awaiting her government service placement, she continues to contribute to the CCCN Lab, engaging in exciting projects with the team. \n\nInspired by those around her, Arp-Arpa is interested in how affect, behaviors, and cognition intertwine particularly as studied through neuroimaging techniques, mapping the many (dis)connections between brain structure and function. \n\nOutside of research, she enjoys daydreaming, re-reading Camus, and organizing indie concerts at Lido.`,
+    info: `Arp-Arpa graduated from New York University (NYU) and previously worked as a research assistant under Dr. Marjorie Rhodes at the Conceptual Development and Social Cognition (CDSC) Lab, before joining the CCCN Lab as a medical student. \n\nRecently, she completed her CU-MEDi program and spent a year interning in Boston, further expanding her academic and clinical experience. Now back in Thailand and awaiting her government service placement, she continues to contribute to the CCCN Lab, engaging in exciting projects with the team. \n\nInspired by those around her, Arp-Arpa is interested in how affect, behaviors, and cognition intertwine particularly as studied through neuroimaging techniques, mapping the many (dis)connections between brain structure and function. \n\nOutside of research, she enjoys daydreaming, re-reading Camus, and organizing indie concerts at around the city.`,
   },
   {
     img: "/testimonials/Pun.jpg",
@@ -71,9 +71,9 @@ const testimonials = [
     img: "/testimonials/Bank.jpg",
     name: "Nithit Singtokum",
     title: "Clinician-Scientist",
-    quote: `"I've always been bullied."`,
+    quote: `"Why fall in love when you can fall asleep?."`,
     isAlumni: false,
-    info: `Nithit recently completed his M.D. at Chulalongkorn University, having fulfilled his government service commitment. Now, he's ready to return to the lab with full energy and dedication. \n\nHis primary passion lies in caring for patients with cognitive impairment, and he is equally drawn to cognitive neuroscience, especially in the realms of visual perception and working memory. His recent research focused on ensemble representation bias in visual working memory, aiming to deepen our understanding of how grouped visual inputs are stored and distorted in memory. He is eager to expand this line of research and collaborate on future projects that bridge clinical practice with cognitive science. \n\nOutside the lab, Nithit enjoys listening to 90s music, watching movies and series, and discovering great dining spots a balance of nostalgia and novelty that reflects his approach to both life and science.`,
+    info: `Nithit recently completed his M.D. at Chulalongkorn University, having fulfilled his government service commitment. Now, he's ready to return to the lab with full energy and dedication. \n\nHis primary passion lies in caring for patients with cognitive impairment, and he is equally drawn to cognitive neuroscience, especially in the realms of visual perception, imagery and working memory. His recent research focused on mental imagery, aiming to deepen our understanding of the difference in the ability to create mental images among individuals. He is eager to expand this line of research and collaborate on future projects that bridge clinical practice with cognitive science. \n\nOutside the lab, Nithit enjoys listening to 90s music, watching movies and series, and discovering great dining spots a balance of nostalgia and novelty that reflects his approach to both life and science.`,
   },
   {
     img: "/testimonials/Tan.jpg",
