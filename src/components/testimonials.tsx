@@ -334,16 +334,10 @@ function TestimonialCard({
       style={{ opacity }}
       {...props}
       className={clsx(
-        "relative flex aspect-[2/3] sm:aspect-3/4 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
+        "relative flex aspect-9/16 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
         isAlumni && "opacity-80 grayscale-[30%]"
       )}
     >
-      {/* Alumni Badge */}
-      {isAlumni && !isOpen && (
-        <Badge className="absolute top-3 right-3 z-10 bg-pink-500 text-pink-100 text-xs font-semibold">
-          Alumni
-        </Badge>
-      )}
 
       {/* Toggle Button */}
       <button
@@ -367,6 +361,14 @@ function TestimonialCard({
       >
         {/* Front side */}
         <div className="absolute w-full h-full backface-hidden rounded-3xl overflow-hidden">
+
+          {/* Alumni Badge */}
+          {isAlumni && (
+            <Badge className="absolute top-3 right-3 z-10 bg-pink-500 text-pink-100 text-xs font-semibold">
+              Alumni
+            </Badge>
+          )}
+
           <img
             alt=""
             src={img}
@@ -388,9 +390,9 @@ function TestimonialCard({
                   : children}
               </p>
             </blockquote>
-            <figcaption className="border-t pt-4 border-white/20 text-center text-white text-md">
-              <p className="font-medium">{name}</p>
-              <p className="text-pink-300 font-medium">{title}</p>
+            <figcaption className="border-t pt-4 border-white/20 text-center">
+              <p className="text-white text-sm leading-snug sm:text-base md:text-lg">{name}</p>
+              <p className="text-pink-300 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
             </figcaption>
           </figure>
         </div>
@@ -401,9 +403,9 @@ function TestimonialCard({
             <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
               {info}
             </div>
-            <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center text-md text-gray-600">
-              <p className="font-medium">{name}</p>
-              <p className="text-pink-500 font-medium">{title}</p>
+            <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center">
+              <p className="text-gray-600 text-sm leading-snug sm:text-base md:text-lg">{name}</p>
+              <p className="text-pink-500 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
             </figcaption>
           </div>
         </div>
