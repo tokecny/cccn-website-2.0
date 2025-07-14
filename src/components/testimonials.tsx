@@ -1,7 +1,7 @@
 "use client";
 
 import * as Headless from "@headlessui/react";
-import { Brain, BrainCircuit, Redo, RefreshCcw, RefreshCw, Undo} from "lucide-react"; // เพิ่ม icon
+import { RefreshCw} from "lucide-react"; // เพิ่ม icon
 import { clsx } from "clsx";
 import {
   MotionValue,
@@ -71,9 +71,9 @@ const testimonials = [
     img: "/testimonials/Bank.jpg",
     name: "Nithit Singtokum",
     title: "Clinician-Scientist",
-    quote: `"Why fall in love when you can fall asleep?."`,
+    quote: `"Why fall in love \nwhen you can fall asleep?."`,
     isAlumni: false,
-    info: `Nithit recently completed his M.D. at Chulalongkorn University, having fulfilled his government service commitment. Now, he's ready to return to the lab with full energy and dedication. \n\nHis primary passion lies in caring for patients with cognitive impairment, and he is equally drawn to cognitive neuroscience, especially in the realms of visual perception, imagery and working memory. His recent research focused on mental imagery, aiming to deepen our understanding of the difference in the ability to create mental images among individuals. He is eager to expand this line of research and collaborate on future projects that bridge clinical practice with cognitive science. \n\nOutside the lab, Nithit enjoys listening to 90s music, watching movies and series, and discovering great dining spots a balance of nostalgia and novelty that reflects his approach to both life and science.`,
+    info: `Nithit recently completed his M.D. at Chulalongkorn University, having fulfilled his government service commitment. Now, he's ready to return to the lab with full energy and dedication. \n\nHis primary passion lies in caring for patients with cognitive impairment, and he is equally drawn to cognitive neuroscience, especially in the realms of visual perception, imagery and working memory. His recent research focused on mental imagery, aiming to deepen our understanding of the difference in the ability to create mental images among individuals. He is eager to expand this line of research and collaborate on future projects that bridge clinical practice with cognitive science. \n\nOutside the lab, He enjoys listening to 90s music, watching movies and series, and discovering great dining spots a balance of nostalgia and novelty that reflects his approach to both life and science.`,
   },
   {
     img: "/testimonials/Tan.jpg",
@@ -105,7 +105,7 @@ const testimonials = [
     title: "Graduate Student",
     quote: `"I find problems \nto every solutions"`,
     isAlumni: false,
-    info: `Waragon holds a B.Sc. in Physics from Chulalongkorn University (TH), graduating in 2020. Shortly after, he joined CCCN as a research assistant, where he has been actively contributing to interdisciplinary research. \n\nHis academic interests revolve around Physics, Mathematics, and Computer Science. His current work focuses on neuropsychological clusters in aging populations and action classification in Parkinson’s disease using IMU-based wearable devices. Beyond his core research, he is also deeply interested in cybersecurity, data science, and web development. \n\nWaragon is currently pursuing a Ph.D. at the Faculty of Medicine, Chulalongkorn University. \n\nHis guiding motto is: “Always Try Harder!”`,
+    info: `Waragon is a Thai-born academic mischief-maker who proudly graduated from the Department of Physics at Chulalongkorn University, only to dive headfirst into the neural murk as a PhD student under Dr. Chaipat Chunharas. Now entrenched in the world of cognitive and computational neuroscience, He doesn’t just solve problems he finds problems to every solution, poking at the cracks where others see solid ground.\n\nHis research dances through the cerebral folds of representational geometry, topographic organization, and the beautiful mess of invariance in neural codes. Whether it’s questioning the shaky assumptions behind hippocampal replay analysis or dissecting the hidden biases in data pipelines, he thrives on challenging the default. If a method seems too clean, he’s already suspicious.\n\nOutside the lab (or sometimes secretly in it), he moonlights as a cybersecurity and web development enthusiast. He sees networks biological or digital as systems just waiting to be poked, prodded, and occasionally pentested. Building neural models by day and breaking web apps by night, he treats code and cognition with the same level of irreverent precision.\n\nHe isn’t just a student he’s a professional thorn in the side of assumptions, a debugger of ideas, and a full-time explorer of where theory, computation, and chaos collide.`,
   },
   {
     img: "/testimonials/Vicky.png",
@@ -335,8 +335,7 @@ function TestimonialCard({
       {...props}
       className={clsx(
         "relative flex aspect-9/16 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
-        isOpen ? "bg-white text-black" : "",
-        isAlumni && "opacity-80 grayscale-[30%]",
+        isAlumni && "opacity-80 grayscale-[30%]"
       )}
     >
       {/* Alumni Badge */}
@@ -346,68 +345,59 @@ function TestimonialCard({
         </Badge>
       )}
 
-      {/* Info Button */}
+      {/* Toggle Button */}
       <button
         onClick={onToggle}
-        className="cursor-help absolute top-3 left-3 z-10 bg-pink-500/70 text-white/60 p-1 rounded-full shadow hover:bg-white hover:text-black hover:shadow-gray-600 transition hover:scale-110"
+        className="cursor-help absolute bottom-3 right-3 z-10 bg-pink-500/70 text-white/60 p-1 rounded-full shadow hover:bg-white hover:text-black hover:shadow-gray-600 transition hover:scale-110"
         aria-label="Show info"
       >
-        <RefreshCw  className={`w-4 h-4 transition-all ${isOpen? "rotate-180" : "rotate-0"}`} />
-        {/* {isOpen ? (
-          <RefreshCw  className="w-4 h-4" />
-        ) : (
-          <RefreshCcw className="w-4 h-4" />
-        )} */}
+        <RefreshCw className={`w-4 h-4 transition-all ${isOpen ? "rotate-180" : "rotate-0"}`} />
       </button>
       <div
-        className={`absolute top-3 left-3 w-6 h-6 z-5 bg-pink-500/40 rounded-full transition ${
-          isOpen ? '' : 'animate-ping hover:animate-none'
+        className={`absolute bottom-3 right-3 w-6 h-6 z-5 bg-pink-500/40 rounded-full transition ${
+          isOpen ? "" : "animate-ping hover:animate-none"
         }`}
       />
 
-      {!isOpen && (
-        <>
+      {/* Flip wrapper */}
+      <motion.div
+        animate={{ rotateY: isOpen ? 180 : 0 }}
+        transition={{ duration: 0.5 }}
+        className="relative w-full h-full [transform-style:preserve-3d] [perspective:1000px]"
+      >
+        {/* Front side */}
+        <div className="absolute w-full h-full backface-hidden rounded-3xl overflow-hidden">
           <img
             alt=""
             src={img}
             className="absolute inset-x-0 top-0 aspect-square w-full object-cover"
           />
           <div
-            aria-hidden="true"
             className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black from-[calc(7/16*100%)] ring-1 ring-gray-950/10 ring-inset sm:from-25%"
+            aria-hidden="true"
           />
-        </>
-      )}
-
-      <figure className="relative p-6 sm:p-10 overflow-hidden h-full flex flex-col justify-end">
-        {!isOpen && (
-          <>
+          <figure className="relative p-6 sm:p-10 h-full flex flex-col justify-end">
             <blockquote className="mb-4">
               <p className="text-sm leading-snug sm:text-base md:text-lg text-center whitespace-pre-wrap text-white">
                 {typeof children === "string"
                   ? children.split("\n").map((line, idx) => (
-                      <span
-                        key={idx}
-                        className="block"
-                        style={{ lineHeight: "1.4" }}
-                      >
+                      <span key={idx} className="block" style={{ lineHeight: "1.4" }}>
                         {line}
                       </span>
                     ))
                   : children}
               </p>
             </blockquote>
-
             <figcaption className="border-t pt-4 border-white/20 text-center text-white text-md">
               <p className="font-medium">{name}</p>
               <p className="text-pink-300 font-medium">{title}</p>
             </figcaption>
-          </>
-        )}
+          </figure>
+        </div>
 
-        {/* Info Content (only show when open) */}
-        {isOpen && (
-          <div className="flex flex-col justify-between h-full transition-all">
+        {/* Back side */}
+        <div className="absolute w-full h-full [transform:rotateY(180deg)] backface-hidden rounded-3xl bg-white">
+          <div className="flex flex-col justify-between h-full p-6 sm:p-10">
             <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
               {info}
             </div>
@@ -416,8 +406,8 @@ function TestimonialCard({
               <p className="text-pink-500 font-medium">{title}</p>
             </figcaption>
           </div>
-        )}
-      </figure>
+        </div>
+      </motion.div>
     </motion.div>
   );
 }
