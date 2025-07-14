@@ -3,13 +3,15 @@ from rapidfuzz import fuzz
 import json
 import re
 import os
+from pathlib import Path
 
 USER_IDS = [
     "Xo-8O_UAAAAJ",  # Chaipat Chunharas
     "zZDl3-AAAAAJ"   # Anthipa Chokesuwattanaskul
 ]
 
-OUTPUT_PATH = "public/publications.json"
+# Run ออกจาก scripts/ แล้วเข้า public/
+OUTPUT_PATH = Path(__file__).resolve().parent.parent / "public" / "publications.json"
 
 category_keywords = {
     "cogn": [
@@ -35,7 +37,14 @@ category_keywords = {
 
 def is_valid_entry(pub):
     title = pub.get("bib", {}).get("title", "").lower()
-    return not any(x in title for x in ["abstract", "poster"])
+    url = pub.get("pub_url", "").lower()
+    
+    if any(x in title for x in ["abstract", "poster"]):
+        return False
+    if any(x in url for x in ["book", "bookchapter"]):
+        return False
+    
+    return True
 
 def format_authors(raw: str):
     authors = [a.strip() for a in raw.split(" and ")]
