@@ -334,7 +334,7 @@ function TestimonialCard({
       style={{ opacity }}
       {...props}
       className={clsx(
-        "relative flex aspect-9/16 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
+        "relative flex aspect-[2/3] sm:aspect-3/4 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
         isAlumni && "opacity-80 grayscale-[30%]"
       )}
     >
