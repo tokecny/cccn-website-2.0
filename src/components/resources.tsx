@@ -107,7 +107,7 @@ export default function Resources() {
                 <b>@ WiTcast.</b>
               </p>
               <p>
-                🎥 Another brainy session with Dr.Chaipat on
+                🎥 Another brainy session with Dr. Chaipat on
                 <a
                   href="https://www.youtube.com/watch?v=CNSAs4JOEWc"
                   target="_blank"
