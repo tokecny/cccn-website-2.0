@@ -172,7 +172,7 @@ def fetch_user_publications_serpapi(user_id) -> List[dict]:
     while True:
         params = {
             "engine": "google_scholar_author",
-            "author_id": user_id,
+            "user_id": user_id,
             "api_key": SERPAPI_KEY,
             "start": start
         }
