@@ -4,7 +4,6 @@ import re
 from pathlib import Path
 from typing import List
 from rapidfuzz import fuzz
-from scholarly import scholarly
 
 # 📌 ตั้งค่าตรงนี้ว่าใช้ scholarly หรือ serpapi
 SOURCE = "serpapi"  # หรือ "scholarly"
@@ -187,6 +186,7 @@ def fetch_user_publications_serpapi(user_id) -> List[dict]:
     return publications
 
 def fetch_user_publications_scholarly(user_id) -> List[dict]:
+    from scholarly import scholarly
     print(f"📥 Fetching from scholarly for {user_id}...")
     author = scholarly.search_author_id(user_id)
     filled = scholarly.fill(author, sections=["publications"])
