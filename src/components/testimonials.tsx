@@ -223,7 +223,7 @@ const testimonials = [
     img: "/testimonials/Kratai.jpg",
     name: "Natrada Rattanapong",
     title: "Psychologist (2022 - 2024)",
-    quote: `"I wish I could drink cocktails instead of water."`,
+    quote: `"I wish I could drink cocktails \ninstead of water."`,
     isAlumni: true,
     info: `Natrada graduated with a Bachelor’s degree in Clinical Psychology from Kasetsart University. She began her journey in research as a psychology research assistant at CCCN, where she had the opportunity to practice and deepen her skills in neuropsychology, especially in areas she’s most passionate about memory, attention, and language.\n\nAfter gaining hands-on experience in the lab, she has now transitioned into her new role as a counseling psychologist in a clinic, continuing her commitment to supporting mental health. Outside of work, she maintains her beloved daily ritual of seeking out a perfect cup of coffee.`,
   },
@@ -361,7 +361,7 @@ function TestimonialCard({
       >
         {/* Front side */}
         <div className="absolute w-full h-full backface-hidden [transform-style:preserve-3d] rounded-3xl">
-          
+
           {/*  Alumni Badge */}
           {isAlumni && (
             <Badge className="absolute top-3 right-3 z-20 bg-pink-500 text-pink-100 text-xs font-semibold">
