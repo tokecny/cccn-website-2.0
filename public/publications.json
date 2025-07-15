@@ -5,8 +5,8 @@
     "year": "2019",
     "link": "https://www.nature.com/articles/s41593-019-0428-x",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -16,7 +16,7 @@
     "year": "2019",
     "link": "https://academic.oup.com/brain/article-abstract/142/11/3360/5572219",
     "categories": [],
-    "badge": "Abstract"
+    "badge": ""
   },
   {
     "title": "A newly identified locus for benign adult familial myoclonic epilepsy on chromosome 3q26. 32-3q28",
@@ -52,9 +52,9 @@
     "year": "2022",
     "link": "https://link.springer.com/article/10.1186/s13195-022-01043-2",
     "categories": [
-      "cogn",
+      "neuro",
       "comp",
-      "neuro"
+      "cogn"
     ],
     "badge": ""
   },
@@ -122,8 +122,8 @@
     "year": "2019",
     "link": "https://www.eneuro.org/content/6/4/ENEURO.0362-18.2019.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -201,10 +201,10 @@
     "year": "2024",
     "link": "https://www.jneurosci.org/content/44/33/e2012232024.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
-    "badge": "Abstract"
+    "badge": ""
   },
   {
     "title": "Selective amplification of salient features of visual memories during early memory consolidation",
@@ -230,8 +230,8 @@
     "year": "2018",
     "link": "https://www.biorxiv.org/content/10.1101/339200.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Preprint"
   },
@@ -251,8 +251,8 @@
     "year": "2024",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.14138",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": ""
   },
@@ -262,8 +262,8 @@
     "year": "2024",
     "link": "https://www.nature.com/articles/s41598-024-61171-7",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -307,8 +307,8 @@
     "year": "2024",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.088888",
     "categories": [
-      "cogn",
-      "clin"
+      "clin",
+      "cogn"
     ],
     "badge": ""
   },
@@ -328,8 +328,8 @@
     "year": "2021",
     "link": "https://www.neurology.org/doi/abs/10.1212/WNL.96.15_supplement.1352",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -349,8 +349,8 @@
     "year": "2025",
     "link": "https://arxiv.org/abs/2507.01433",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": "Preprint"
   },
@@ -380,10 +380,10 @@
     "year": "2024",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.086024",
     "categories": [
-      "cogn",
+      "neuro",
       "clin",
-      "comp",
-      "neuro"
+      "cogn",
+      "comp"
     ],
     "badge": ""
   },
@@ -439,8 +439,8 @@
     "year": "2024",
     "link": "https://scholar.google.com/scholar?cluster=5916623758876665923&hl=en&oi=scholarr",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": ""
   },
@@ -458,8 +458,8 @@
     "year": "2023",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.077963",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": ""
   },
@@ -497,8 +497,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784327",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -518,8 +518,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784594",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -539,8 +539,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784419",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -560,8 +560,8 @@
     "year": "2022",
     "link": "https://www.neurology.org/doi/abs/10.1212/WNL.98.18_supplement.227",
     "categories": [
-      "cogn",
-      "comp"
+      "comp",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -571,8 +571,8 @@
     "year": "2021",
     "link": "https://scholar.google.com/scholar?cluster=14017343795095150222&hl=en&oi=scholarr",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -620,8 +620,8 @@
     "year": "2019",
     "link": "https://scholar.google.com/scholar?cluster=9453458453840536734&hl=en&oi=scholarr",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -651,8 +651,8 @@
     "year": "2018",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2699362",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -688,8 +688,8 @@
     "year": "2016",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2550283",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -761,7 +761,7 @@
     "categories": [
       "neuro"
     ],
-    "badge": "Abstract"
+    "badge": ""
   },
   {
     "title": "Symptom\u2010based staging for logopenic variant primary progressive aphasia",
@@ -779,7 +779,7 @@
     "year": "2023",
     "link": "https://academic.oup.com/brain/article-abstract/146/10/4065/7162992",
     "categories": [],
-    "badge": "Abstract"
+    "badge": ""
   },
   {
     "title": "Apathy in patients with cerebral amyloid angiopathy: a multimodal neuroimaging study",
@@ -825,7 +825,7 @@
     "year": "2025",
     "link": "https://academic.oup.com/brain/article-abstract/148/3/955/7815055",
     "categories": [],
-    "badge": "Abstract"
+    "badge": ""
   },
   {
     "title": "Comprehension of acoustically degraded emotional prosody in Alzheimer\u2019s disease and primary progressive aphasia",
@@ -849,8 +849,8 @@
     "year": "2024",
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10925352/",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -948,8 +948,8 @@
     "year": "2020",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.042559",
     "categories": [
-      "cogn",
-      "clin"
+      "clin",
+      "cogn"
     ],
     "badge": ""
   },

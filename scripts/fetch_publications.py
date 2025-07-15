@@ -103,13 +103,13 @@ def detect_badge(link: str, title: str = "") -> str:
     if any(k in title for k in abstract_keywords):
         return "Abstract"
 
-    # ✅ Check if the link itself is abstract-worthy regardless of journal
-    if any(k in link for k in abstract_keywords):
-        return "Abstract"
-
     # 🛡 Skip abstracts only if it's a trusted journal without special keywords
     if any(domain in link for domain in trusted_journal_domains):
         return ""
+    
+    # ✅ Check if the link itself is abstract-worthy regardless of journal
+    if any(k in link for k in abstract_keywords):
+        return "Abstract"
 
     if re.search(r'/[pa][0-9]{2,4}', link):
         return "Abstract"
