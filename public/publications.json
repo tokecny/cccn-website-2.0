@@ -5,8 +5,8 @@
     "year": "2019",
     "link": "https://www.nature.com/articles/s41593-019-0428-x",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -122,10 +122,10 @@
     "year": "2019",
     "link": "https://www.eneuro.org/content/6/4/ENEURO.0362-18.2019.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Associations between hypoxia parameters in obstructive sleep apnea and cognition, cortical thickness, and white matter integrity in middle-aged and older adults",
@@ -176,16 +176,6 @@
     "badge": ""
   },
   {
-    "title": "Calendars in the brain; their perceptual characteristics and possible neural substrate",
-    "authors": "Ramachandran V. S., Vajanaphanich M., Chunharas C.",
-    "year": "2016",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2016.1250913",
-    "categories": [
-      "neuro"
-    ],
-    "badge": ""
-  },
-  {
     "title": "A gradual transition toward categorical representations along the visual hierarchy during working memory, but not perception",
     "authors": "Chunharas C., Wolff M. J., Hettwer M. D., Rademaker R. L.",
     "year": "2024",
@@ -196,13 +186,23 @@
     "badge": ""
   },
   {
+    "title": "Calendars in the brain; their perceptual characteristics and possible neural substrate",
+    "authors": "Ramachandran V. S., Vajanaphanich M., Chunharas C.",
+    "year": "2016",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2016.1250913",
+    "categories": [
+      "neuro"
+    ],
+    "badge": ""
+  },
+  {
     "title": "Conflicting sensory information sharpens the neural representations of early selective visuospatial attention",
     "authors": "Sookprao P., Benjasupawan K., Phangwiwat T., Chatnuntawech I., Lertladaluck K., Gutchess A., Chunharas C., Itthipuripat S.",
     "year": "2024",
     "link": "https://www.jneurosci.org/content/44/33/e2012232024.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -230,8 +230,8 @@
     "year": "2018",
     "link": "https://www.biorxiv.org/content/10.1101/339200.abstract",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Preprint"
   },
@@ -262,8 +262,8 @@
     "year": "2024",
     "link": "https://www.nature.com/articles/s41598-024-61171-7",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -307,8 +307,8 @@
     "year": "2024",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.088888",
     "categories": [
-      "cogn",
-      "clin"
+      "clin",
+      "cogn"
     ],
     "badge": ""
   },
@@ -331,7 +331,7 @@
       "comp",
       "cogn"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Constructing calendars in the brain",
@@ -380,10 +380,10 @@
     "year": "2024",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.086024",
     "categories": [
-      "comp",
-      "cogn",
       "clin",
-      "neuro"
+      "cogn",
+      "neuro",
+      "comp"
     ],
     "badge": ""
   },
@@ -481,7 +481,7 @@
     "categories": [
       "clin"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "AI-assisted monitoring of COVID-19 community isolation in Thailand",
@@ -489,7 +489,7 @@
     "year": "2023",
     "link": "https://ieeexplore.ieee.org/abstract/document/10208057/",
     "categories": [],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "The reduced distractibility to the low-valued and non-rewarding stimuli underlies the neural development of value-based attention",
@@ -497,8 +497,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784327",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -518,8 +518,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784594",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -539,8 +539,8 @@
     "year": "2022",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2784419",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -552,7 +552,7 @@
     "categories": [
       "cogn"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Clusters of Cognitive Performance among Aging People Living with HIV: the Application of Unsupervised Machine Learning (P13-3.001)",
@@ -563,7 +563,7 @@
       "comp",
       "cogn"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Sustained attention operates via dissociable neural mechanisms across different eccentric locations",
@@ -571,8 +571,8 @@
     "year": "2021",
     "link": "https://scholar.google.com/scholar?cluster=14017343795095150222&hl=en&oi=scholarr",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -594,7 +594,7 @@
     "categories": [
       "cogn"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Feature-based attention warps perception of color",
@@ -620,8 +620,8 @@
     "year": "2019",
     "link": "https://scholar.google.com/scholar?cluster=9453458453840536734&hl=en&oi=scholarr",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -651,8 +651,8 @@
     "year": "2018",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2699362",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -662,7 +662,7 @@
     "year": "2018",
     "link": "https://www.neurology.org/doi/abs/10.1212/WNL.90.15_supplement.P1.197",
     "categories": [],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Trigger Features for Conveying Facial Expressions: The Role of Segmentation",
@@ -688,8 +688,8 @@
     "year": "2016",
     "link": "https://jov.arvojournals.org/article.aspx?articleid=2550283",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": "Abstract"
   },
@@ -799,7 +799,7 @@
     "categories": [
       "clin"
     ],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Primary progressive aphasia in Italian and English: a cross-linguistic cohort study",
@@ -841,7 +841,7 @@
     "year": "2024",
     "link": "https://jnnp.bmj.com/content/95/5/477.abstract",
     "categories": [],
-    "badge": ""
+    "badge": "Abstract"
   },
   {
     "title": "Association of Long-Term Blood Pressure Variability with Cerebral Amyloid Angiopathy-related Brain Injury and Cognitive Decline",
@@ -849,8 +849,8 @@
     "year": "2024",
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10925352/",
     "categories": [
-      "cogn",
-      "neuro"
+      "neuro",
+      "cogn"
     ],
     "badge": ""
   },
@@ -869,6 +869,14 @@
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.065013",
     "categories": [],
     "badge": ""
+  },
+  {
+    "title": "Abstract WMP14: white matter free water drives diffusion abnormalities and correlates with conventional MRI markers of small vessel disease in cerebral amyloid angiopathy",
+    "authors": "Zotin M. C. Z., Chokesuwattanaskul A., Schoemaker D., Sveikata L., Greenberg S., Viswanathan A.",
+    "year": "2022",
+    "link": "https://www.ahajournals.org/doi/abs/10.1161/str.53.suppl_1.WMP14",
+    "categories": [],
+    "badge": "Abstract"
   },
   {
     "title": "Association of Hypoxia Measured by Oxygen Desaturation Index (ODI) in OSA with Delis-Kaplan Executive Function System (D-KEFS) Tests in Middle-Aged and Older Adults",
@@ -940,9 +948,19 @@
     "year": "2020",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.042559",
     "categories": [
-      "cogn",
-      "clin"
+      "clin",
+      "cogn"
     ],
     "badge": ""
+  },
+  {
+    "title": "Comparison of sub\u2010tests in working memory index among posterior cortical atrophy, Alzheimer\u2019s disease and age\u2010associated memory impairment: Neuropsychology/Early detection of cognitive decline with neuropsychological tests",
+    "authors": "Sarutikriangkri Y., Chokesuwattanaskul A., Phanthumchinda K., Likitjaroen Y.",
+    "year": "2020",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.044360",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract"
   }
 ]
