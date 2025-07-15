@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button} from "@/components/ui/button";
 import { Badge } from "./ui/badge";
+import YearFilterDropdown from "./ui/dropdown";
 
 export type Publication = {
   url: string | undefined;
@@ -56,9 +57,9 @@ export default function Publications() {
       });
   }, []);
 
-  const allYears = Array.from(new Set(publications.map((p) => p.year))).sort(
-    (a, b) => parseInt(b) - parseInt(a),
-  );
+  const allYears = ["all", ...Array.from(new Set(publications.map((p) => p.year))).sort(
+  (a, b) => parseInt(b) - parseInt(a)
+  )];
 
   const filtered = publications.filter((pub) => {
     const matchesFilter = filter === "all" || pub.categories.includes(filter);
@@ -93,22 +94,15 @@ export default function Publications() {
             </Button>
           ))}
         </div>
-        <div className="mb-6">
-          <select
-            className="text-sm font-medium text-pink-500 border border-pink-300 rounded-md px-2 py-2 text-center focus:outline-none hover:ring-1 hover:ring-pink-500 bg-white hover:bg-pink-500 hover:text-white transition-colors"
-            value={selectedYear}
-            onChange={(e) => {
-              setSelectedYear(e.target.value);
+        <div className="flex flex-wrap justify-center text-center mb-6">
+         <YearFilterDropdown
+            allYears={allYears}
+            selectedYear={selectedYear}
+            setSelectedYear={(value) => {
+              setSelectedYear(value);
               setPage(1);
             }}
-          >
-            <option value="all">All Years</option>
-            {allYears.map((year) => (
-              <option key={year} value={year}>
-                {year}
-              </option>
-            ))}
-          </select>
+          />
         </div>
       </motion.div>
 
