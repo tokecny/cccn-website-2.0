@@ -334,7 +334,7 @@ function TestimonialCard({
       style={{ opacity }}
       {...props}
       className={clsx(
-        "relative flex aspect-9/16 w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
+        "relative flex aspect-[2/3] w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
         isAlumni && "opacity-80 grayscale-[30%]"
       )}
     >
@@ -354,17 +354,17 @@ function TestimonialCard({
       />
 
       {/* Flip wrapper */}
-      <motion.div
+        <motion.div
         animate={{ rotateY: isOpen ? 180 : 0 }}
         transition={{ duration: 0.5 }}
         className="relative w-full h-full [transform-style:preserve-3d] [perspective:1000px]"
       >
         {/* Front side */}
-        <div className="absolute w-full h-full backface-hidden rounded-3xl overflow-hidden">
-
-          {/* Alumni Badge */}
+        <div className="absolute w-full h-full backface-hidden [transform-style:preserve-3d] rounded-3xl">
+          
+          {/*  Alumni Badge */}
           {isAlumni && (
-            <Badge className="absolute top-3 right-3 z-10 bg-pink-500 text-pink-100 text-xs font-semibold">
+            <Badge className="absolute top-3 right-3 z-20 bg-pink-500 text-pink-100 text-xs font-semibold">
               Alumni
             </Badge>
           )}
@@ -372,13 +372,15 @@ function TestimonialCard({
           <img
             alt=""
             src={img}
-            className="absolute inset-x-0 top-0 aspect-square w-full object-cover"
+            className="absolute inset-x-0 top-0 aspect-square w-full object-cover z-10"
           />
+
           <div
-            className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black from-[calc(7/16*100%)] ring-1 ring-gray-950/10 ring-inset sm:from-25%"
+            className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black from-[calc(7/16*100%)] ring-1 ring-gray-950/10 ring-inset sm:from-25% z-10"
             aria-hidden="true"
           />
-          <figure className="relative p-6 sm:p-10 h-full flex flex-col justify-end">
+
+          <figure className="relative p-6 sm:p-10 h-full flex flex-col justify-end z-10">
             <blockquote className="mb-4">
               <p className="text-sm leading-snug sm:text-base md:text-lg text-center whitespace-pre-wrap text-white">
                 {typeof children === "string"
@@ -400,14 +402,14 @@ function TestimonialCard({
         {/* Back side */}
         <div className="absolute w-full h-full [transform:rotateY(180deg)] backface-hidden rounded-3xl bg-white">
           <div className="flex flex-col justify-between h-full p-6 sm:p-10">
-            <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
-              {info}
-            </div>
-            <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center">
-              <p className="text-gray-600 text-sm leading-snug sm:text-base md:text-lg">{name}</p>
-              <p className="text-pink-500 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
-            </figcaption>
-          </div>
+                  <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
+                    {info}
+                  </div>
+                  <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center">
+                    <p className="text-gray-600 text-sm leading-snug sm:text-base md:text-lg">{name}</p>
+                    <p className="text-pink-500 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
+                  </figcaption>
+                </div>
         </div>
       </motion.div>
     </motion.div>
@@ -493,7 +495,6 @@ export function Testimonials() {
                   prev === testimonialIndex ? null : testimonialIndex,
                 )
               }
-              onClick={() => scrollTo(testimonialIndex)}
             >
               {quote}
             </TestimonialCard>
@@ -501,10 +502,10 @@ export function Testimonials() {
         )}
         <div className="w-2xl shrink-0 sm:w-216" />
       </div>
-      <Container className="mt-4 sm:mt-16">
+      <Container className="mt-6 sm:mt-16">
         <div className="flex justify-center">
-          <CallToAction />
-          <div className="hidden sm:flex sm:gap-2">
+          {/* <CallToAction />    */}
+          <div className="sm:flex sm:gap-2">
             {testimonials.map(({ name }, testimonialIndex) => (
               <Headless.Button
                 key={testimonialIndex}
@@ -514,7 +515,7 @@ export function Testimonials() {
                 }
                 aria-label={`Scroll to testimonial from ${name}`}
                 className={clsx(
-                  "size-2.5 rounded-full border border-transparent bg-gray-300 transition",
+                  "size-1.5 sm:size-2.5 sm:rounded-full border border-transparent bg-gray-300 transition",
                   "data-active:bg-pink-400 data-hover:bg-pink-400",
                   "forced-colors:data-active:bg-[Highlight] forced-colors:data-focus:outline-offset-4",
                 )}
