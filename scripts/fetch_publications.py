@@ -6,7 +6,7 @@ from typing import List
 from rapidfuzz import fuzz
 
 # 📌 ตั้งค่าตรงนี้ว่าใช้ scholarly หรือ serpapi
-SOURCE = "serpapi"  # หรือ "scholarly"
+SOURCE = "scholarly"  # หรือ "scholarly"
 
 USER_IDS = [
     "Xo-8O_UAAAAJ",  # Chaipat Chunharas
@@ -27,13 +27,13 @@ def format_authors(raw: str):
     authors = [a.strip() for a in raw.split(" and ")]
     formatted = []
     for a in authors:
-        parts = a.split()
+        parts = a.strip().split()
         if len(parts) >= 2:
-            last = parts[-1]
-            initials = [p[0] + "." for p in parts[:-1]]
-            formatted.append(f"{last} {' '.join(initials)}")
+            *first_names, last_name = parts
+            initial = first_names[0][0] + "." if first_names else ""
+            formatted.append(f"{last_name} {initial}")
         else:
-            formatted.append(a)
+            formatted.append(a) 
     return ", ".join(formatted)
 
 def categorize(title: str):
@@ -93,17 +93,23 @@ def detect_badge(link: str, title: str = "") -> str:
         "alz-journals",    # Alzheimer's & Dementia journal (ISTAART)
         "aaas",            # American Association for the Advancement of Science
     ]
+    
     abstract_keywords = [
         "jov", "poster", "supplement", "proceedings",
         "meeting-abstract", "session", "confabstract", "conference-summary",
         "abstract", "symposium"
     ]
+    
     if any(k in title for k in abstract_keywords):
         return "Abstract"
 
+    # ✅ Check if the link itself is abstract-worthy regardless of journal
     if any(k in link for k in abstract_keywords):
-        if not any(domain in link for domain in trusted_journal_domains):
-            return "Abstract"
+        return "Abstract"
+
+    # 🛡 Skip abstracts only if it's a trusted journal without special keywords
+    if any(domain in link for domain in trusted_journal_domains):
+        return ""
 
     if re.search(r'/[pa][0-9]{2,4}', link):
         return "Abstract"
@@ -112,20 +118,28 @@ def detect_badge(link: str, title: str = "") -> str:
 
 def simplify(pub):
     if SOURCE == "serpapi":
-        link = pub.get("link", "")
         title = pub.get("title", "")
+        link = pub.get("link", "")
+        
+        # 🔍 ลองหาชื่อผู้แต่งจากหลายแหล่ง
+        if isinstance(pub.get("author_list"), list):
+            raw_authors = ", ".join(pub["author_list"])
+        else:
+            raw_authors = pub.get("authors", "")
+
     else:
         bib = pub.get("bib", {})
-        link = pub.get("pub_url", "")
         title = bib.get("title", "")
+        link = pub.get("pub_url", "")
+        raw_authors = bib.get("author", "")
 
     badge = detect_badge(link, title)
     if badge == "Exclude":
-        return None  # <<< กรองออกจาก list
+        return None
 
     return {
         "title": title,
-        "authors": format_authors(pub.get("authors", "") if SOURCE == "serpapi" else bib.get("author", "")),
+        "authors": format_authors(raw_authors),
         "year": str(pub.get("year", "") if SOURCE == "serpapi" else bib.get("pub_year", "")),
         "link": link,
         "categories": categorize(title),
@@ -161,7 +175,7 @@ def normalize_pub(pub: dict, source: str):
             "categories": categorize(bib.get("title", "")),
             "badge": detect_badge(pub.get("pub_url", ""), bib.get("title", "")),
         }
-
+        
 def fetch_user_publications_serpapi(user_id) -> List[dict]:
     import requests
     print(f"📥 Fetching from SerpAPI for {user_id}...")
@@ -172,17 +186,36 @@ def fetch_user_publications_serpapi(user_id) -> List[dict]:
     while True:
         params = {
             "engine": "google_scholar_author",
-            "user_id": user_id,
+            "author_id": user_id,
             "api_key": SERPAPI_KEY,
             "start": start
         }
         res = requests.get(base_url, params=params)
         data = res.json()
-        pubs = data.get("articles", [])
-        publications.extend(pubs)
-        if len(pubs) < 20:
+        articles = data.get("articles", [])
+        
+        for article in articles:
+            article_id = article.get("article_id")
+            if article_id:
+                detail_params = {
+                    "engine": "google_scholar_article",
+                    "api_key": SERPAPI_KEY,
+                    "article_id": article_id
+                }
+                detail_res = requests.get(base_url, params=detail_params)
+                detail_data = detail_res.json()
+
+                if "authors" in detail_data and isinstance(detail_data["authors"], list):
+                    article["author_list"] = detail_data["authors"]
+                elif "authors" in detail_data and isinstance(detail_data["authors"], str):
+                    article["author_list"] = [a.strip() for a in detail_data["authors"].split(",")]
+
+            publications.append(article)
+
+        if len(articles) < 20:
             break
         start += 20
+
     return publications
 
 def fetch_user_publications_scholarly(user_id) -> List[dict]:
