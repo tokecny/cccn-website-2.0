@@ -65,7 +65,7 @@ const testimonials = [
     title: "Clinician-Scientist",
     quote: `"My brain erased everything, \nexcept your face."`,
     isAlumni: false,
-    info: `Chattarin recently completed his M.D., During his clinical clerkship, he was often described as lacking energy and motivation—especially in the operating room, where he now vows never to return. Fortunately, he found renewed purpose in the pursuit of neuroscience, mathematics, and computer science. \n\nDriven by fundamental questions such as how humans learn, think, and make causal inferences with limited data, Chattarin aspires to one day build machines that think and learn like humans. For now, his current research focuses on auditory perceptual learning, where his colleagues endure heart sound identification tasks, while he dreams of visualizing the murmur associated cortex inside the cardiologist’s brain. \n\nWhen he’s not obsessing over work, you might catch him at a cool jazz bar, deep into music—or out on the streets capturing odd, candid moments through his lens. Talk to him about books or philosophy, and you’ll find someone as deeply curious as he is unconventional. \n\nHe has recently been admitted to the Ph.D. program at UC San Diego, where he will study under Professor Tim Brady.`,
+    info: `Chattarin recently completed his M.D., During his clinical clerkship, he was often described as lacking energy and motivation—especially in the operating room, where he now vows never to return. Fortunately, he found renewed purpose in the pursuit of neuroscience, mathematics, and computer science. \n\nDriven by fundamental questions such as how humans learn, think, and make causal inferences with limited data, he aspires to one day build machines that think and learn like humans. For now, his current research focuses on auditory perceptual learning, where his colleagues endure heart sound identification tasks, while he dreams of visualizing the murmur associated cortex inside the cardiologist’s brain. \n\nWhen he’s not obsessing over work, you might catch him at a cool jazz bar, deep into music—or out on the streets capturing odd, candid moments through his lens. Talk to him about books or philosophy, and you’ll find someone as deeply curious as he is unconventional. \n\nHe has recently been admitted to the Ph.D. program at UC San Diego, where he will study under Professor Tim Brady.`,
   },
   {
     img: "/testimonials/Bank.jpg",
@@ -81,7 +81,7 @@ const testimonials = [
     title: "Clinician-Scientist",
     quote: `"Be happy, not sappy"`,
     isAlumni: false,
-    info: `Kanathip is a medical student with a deep fascination for the cognitive neuroscience of language and learning. He was enrolled in the dual MD/MSc program at Chulalongkorn University, where he developed a strong interest in the interplay between cognition, language, and culture especially in the context of metacognition and meta-learning. \n\nHis current work explores language-related cognitive impairments and strategies for manipulating learning processes. His long-term vision is what he calls “The Map of Everything” a comprehensive mapping of his entire brain. \n\nKanathip spent a year as a research intern at the Rademaker Lab, an experience that significantly shaped his academic and scientific perspective. He is now utilizing the grant he previously earned, while looking for the right opportunity to return and continue his work with the lab. \n\nOutside of his scientific life, Kanathip is drawn to the aesthetics of taste and scent. He can often be found roaming the city in search of memorable food, fine wine, and fragrant perfume.`,
+    info: `Kanathip is a medical student with a deep fascination for the cognitive neuroscience of language and learning. He was enrolled in the dual MD/MSc program at Chulalongkorn University, where he developed a strong interest in the interplay between cognition, language, and culture especially in the context of metacognition and meta-learning. \n\nHis current work explores language-related cognitive impairments and strategies for manipulating learning processes. His long-term vision is what he calls “The Map of Everything” a comprehensive mapping of his entire brain. \n\nHe spent a year as a research intern at the Rademaker Lab, an experience that significantly shaped his academic and scientific perspective. He is now utilizing the grant he previously earned, while looking for the right opportunity to return and continue his work with the lab. \n\nOutside of his scientific life, he is drawn to the aesthetics of taste and scent. He can often be found roaming the city in search of memorable food, fine wine, and fragrant perfume.`,
   },
   {
     img: "/testimonials/Prin.jpg",
@@ -89,7 +89,7 @@ const testimonials = [
     title: "Clinician-Scientist",
     quote: `"Don't forget to place your teeth \nbeneath the pillow tight."`,
     isAlumni: false,
-    info: `Naphapa is a recent medical graduate from Chulalongkorn University, currently fulfilling her post-graduate service obligation. \n\nHer academic interests lie in the field of Cognitive and Behavioral Neuroscience, particularly the influence of visual experience on chest X-ray (CXR) interpretation. \n\nWith a growing curiosity in computer programming, she is actively working to sharpen her coding skills alongside her clinical training. Beyond the lab, Naphapa has been an engaged member of the medical student community and continues to bring that same energy to her current roles. \n\nOutside of science and medicine, she enjoys reading, playing guitar, spending meaningful time with people and above all else, she lives for coffee.`,
+    info: `Naphapa is a recent medical graduate from Chulalongkorn University, currently fulfilling her post-graduate service obligation. \n\nHer academic interests lie in the field of Cognitive and Behavioral Neuroscience, particularly the influence of visual experience on chest X-ray (CXR) interpretation. \n\nWith a growing curiosity in computer programming, she is actively working to sharpen her coding skills alongside her clinical training. Beyond the lab, she has been an engaged member of the medical student community and continues to bring that same energy to her current roles. \n\nOutside of science and medicine, she enjoys reading, playing guitar, spending meaningful time with people and above all else, she lives for coffee.`,
   },
   {
     img: "/testimonials/James.png",
@@ -103,7 +103,7 @@ const testimonials = [
     img: "/testimonials/Mos.jpg",
     name: "Waragon Phusuwan",
     title: "Graduate Student",
-    quote: `"I find problems \nto every solutions"`,
+    quote: `"I find problems \nto every solution"`,
     isAlumni: false,
     info: `Waragon is a Thai-born academic mischief-maker who proudly graduated from the Department of Physics at Chulalongkorn University, only to dive headfirst into the neural murk as a PhD student under Dr. Chaipat Chunharas. Now entrenched in the world of cognitive and computational neuroscience, He doesn’t just solve problems he finds problems to every solution, poking at the cracks where others see solid ground.\n\nHis research dances through the cerebral folds of representational geometry, topographic organization, and the beautiful mess of invariance in neural codes. Whether it’s questioning the shaky assumptions behind hippocampal replay analysis or dissecting the hidden biases in data pipelines, he thrives on challenging the default. If a method seems too clean, he’s already suspicious.\n\nOutside the lab (or sometimes secretly in it), he moonlights as a cybersecurity and web development enthusiast. He sees networks biological or digital as systems just waiting to be poked, prodded, and occasionally pentested. Building neural models by day and breaking web apps by night, he treats code and cognition with the same level of irreverent precision.\n\nHe isn’t just a student he’s a professional thorn in the side of assumptions, a debugger of ideas, and a full-time explorer of where theory, computation, and chaos collide.`,
   },
@@ -113,7 +113,7 @@ const testimonials = [
     title: "Graduate Student",
     quote: `"Skip the coaster thrills, \nride with Vicky on wheels!"`,
     isAlumni: false,
-    info: `Payachana or simply Vicky, is a Ph.D. student with a strong interest in neuropsychological testing in the aging population and working memory. She holds double master’s degrees in Microbiology & Immunology and Behavior, bringing a unique interdisciplinary perspective to her work.\n\nBefore her current academic journey, Vicky had hands-on experience in behavioral therapy for autistic children, which helped solidify her passion for clinical and cognitive research. When she’s not in the lab, Vicky is often out rock climbing or enjoying the outdoors, where she finds balance and energy to support both body and mind.`,
+    info: `Payachana or simply Vicky, is a Ph.D. student with a strong interest in neuropsychological testing in the aging population and working memory. She holds double master’s degrees in Microbiology & Immunology and Behavior, bringing a unique interdisciplinary perspective to her work.\n\nBefore her current academic journey, she had hands-on experience in behavioral therapy for autistic children, which helped solidify her passion for clinical and cognitive research. When she’s not in the lab, Vicky is often out rock climbing or enjoying the outdoors, where she finds balance and energy to support both body and mind.`,
   },
   {
     img: "/testimonials/Ben.png",
@@ -121,7 +121,7 @@ const testimonials = [
     title: "Graduate Student",
     quote: `"Mind if I chime in?"`,
     isAlumni: false,
-    info: `Benjamin is graduate with a master's degree, soon to pursue a Ph.D. at the Faculty of Medicine, Chulalongkorn University. Driven by a long-standing fascination with the nature of emotion, he is currently immersed in collecting EEG data his latest attempt to decode and validate the elusive forces that move us.\n\nAround the lab, Ben is known for his charming mischief, bringing a spark of unpredictability to even the most ordinary days. Outside of research, he embraces life in full French flair part hopeless romantic, part lovable rogue, always a little bit of both.`,
+    info: `Benjamin is graduate with a master's degree, soon to pursue a Ph.D. at the Faculty of Medicine, Chulalongkorn University. Driven by a long-standing fascination with the nature of emotion, he is currently immersed in collecting EEG data his latest attempt to decode and validate the elusive forces that move us.\n\nAround the lab, he is known for his charming mischief, bringing a spark of unpredictability to even the most ordinary days. Outside of research, he embraces life in full French flair part hopeless romantic, part lovable rogue, always a little bit of both.`,
   },
   {
     img: "/testimonials/Oat.jpg",
@@ -129,7 +129,7 @@ const testimonials = [
     title: "Researcher",
     quote: `"Born to blaze in a blazer."`,
     isAlumni: false,
-    info: `Kitnipat is widely regarded as the most experienced EEG data collector in the lab. His mastery extends beyond technical precision he has a remarkable ability to build rapport with elderly participants, making them feel as if they were among family. His warmth and patience have become a cornerstone of the lab’s neuropsychological data collection process. \n\nBeyond his research skills, Kitnipat is unmistakable in style. Rarely seen without a sharp blazer, he channels the energy of a British gentleman on hospital rounds. His vibrant and consistent wardrobe has become a quiet legend in the corridors of the clinic.`,
+    info: `Kitnipat is widely regarded as the most experienced EEG data collector in the lab. His mastery extends beyond technical precision he has a remarkable ability to build rapport with elderly participants, making them feel as if they were among family. His warmth and patience have become a cornerstone of the lab’s neuropsychological data collection process. \n\nBeyond his research skills, he is unmistakable in style. Rarely seen without a sharp blazer, he channels the energy of a British gentleman on hospital rounds. His vibrant and consistent wardrobe has become a quiet legend in the corridors of the clinic.`,
   },
   {
     img: "/testimonials/Nan.jpg",
@@ -169,7 +169,7 @@ const testimonials = [
     title: "Undergraduate Researcher",
     quote: `"The Sun never \nbothers me anyway."`,
     isAlumni: false,
-    info: `Punyawish is the youngest medical student in the lab, yet already recognized as one of its rising stars. Balancing a rigorous medical curriculum with research, he currently works under the supervision of Viola Störmer, where his exceptional coding skills have made him a key contributor to several projects.\n\nHis dedication, curiosity, and technical expertise make it clear that the question is not whether he’ll pursue a Ph.D. but rather when he’ll earn it.`,
+    info: `Punyawish is the youngest medical student in the lab, yet already recognized as one of its rising stars. Balancing a rigorous medical curriculum with research, he currently works under the supervision of Dr. Viola Störmer, where his exceptional coding skills have made him a key contributor to several projects.\n\nHis dedication, curiosity, and technical expertise make it clear that the question is not whether he’ll pursue a Ph.D. but rather when he’ll earn it.`,
   },
   {
     img: "/testimonials/Phare.jpg",
@@ -177,7 +177,7 @@ const testimonials = [
     title: "Psychologist",
     quote: `"Official full-time \nbabysitter of Punyawish."`,
     isAlumni: false,
-    info: `Pharewa is a psychologist who graduated from Kasetsart University. After completing an internship at King Chulalongkorn Memorial Hospital, she joined the clinical team full time and quickly became a central figure in the lab’s clinical operations. Currently, she serves as the clinical team lead, overseeing data collection and coordinating fieldwork for multiple research projects whenever and wherever her supervisor requires.\n\nShe is in the process of preparing for the Thai psychology licensing exam, specifically the legal knowledge component, and hopes to obtain full licensure soon. The lab looks forward to having her remain its clinical commander for many years to come.\n\nOutside of work, Pharewa has a soft spot for Stitch, the mischievous little blue alien who’s won her heart.`,
+    info: `Pharewa is a psychologist who graduated from Kasetsart University. After completing an internship at King Chulalongkorn Memorial Hospital, she joined the clinical team full time and quickly became a central figure in the lab’s clinical operations. Currently, she serves as the clinical team lead, overseeing data collection and coordinating fieldwork for multiple research projects whenever and wherever her supervisor requires.\n\nShe is in the process of preparing for the Thai psychology licensing exam, specifically the legal knowledge component, and hopes to obtain full licensure soon. The lab looks forward to having her remain its clinical commander for many years to come.\n\nOutside of work, she has a soft spot for Stitch, the mischievous little blue alien who’s won her heart.`,
   },
   {
     img: "/testimonials/Tok.png",
@@ -193,7 +193,7 @@ const testimonials = [
     title: "Researcher (2020 - 2025)",
     quote: `"Two cones are better than one."`,
     isAlumni: true,
-    info: `Anantaporn is a clinical psychologist who graduated from Thammasart University with a Bachelor of Liberal Arts degree in Psychology. Her academic passion lies in experimental psychology, particularly in the realm of psychophysics. \n\nUnexpectedly drawn into the world of data during her time in the lab, she took on the role of a data visualization engineer and found herself increasingly immersed in data science. She has since continued to expand her skills in this field with intention and focus. Her recent work involved analyzing brain structural and cognitive developmental changes in children living with HIV. \n\nCurrently, Praew is working at the Data Center of King Chulalongkorn Memorial Hospital, where she analyzes complex clinical datasets and helps improve workflows for both clinics and hospital operations. \n\nOutside of work, she’s a cat person at heart, often found enjoying good food, fine tea, music, and making people around her feel at ease.`,
+    info: `Anantaporn is a clinical psychologist who graduated from Thammasart University with a Bachelor of Liberal Arts degree in Psychology. Her academic passion lies in experimental psychology, particularly in the realm of psychophysics. \n\nUnexpectedly drawn into the world of data during her time in the lab, she took on the role of a data visualization engineer and found herself increasingly immersed in data science. She has since continued to expand her skills in this field with intention and focus. Her recent work involved analyzing brain structural and cognitive developmental changes in children living with HIV. \n\nCurrently, she is working at the Data Center of King Chulalongkorn Memorial Hospital, where she analyzes complex clinical datasets and helps improve workflows for both clinics and hospital operations. \n\nOutside of work, she’s a cat person at heart, often found enjoying good food, fine tea, music, and making people around her feel at ease.`,
   },
   {
     img: "/testimonials/Gann.jpg",
@@ -201,7 +201,7 @@ const testimonials = [
     title: "Clinical Psychologist (2020 - 2024)",
     quote: `"Drip coffee by morning, \npour wine by night."`,
     isAlumni: true,
-    info: `Gann was the most senior member of the legendary “Psycho5” the first group of five psychologists who laid the clinical foundation of the lab. As the longest serving clinical psychologist in the team, Gann had a remarkable ability to navigate every aspect of psychological assessments, regardless of patient type or testing complexity. Calm under pressure and exceptionally thorough, Gann earned a reputation as the lab’s most dependable clinical expert.\n\nAfter leaving the lab, Gann transitioned into the clinical aging sector, taking on the role of Business Development. It was a natural progression for someone with both clinical insight and strategic thinking. With a deep understanding of geriatric care and unwavering commitment, Gann continues to shape the landscape of eldercare services now not just from the front lines, but from behind the scenes as well.`,
+    info: `Gann was the most senior member of the legendary “Psycho5” the first group of five psychologists who laid the clinical foundation of the lab. As the longest serving clinical psychologist in the team, he had a remarkable ability to navigate every aspect of psychological assessments, regardless of patient type or testing complexity. Calm under pressure and exceptionally thorough, he earned a reputation as the lab’s most dependable clinical expert.\n\nAfter leaving the lab, he transitioned into the clinical aging sector, taking on the role of Business Development. It was a natural progression for someone with both clinical insight and strategic thinking. With a deep understanding of geriatric care and unwavering commitment, he continues to shape the landscape of eldercare services now not just from the front lines, but from behind the scenes as well.`,
   },
   {
     img: "/testimonials/Kate.jpg",
@@ -241,7 +241,7 @@ const testimonials = [
     title: "UX/UI Designer (2022 - 2023)",
     quote: `"I think I misplaced\nmy brain today..."`,
     isAlumni: true,
-    info: `Pinvasa is a UX/UI designer with a background in psychology. During her time at the lab, she worked on designing an application to support hearing related use cases. Her passion for art and user-centric design made her role uniquely impactful—blending creativity with a deep understanding of user behavior. \n\nWith a calm demeanor and endearing absentmindedness, Ning brought a refreshing vibe to the team. She believed that her psychology degree gave her valuable insight into user experience, helping her craft interfaces that truly connect with people.\n\nAfter leaving the lab, she moved on to the private sector. While the lab surely misses having someone with her charming blend of brilliance and gentle chaos`,
+    info: `Pinvasa is a UX/UI designer with a background in psychology. During her time at the lab, she worked on designing an application to support hearing related use cases. Her passion for art and user-centric design made her role uniquely impactful—blending creativity with a deep understanding of user behavior. \n\nWith a calm demeanor and endearing absentmindedness, she brought a refreshing vibe to the team. She believed that her psychology degree gave her valuable insight into user experience, helping her craft interfaces that truly connect with people.\n\nAfter leaving the lab, she moved on to the private sector. While the lab surely misses having someone with her charming blend of brilliance and gentle chaos`,
   },
   {
     img: "/testimonials/Tung.png",
@@ -265,7 +265,7 @@ const testimonials = [
     title: "Research Assistant (2021 - 2023)",
     quote: `"People disappoint. \nDogs don’t."`,
     isAlumni: true,
-    info: `Kanyarat has always been intrigued by the question: “What makes us human?” a curiosity that led her to pursue a path in neuroscience. She holds an MRes in Translational Neuroscience from University College London, and a BSc in Neuroscience from the University of Edinburgh, United Kingdom. \n\nHer academic work focused on visual attention and its decline with age and other cognitive factors, using EEG combined with neural decoding models. Beyond her research, she is passionate about science communication and actively advocates for reducing the stigma surrounding mental health. \n\nKanyarat has since moved on to join an external organization, where she now works in the realm of data systems and analytics, contributing her skills to improve healthcare and clinical workflows. Still true to her British training, she can often be found enjoying a quiet moment with tea and scones.`,
+    info: `Kanyarat has always been intrigued by the question: “What makes us human?” a curiosity that led her to pursue a path in neuroscience. She holds an MRes in Translational Neuroscience from University College London, and a BSc in Neuroscience from the University of Edinburgh, United Kingdom. \n\nHer academic work focused on visual attention and its decline with age and other cognitive factors, using EEG combined with neural decoding models. Beyond her research, she is passionate about science communication and actively advocates for reducing the stigma surrounding mental health. \n\nShe moved on to join an external organization, where she now works in the realm of data systems and analytics, contributing her skills to improve healthcare and clinical workflows. Still true to her British training, she can often be found enjoying a quiet moment with tea and scones.`,
   },
 ];
 
