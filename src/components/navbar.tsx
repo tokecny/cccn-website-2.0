@@ -86,25 +86,25 @@ export default function Navbar() {
   }, []);
 
   const handleClick = (href: string) => {
-  const target = document.querySelector(href);
-  if (!target) return;
+    const target = document.querySelector(href);
+    if (!target) return;
 
-  const rect = target.getBoundingClientRect();
-  const targetOffsetTop = window.scrollY + rect.top;
-  const targetHeight = target.clientHeight;
-  const viewportHeight = window.innerHeight;
+    const rect = target.getBoundingClientRect();
+    const targetOffsetTop = window.scrollY + rect.top;
+    const targetHeight = target.clientHeight;
+    const viewportHeight = window.innerHeight;
 
-  const scrollTo =
-    // 20% ของ section จะอยู่ตรงกลางจอพอดี
-    targetOffsetTop + targetHeight * 0.2 - viewportHeight * 0.5;
+    const scrollTo =
+      // 20% ของ section จะอยู่ตรงกลางจอพอดี
+      targetOffsetTop + targetHeight * 0.2 - viewportHeight * 0.5;
 
-  window.scrollTo({
-    top: scrollTo,
-    behavior: "smooth",
-  });
+    window.scrollTo({
+      top: scrollTo,
+      behavior: "smooth",
+    });
 
-  setActive(href);
-};
+    setActive(href);
+  };
   const linkClass = (scrolled: boolean) =>
     `relative inline-block px-1 py-1
      after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5

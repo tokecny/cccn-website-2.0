@@ -43,7 +43,7 @@ export default function Landing() {
           <Testimonials />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Publications Section */}
         <section
@@ -53,7 +53,7 @@ export default function Landing() {
           <Publications />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Collaborators Section */}
         <section
@@ -63,7 +63,7 @@ export default function Landing() {
           <Collaborators />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Activity Section */}
         <section
@@ -73,7 +73,7 @@ export default function Landing() {
           <Activities />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Resources Section */}
         <section
@@ -83,7 +83,7 @@ export default function Landing() {
           <Resources />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Culture Section */}
         <section
@@ -93,7 +93,7 @@ export default function Landing() {
           <Culture />
         </section>
 
-        <div className="py-2 md:py-7 lg:py-4 bg-white"/>
+        <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Contact Section */}
         <section id="contact" className="py-8 bg-gray-100 rounded-lg">

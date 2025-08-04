@@ -1,7 +1,7 @@
 "use client";
 
 import * as Headless from "@headlessui/react";
-import { RefreshCw} from "lucide-react"; // เพิ่ม icon
+import { RefreshCw } from "lucide-react"; // เพิ่ม icon
 import { clsx } from "clsx";
 import {
   MotionValue,
@@ -335,17 +335,18 @@ function TestimonialCard({
       {...props}
       className={clsx(
         "relative flex aspect-[2/3] w-72 shrink-0 snap-start scroll-ml-(--scroll-padding) flex-col justify-end overflow-hidden rounded-3xl sm:aspect-3/4 sm:w-96",
-        isAlumni && "opacity-80 grayscale-[30%]"
+        isAlumni && "opacity-80 grayscale-[30%]",
       )}
     >
-
       {/* Toggle Button */}
       <button
         onClick={onToggle}
         className="cursor-help absolute bottom-3 right-3 z-10 bg-pink-500/70 text-white/60 p-1 rounded-full shadow hover:bg-white hover:text-black hover:shadow-gray-600 transition hover:scale-110"
         aria-label="Show info"
       >
-        <RefreshCw className={`w-4 h-4 transition-all ${isOpen ? "rotate-180" : "rotate-0"}`} />
+        <RefreshCw
+          className={`w-4 h-4 transition-all ${isOpen ? "rotate-180" : "rotate-0"}`}
+        />
       </button>
       <div
         className={`absolute bottom-3 right-3 w-6 h-6 z-5 bg-pink-500/40 rounded-full transition ${
@@ -354,14 +355,13 @@ function TestimonialCard({
       />
 
       {/* Flip wrapper */}
-        <motion.div
+      <motion.div
         animate={{ rotateY: isOpen ? 180 : 0 }}
         transition={{ duration: 0.5 }}
         className="relative w-full h-full [transform-style:preserve-3d] [perspective:1000px]"
       >
         {/* Front side */}
         <div className="absolute w-full h-full backface-hidden [transform-style:preserve-3d] rounded-3xl">
-
           {/*  Alumni Badge */}
           {isAlumni && (
             <Badge className="absolute top-3 right-3 z-20 bg-pink-500 text-pink-100 text-xs font-semibold">
@@ -385,7 +385,11 @@ function TestimonialCard({
               <p className="text-sm leading-snug sm:text-base md:text-lg text-center whitespace-pre-wrap text-white">
                 {typeof children === "string"
                   ? children.split("\n").map((line, idx) => (
-                      <span key={idx} className="block" style={{ lineHeight: "1.4" }}>
+                      <span
+                        key={idx}
+                        className="block"
+                        style={{ lineHeight: "1.4" }}
+                      >
                         {line}
                       </span>
                     ))
@@ -393,8 +397,12 @@ function TestimonialCard({
               </p>
             </blockquote>
             <figcaption className="border-t pt-4 border-white/20 text-center">
-              <p className="text-white text-sm leading-snug sm:text-base md:text-lg">{name}</p>
-              <p className="text-pink-300 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
+              <p className="text-white text-sm leading-snug sm:text-base md:text-lg">
+                {name}
+              </p>
+              <p className="text-pink-300 text-sm leading-snug sm:text-base md:text-lg">
+                {title}
+              </p>
             </figcaption>
           </figure>
         </div>
@@ -402,14 +410,18 @@ function TestimonialCard({
         {/* Back side */}
         <div className="absolute w-full h-full [transform:rotateY(180deg)] backface-hidden rounded-3xl bg-white">
           <div className="flex flex-col justify-between h-full p-6 sm:p-10">
-                  <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
-                    {info}
-                  </div>
-                  <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center">
-                    <p className="text-gray-600 text-sm leading-snug sm:text-base md:text-lg">{name}</p>
-                    <p className="text-pink-500 text-sm leading-snug sm:text-base md:text-lg">{title}</p>
-                  </figcaption>
-                </div>
+            <div className="overflow-y-auto max-h-[24rem] text-gray-800 text-[12px] text-justify max-w-[42ch] leading-relaxed whitespace-pre-line mx-auto">
+              {info}
+            </div>
+            <figcaption className="mt-4 pt-4 border-t border-gray-300 text-center">
+              <p className="text-gray-600 text-sm leading-snug sm:text-base md:text-lg">
+                {name}
+              </p>
+              <p className="text-pink-500 text-sm leading-snug sm:text-base md:text-lg">
+                {title}
+              </p>
+            </figcaption>
+          </div>
         </div>
       </motion.div>
     </motion.div>

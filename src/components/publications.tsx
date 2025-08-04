@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button} from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Badge } from "./ui/badge";
 import YearFilterDropdown from "./ui/dropdown";
 
@@ -57,9 +57,12 @@ export default function Publications() {
       });
   }, []);
 
-  const allYears = ["all", ...Array.from(new Set(publications.map((p) => p.year))).sort(
-  (a, b) => parseInt(b) - parseInt(a)
-  )];
+  const allYears = [
+    "all",
+    ...Array.from(new Set(publications.map((p) => p.year))).sort(
+      (a, b) => parseInt(b) - parseInt(a),
+    ),
+  ];
 
   const filtered = publications.filter((pub) => {
     const matchesFilter = filter === "all" || pub.categories.includes(filter);
@@ -95,7 +98,7 @@ export default function Publications() {
           ))}
         </div>
         <div className="flex flex-wrap justify-center text-center mb-6">
-         <YearFilterDropdown
+          <YearFilterDropdown
             allYears={allYears}
             selectedYear={selectedYear}
             setSelectedYear={(value) => {
