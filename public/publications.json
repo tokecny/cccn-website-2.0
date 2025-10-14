@@ -1,810 +1,1699 @@
 [
   {
-    "title": "Coexisting representations of sensory and mnemonic information in human visual cortex",
-    "authors": "Rademaker R., Chunharas C., Serences J.",
-    "year": "2019",
-    "link": "https://www.nature.com/articles/s41593-019-0428-x",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "TTTCA repeat insertions in an intron of YEATS2 in benign adult familial myoclonic epilepsy type 4",
-    "authors": "Yeetong P., Pongpanich M., Srichomthong C., Assawapitaksakul A., Shotelersuk V., Tantirukdham N., Chunharas C., Suphapeetiporn K., Shotelersuk V.",
-    "year": "2019",
-    "link": "https://academic.oup.com/brain/article-abstract/142/11/3360/5572219",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "A newly identified locus for benign adult familial myoclonic epilepsy on chromosome 3q26. 32-3q28",
-    "authors": "Yeetong P., Ausavarat S., Bhidayasiri R., Piravej K., Pasutharnchat N., Desudchit T., Chunharas C., Loplumlert J., Limotai C., Suphapeetiporn K., Shotelersuk V.",
-    "year": "2013",
-    "link": "https://www.nature.com/articles/ejhg2012133",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Relief from intractable phantom pain by combining psilocybin and mirror visual-feedback (MVF)",
-    "authors": "Ramachandran V., Chunharas C., Marcus Z., Furnish T., Lin A.",
-    "year": "2018",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2018.1468469",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "An adaptive perspective on visual working memory distortions.",
-    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
-    "year": "2022",
-    "link": "https://psycnet.apa.org/fulltext/2022-31804-001.html",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "An explainable self-attention deep neural network for detecting mild cognitive impairment using multi-input digital drawing tasks",
-    "authors": "Ruengchaijatuporn N., Chatnuntawech I., Teerapittayanon S., Sriswasdi S., Itthipuripat S., Hemrungrojn S., Bunyabukkana P., Petchlorlian A., Chunamchai S., Chotibut T., Chunharas C.",
-    "year": "2022",
-    "link": "https://link.springer.com/article/10.1186/s13195-022-01043-2",
-    "categories": ["neuro", "comp", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Adaptive distortions in visual working memory",
-    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
-    "year": "2019",
-    "link": "https://osf.io/gmb3w/download",
-    "categories": ["cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Using automatic speech recognition to assess Thai speech language fluency in the Montreal cognitive assessment (MoCA)",
-    "authors": "Kantithammakorn P., Punyabukkana P., Pratanwanich P., Hemrungrojn S., Chunharas C., Wanvarie D.",
-    "year": "2022",
-    "link": "https://www.mdpi.com/1424-8220/22/4/1583",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Separating memoranda in depth increases visual working memory performance",
-    "authors": "Chunharas C., Rademaker R., Sprague T., Brady T., Serences J.",
-    "year": "2019",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2720495",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Founder effect of the TTTCA repeat insertions in SAMD12 causing BAFME1",
-    "authors": "Yeetong P., Chunharas C., Pongpanich M., Bennett M., Srichomthong C., Pasutharnchat N., Suphapeetiporn K., Bahlo M., Shotelersuk V.",
-    "year": "2021",
-    "link": "https://www.nature.com/articles/s41431-020-00729-1",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Feature-based attention warps the perception of visual features",
-    "authors": "Chapman A., Chunharas C., St\u00f6rmer V.",
-    "year": "2023",
-    "link": "https://www.nature.com/articles/s41598-023-33488-2",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Attentive pairwise interaction network for AI-assisted clock drawing test assessment of early visuospatial deficits",
-    "authors": "Raksasat R., Teerapittayanon S., Itthipuripat S., Praditpornsilpa K., Petchlorlian A., Chotibut T., Chunharas C., Chatnuntawech I.",
-    "year": "2023",
-    "link": "https://www.nature.com/articles/s41598-023-44723-1",
-    "categories": ["comp"],
-    "badge": ""
-  },
-  {
-    "title": "Multivariate analysis of BOLD activation patterns recovers graded depth representations in human visual and parietal cortex",
-    "authors": "Henderson M., Vo V., Chunharas C., Sprague T., Serences J.",
-    "year": "2019",
-    "link": "https://www.eneuro.org/content/6/4/ENEURO.0362-18.2019.abstract",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Associations between hypoxia parameters in obstructive sleep apnea and cognition, cortical thickness, and white matter integrity in middle-aged and older adults",
-    "authors": "Chokesuwattanaskul A., Chirakalwasan N., Jaimchariyatam N., Pitakvej N., Sarutikriangkri Y., Chunharas C., Phanthumchinda K., Likitjaroen Y.",
-    "year": "2021",
-    "link": "https://link.springer.com/article/10.1007/s11325-020-02215-w",
-    "categories": ["comp"],
-    "badge": ""
-  },
-  {
-    "title": "Bouba-Kiki: Cross-domain resonance and the origins of synesthesia, metaphor, and words in the human mind",
-    "authors": "Ramachandran V., Marcus Z., Chunharas C.",
-    "year": "2020",
-    "link": "https://www.sciencedirect.com/science/article/pii/B9780128124925000012",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Chunking, attraction, repulsion and ensemble effects are ubiquitous in visual working memory",
-    "authors": "Chunharas C., Brady T.",
-    "year": "2023",
-    "link": "https://osf.io/es3b8/download",
-    "categories": ["cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Selecting the most important features for predicting mild cognitive impairment from Thai verbal fluency assessments",
-    "authors": "Metarugcheep S., Punyabukkana P., Wanvarie D., Hemrungrojn S., Chunharas C., Pratanwanich P.",
-    "year": "2022",
-    "link": "https://www.mdpi.com/1424-8220/22/15/5813",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Adaptive memory distortion in visual working memory. PsyArXiv",
-    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
-    "year": "2019",
-    "link": "https://scholar.google.com/scholar?cluster=15220598963537290031&hl=en&oi=scholarr",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "A gradual transition toward categorical representations along the visual hierarchy during working memory, but not perception",
-    "authors": "Chunharas C., Wolff M., Hettwer M., Rademaker R.",
-    "year": "2024",
-    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10245673/",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Calendars in the brain; their perceptual characteristics and possible neural substrate",
-    "authors": "Ramachandran V., Vajanaphanich M., Chunharas C.",
-    "year": "2016",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2016.1250913",
-    "categories": ["neuro"],
-    "badge": ""
-  },
-  {
-    "title": "Conflicting sensory information sharpens the neural representations of early selective visuospatial attention",
-    "authors": "Sookprao P., Benjasupawan K., Phangwiwat T., Chatnuntawech I., Lertladaluck K., Gutchess A., Chunharas C., Itthipuripat S.",
-    "year": "2024",
-    "link": "https://www.jneurosci.org/content/44/33/e2012232024.abstract",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Selective amplification of salient features of visual memories during early memory consolidation",
-    "authors": "Chunharas C., Brady T., Ramachandran V.",
-    "year": "2018",
-    "link": "https://osf.io/preprints/5dcxa/",
-    "categories": ["cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Sural-sparing pattern: A study against electrodiagnostic subtypes of Guillain\u2013Barre syndrome",
-    "authors": "Pasutharnchat N., Ratanasirisawad V., Santananukarn M., Taychargumpoo C., Amornvit J., Chunharas C.",
-    "year": "2022",
-    "link": "https://www.sciencedirect.com/science/article/pii/S2467981X22000336",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Simultaneous representation of sensory and mnemonic information in human visual cortex",
-    "authors": "Rademaker R., Chunharas C., Serences J.",
-    "year": "2018",
-    "link": "https://www.biorxiv.org/content/10.1101/339200.abstract",
-    "categories": ["neuro", "cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Dissociable biases in orientation recall: The oblique effect follows retinal coordinates, while repulsion from cardinal follows real-world coordinates.",
-    "authors": "Rademaker R., Chunharas C., Mamassian P., Serences J.",
-    "year": "2017",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2650993",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "The Bayesian approach for real\u2010world implementation of plasma p\u2010tau217 in tertiary care memory clinics in Thailand",
-    "authors": "Thanapornsangsuth P., Booncharoen K., Khieukhajee J., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Supharatpariyakorn T., Chunharas C., Likitjaroen Y., Hemachudha T.",
-    "year": "2024",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.14138",
-    "categories": ["comp", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Sustained attention operates via dissociable neural mechanisms across different eccentric locations",
-    "authors": "Phangwiwat T., Phunchongharn P., Wongsawat Y., Chatnuntawech I., Wang S., Chunharas C., Sprague T., Woodman G., Itthipuripat S.",
-    "year": "2024",
-    "link": "https://www.nature.com/articles/s41598-024-61171-7",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Compact MoCA: a shortened alternative for MCI screening among healthy aging individuals",
-    "authors": "Muadmanee W., Hiransuthikul A., Chunharas C., Thongkam A., Petchlorlian A., Praditpornsilpa K.",
-    "year": "2021",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.050413",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Is set size six really set size six? Relational coding in visual working memory.",
-    "authors": "Chunharas C., Brady T.",
-    "year": "2019",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2750444",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Effect of grouping, segmentation, and vestibular stimulation on the autokinetic effect",
-    "authors": "Ramachandran V., Chunharas C., Croft R., Batal N.",
-    "year": "2018",
-    "link": "https://journals.sagepub.com/doi/abs/10.1177/2041669517752716",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Hypothesis concerning embodied calendars: A case study of number form, color spreading, and taste-color synaesthesia",
-    "authors": "Ramachandran V., Chunharas C., Marcus Z.",
-    "year": "2016",
-    "link": "https://www.sciencedirect.com/science/article/pii/S030698771630281X",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Relationship Between Plasma Phosphorylated Tau and Tau\u2010PET Spatial Patterns in Thai Patients with Amnestic Mild Cognitive Impairment or Mild Dementia Due to Probable Alzheimer's Disease: A Parcel\u2010wise Analysis",
-    "authors": "Thanprasertsuk S., Jarukasemkit S., Booncharoen K., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Supharatpariyakorn T., Likitjaroen Y., Hemachudha T., Chunharas C., Thanapornsangsuth P.",
-    "year": "2024",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.088888",
-    "categories": ["clin", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Optimal tuning of feature-based attention warps the perception of visual features",
-    "authors": "Chapman A., Chunharas C., St\u00f6rmer V.",
-    "year": "2022",
-    "link": "https://osf.io/preprints/psyarxiv/hbfup/download",
-    "categories": ["cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Determining In-Depth Information of Mild Cognitive Impairment: Clustering Using Unsupervised Machine Learning (1352)",
-    "authors": "Hiransuthikul A., Chunharas C., Thongkam A., Muadmanee W., Chotibut T., Phusuwan W., Petchlorlian A., Praditpornsilpa K.",
-    "year": "2021",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.96.15_supplement.1352",
-    "categories": ["comp", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Constructing calendars in the brain",
-    "authors": "Ramachandran V., Chunharas C., Marcus Z.",
-    "year": "2020",
-    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2019.1694040",
-    "categories": ["neuro"],
-    "badge": ""
-  },
-  {
-    "title": "Reduced Efficiency in the Right Fronto-Parietal Attentional Network During Distractor Suppression in Mild Cognitive Impairment",
-    "authors": "Oboun J., Charoenpoonpanich P., Raksapatcharawong A., Chunharas C., Chatnuntawech I., Amornbunchornvej C., Itthipuripat S.",
+    "title": "World-Centric Induced Cardinal Biases in 3D Object Orientation Perception",
+    "authors": "Sena A., Rademaker R., Chunharas C.",
     "year": "2025",
-    "link": "https://arxiv.org/abs/2507.01433",
-    "categories": ["comp", "cogn"],
-    "badge": "Preprint"
-  },
-  {
-    "title": "Depression and the prefrontal-hippocampal pathway-A multimodal neuroimaging study in transgender women",
-    "authors": "Jarukasemkit S., Tam K., Yoadsanit S., Easley T., Modi H., Stahl L., Kampaengtip A., Chansakul T., Janamnuaysook R., Hiransuthikul A., Chunharas C., Bijsterbosch J.",
-    "year": "2025",
-    "link": "https://www.sciencedirect.com/science/article/pii/S2666497625000074",
-    "categories": ["clin"],
-    "badge": ""
-  },
-  {
-    "title": "Developing a Multi-site Hyperscanning Procedure for Investigating Interbrain Synchrony Underlying Remote Social Interaction",
-    "authors": "Limtragooltongchai S., Yamtuan K., Gracia J., Chunharas C., Sriravanasan R., Chaisilprungraung T., Itthipuripat S.",
-    "year": "2024",
-    "link": "https://link.springer.com/chapter/10.1007/978-981-96-3294-7_11",
-    "categories": ["neuro"],
-    "badge": ""
-  },
-  {
-    "title": "Brain network is greater than sum of its regions: how plasma tau levels associate with tau\u2010PET limbic network while clinical scores demonstrate strong link with tau\u2010PET dorsal attentional network",
-    "authors": "Jarukasemkit S., Thanprasertsuk S., Booncharoen K., Luechaipanit W., Chongsuksantikul A., Supharatpariyakorn T., Likitjaroen Y., Hemachudha T., Thanapornsangsuth P., Chunharas C.",
-    "year": "2024",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.086024",
-    "categories": ["neuro", "clin", "cogn", "comp"],
-    "badge": ""
-  },
-  {
-    "title": "Association Between Baseline Plasma p\u2010tau181 Levels and Cognitive Trajectory in Healthy Geriatric Populations",
-    "authors": "Samalapa R., Thanapornsangsuth P., Hemachudha P., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Boonyaprapatsara G., Chunharas C., Hemachudha T., Praditpornsilpa K.",
-    "year": "2024",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.092823",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Stronger adaptation of middle-to-late ERP components to object silhouette images before versus after object priming in Aphantasia",
-    "authors": "SINGTOKUM N., Benjasupawan K., Poungtubtim C., Chunamchai S., Chunharas C.",
-    "year": "2024",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801016",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Chunking as an object: What comes together, goes together",
-    "authors": "Poungtubtim C., Chunharas C., Brady T.",
-    "year": "2024",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801222",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Inhomogeneities in human responses to zero-coherence dot motion persist as increasingly more sensory evidence is added",
-    "authors": "Jongmekwamsuk K., Chunharas C., Rademaker R.",
-    "year": "2024",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801645",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Spatial proximity and object-based grouping effects on visual working memory",
-    "authors": "Panyanirun N., Chunharas C., Brady T.",
-    "year": "2024",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2800931",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Predicting dementia conversion using montreal cognitive assessment score-based mild cognitive impairment subtyping and cognitive decline cascade analysis with unsupervised machine learning",
-    "authors": "Bhukdee D., Hiransuthikul A., Sriswasdi S., Chunharas C.",
-    "year": "2024",
-    "link": "https://scholar.google.com/scholar?cluster=5916623758876665923&hl=en&oi=scholarr",
-    "categories": ["comp", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "A proposed scheme for comprehensive and systematic evaluation of normal pressure hydrocephalus",
-    "authors": "Pitaksuteepong P., Supharatpariyakorn T., Wangsawatwong P., Thanprasertsuk S., Chunamchai S., Chunharas C., Pobpan P., Sringean J., Paprad T., Hemachudha T., Thanapornsangsuth P.",
-    "year": "2023",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.076369",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Using deep learning model on drawing tasks as a screening tool for mild cognitive impairment in older adults with sensory impairments",
-    "authors": "Chunharas C., Chatnuntawech I., Ruengchaijatuporn N., Teerapittayanon S., Chotibut T., Raksasat R., Sriswasdi S., Itthipuripat S., Petchlorlian A., Chunamchai S.",
-    "year": "2023",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.077963",
-    "categories": ["comp", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Visual representations shift from a retinal to a real-world reference frame during visual working memory",
-    "authors": "Servetnik M., Hauer N., Wolff M., Chunharas C., Rademaker R.",
-    "year": "2023",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2791693",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Risk Prediction of Cardioembolic Stroke using Clinical Data and Non-contrast CT",
-    "authors": "Jakkrawankul P., Chunharas C., Akarathanawat W., Vorasayan P., Chunamchai S., Pratanwanich P., Punyabukkana P., Chuangsuwanich E.",
-    "year": "2023",
-    "link": "https://ieeexplore.ieee.org/abstract/document/10207950/",
-    "categories": ["clin"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "AI-assisted monitoring of COVID-19 community isolation in Thailand",
-    "authors": "Ruengchaijatuporn N., Kittipongdaja P., Sompong T., Jakkrawankul P., Torvorapanit P., Chantasrisawad N., Chintanapakdee W., Tongbai T., Petchlorlian A., Sriborrirux W., Chunharas C., Putcharoen O., Chuangsuwanich E., Sriswasdi S.",
-    "year": "2023",
-    "link": "https://ieeexplore.ieee.org/abstract/document/10208057/",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "The reduced distractibility to the low-valued and non-rewarding stimuli underlies the neural development of value-based attention",
-    "authors": "Wiwatphonthana P., Sookprao P., Puvacharoonkul P., Chunharas C., Learladaluck K., Itthipuripat S.",
-    "year": "2022",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784327",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "More but Less: Enhanced early sensory-evoked responses but reduced attentional focus and delayed sensory integration in healthy aging",
-    "authors": "Sookprao P., Benjasupawan K., Lertladaluck K., Chotibut T., Chatnuntawech I., Chunharas C., Itthipuripat S.",
-    "year": "2022",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784598",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Slower visual perception and alpha oscillation as a potential neural markers of visual hallucination in Parkinson\u2019s Disease",
-    "authors": "Chunharas C., Tantithanarat N., Itthipuripat S., Sudayuworn T., Bhidayasiri R.",
-    "year": "2022",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784594",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "The reduced fidelity of selective sensory information processing in the elderly with mild cognitive impairment",
-    "authors": "Benjasupawan K., Sookprao P., Chotibut T., Chatnuntawech I., Itthipuripat S., Chunharas C.",
-    "year": "2022",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784586",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "The neural cascading of early and late selection mechanisms in response to cognitive conflict",
-    "authors": "Itthipuripat S., Sookprao P., Wiwatphonthana P., Learladaluck K., Wilaiprasitporn T., Chatnuntawech I., Serences J., Chunharas C.",
-    "year": "2022",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784419",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Symposium 12. What do inter-item biases in perception and visual working memory tell about vision?",
-    "authors": "Rademaker R., Chunharas C.",
-    "year": "2022",
-    "link": "https://scholar.google.com/scholar?cluster=3849195331651140980&hl=en&oi=scholarr",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Clusters of Cognitive Performance among Aging People Living with HIV: the Application of Unsupervised Machine Learning (P13-3.001)",
-    "authors": "Hiransuthikul A., Rattananupong T., Phusuwan W., Chunharas C., Apornpong T., Lohsoonthorn V., Avihingsanon A.",
-    "year": "2022",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.98.18_supplement.227",
-    "categories": ["comp", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Sustained attention operates via dissociable neural mechanisms across different eccentric locations",
-    "authors": "Phangwiwat T., Punchongharn P., Chunharas C., Sprague T., Wang S., Woodman G., Itthipuripat S.",
-    "year": "2021",
-    "link": "https://scholar.google.com/scholar?cluster=14017343795095150222&hl=en&oi=scholarr",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "A gradual transition from veridical to categorical representations along the visual hierarchy for memory but not perception.",
-    "authors": "Chunharas C., Serences J., Rademaker R.",
-    "year": "2021",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2777164",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Sampling Frequency of Visual Perception in Parkinson\u2019s Disease is Slower Than Normal Aging (4231)",
-    "authors": "Tantithanarat N., Chunharas C., Bhidayasiri R.",
-    "year": "2021",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.96.15_supplement.4231",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Feature-based attention warps perception of color",
-    "authors": "Barszcz A., Chapman A., Chunharas C., St\u00f6rmer V.",
-    "year": "2020",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2771117",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Adaptive read-out: the role of sensory adaptation in serial dependence",
-    "authors": "Sheehan T., Chunharas C., Serences J.",
-    "year": "2020",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2771307",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Simultaneous Representation of Mnemonic and Sensory Information in Human Visual Cortex",
-    "authors": "Rademaker R., Chunharas C., Serences J.",
-    "year": "2019",
-    "link": "https://scholar.google.com/scholar?cluster=9453458453840536734&hl=en&oi=scholarr",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Inter-item interference and systematic biases in visual memory",
-    "authors": "Chunharas C.",
-    "year": "2019",
-    "link": "https://search.proquest.com/openview/1894e895e9d75f8edc02cfc09f66eb22/1?pq-origsite=gscholar&cbl=18750&diss=y",
-    "categories": ["cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Similar items repel each other in visual working memory",
-    "authors": "Chunharas C., Brady T., Rademaker R., Serences J.",
-    "year": "2018",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2699669",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Simultaneous representation of mnemonic and sensory information in human visual cortex",
-    "authors": "Rademaker R., Chunharas C., Serences J.",
-    "year": "2018",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2699362",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Features Can Be Bound in Blindsight Without Consciousness (P1. 197)",
-    "authors": "Chunharas C., Ramachandran V.",
-    "year": "2018",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.90.15_supplement.P1.197",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Trigger Features for Conveying Facial Expressions: The Role of Segmentation",
-    "authors": "Ramachandran V., Chunharas C., Smythies M.",
-    "year": "2017",
-    "link": "https://journals.sagepub.com/doi/abs/10.1177/2041669517737792",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Remembering stimuli in different depth planes increases visual working memory precision and reduces swap errors.",
-    "authors": "Chunharas C., Rosanne R., Sprague T., Brady T., Serences J.",
-    "year": "2017",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2651723",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Reconstructing 3D stimuli using BOLD activation patterns recovers hierarchical depth processing in human visual and parietal cortex",
-    "authors": "Henderson M., Chunharas C., Vo V., Sprague T., Serences J.",
-    "year": "2016",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2550283",
-    "categories": ["neuro", "cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Individual differences in depth discrimination predicts differences in visual working memory for stimuli rendered in 3D",
-    "authors": "Chunharas C., Itthipuripat S., Sprague T., Ester E., Serences J.",
-    "year": "2016",
-    "link": "https://jov.arvojournals.org/article.aspx?articleid=2551410",
-    "categories": ["cogn"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Diagnostic accuracy of smart gadgets/wearable devices in detecting atrial fibrillation: a systematic review and meta-analysis",
-    "authors": "Prasitlumkum N., Cheungpasitporn W., Chokesuwattanaskul A., Thangjui S., Thongprayoon C., Bathini T., Vallabhajosyula S., Kanitsoraphan C., Leesutipornchai T., Chokesuwattanaskul R.",
-    "year": "2021",
-    "link": "https://www.sciencedirect.com/science/article/pii/S1875213620301807",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Symptom\u2010led staging for semantic and non\u2010fluent/agrammatic variants of primary progressive aphasia",
-    "authors": "Hardy C., Taylor\u2010Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., Volkmer A., Crutch S., Warren J.",
-    "year": "2024",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.13415",
-    "categories": ["clin"],
-    "badge": ""
-  },
-  {
-    "title": "Impact of obstructive sleep apnea on silent cerebral small vessel disease: a systematic review and meta-analysis",
-    "authors": "Chokesuwattanaskul A., Lertjitbanjong P., Thongprayoon C., Bathini T., Sharma K., Mao M., Cheungpasitporn W., Chokesuwattanaskul R.",
-    "year": "2020",
-    "link": "https://www.sciencedirect.com/science/article/pii/S1389945719316491",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Impact of Circadian Blood Pressure Pattern on Silent Cerebral Small Vessel Disease: A Systematic Review and Meta\u2010Analysis",
-    "authors": "Chokesuwattanaskul A., Cheungpasitporn W., Thongprayoon C., Vallabhajosyula S., Bathini T., Mao M., Cato L., Chokesuwattanaskul R.",
-    "year": "2020",
-    "link": "https://www.ahajournals.org/doi/abs/10.1161/JAHA.119.016299",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Primary progressive aphasia: six questions in search of an answer",
-    "authors": "Belder C., Marshall C., Jiang J., Mazzeo S., Chokesuwattanaskul A., Rohrer J., Volkmer A., Hardy C., Warren J.",
-    "year": "2024",
-    "link": "https://link.springer.com/article/10.1007/s00415-023-12030-4",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "The problematic syndrome of right temporal lobe atrophy: Unweaving the phenotypic rainbow",
-    "authors": "Belder C., Chokesuwattanaskul A., Marshall C., Hardy C., Rohrer J., Warren J.",
-    "year": "2023",
-    "link": "https://www.frontiersin.org/articles/10.3389/fneur.2022.1082828/full",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "The architecture of abnormal reward behaviour in dementia: multimodal hedonic phenotypes and brain substrate",
-    "authors": "Chokesuwattanaskul A., Jiang H., Bond R., Jimenez D., Russell L., Sivasathiaseelan H., Johnson J., Benhamou E., Agustus J., Leeuwen J., Chokesuwattanaskul P., Hardy C., Marshall C., Rohrer J., Warren J.",
-    "year": "2023",
-    "link": "https://academic.oup.com/braincomms/article-abstract/5/2/fcad027/7031784",
-    "categories": ["neuro"],
-    "badge": ""
-  },
-  {
-    "title": "Symptom\u2010based staging for logopenic variant primary progressive aphasia",
-    "authors": "Hardy C., Taylor\u2010Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., O'Shea F., Volkmer A., Crutch S., Warren J.",
-    "year": "2024",
-    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.16304",
-    "categories": ["clin"],
-    "badge": ""
-  },
-  {
-    "title": "Comprehension of acoustically degraded speech in Alzheimer\u2019s disease and primary progressive aphasia",
-    "authors": "Jiang J., Johnson J., Requena-Komuro M., Benhamou E., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Nortley R., Weil R., Volkmer A., Marshall C., Bamiou D., Warren J., Hardy C.",
-    "year": "2023",
-    "link": "https://academic.oup.com/brain/article-abstract/146/10/4065/7162992",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Apathy in patients with cerebral amyloid angiopathy: a multimodal neuroimaging study",
-    "authors": "Chokesuwattanaskul A., Zotin M., Schoemaker D., Sveikata L., Gurol M., Greenberg S., Viswanathan A.",
-    "year": "2023",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000207200",
-    "categories": ["clin"],
-    "badge": ""
-  },
-  {
-    "title": "Primary progressive aphasia: ReADing the clinical GRANularity",
-    "authors": "Chokesuwattanaskul A., Marshall C., Harskamp N., Houlden H., Rohrer J., Hardy C., Warren J.",
-    "year": "2022",
-    "link": "https://pn.bmj.com/content/22/6/509.abstract",
-    "categories": ["clin"],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Primary progressive aphasia in Italian and English: a cross-linguistic cohort study",
-    "authors": "Mazzeo S., Hardy C., Jiang J., Morinelli C., Moschini V., Brooks E., Johnson J., Chokesuwattanaskul A., Giacomucci G., Volkmer A., Rohrer J., Ingannato A., Bagnoli S., Padiglioni S., Nacmias B., Sorbi S., Bessi V., Warren J.",
-    "year": "2024",
-    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000210058",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Symptom-led staging for primary progressive aphasia",
-    "authors": "Hardy C., Taylor-Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., Volkmer A., Crutch S., Warren J.",
-    "year": "2023",
-    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10055437/",
-    "categories": ["clin"],
-    "badge": ""
-  },
-  {
-    "title": "Data-driven neuroanatomical subtypes of primary progressive aphasia",
-    "authors": "Taylor B., Bocchetta M., Shand C., Todd E., Chokesuwattanaskul A., Crutch S., Warren J., Rohrer J., Hardy C., Oxtoby N.",
-    "year": "2025",
-    "link": "https://academic.oup.com/brain/article-abstract/148/3/955/7815055",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Comprehension of acoustically degraded emotional prosody in Alzheimer\u2019s disease and primary progressive aphasia",
-    "authors": "Jiang J., Johnson J., Requena-Komuro M., Benhamou E., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Nortley R., Weil R., Volkmer A., Marshall C., Bamiou D., Warren J., Hardy C.",
-    "year": "2024",
-    "link": "https://www.nature.com/articles/s41598-024-82694-z",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Binary reversals: a diagnostic sign in primary progressive aphasia",
-    "authors": "Mulroy E., Core L., Chokesuwattanaskul A., Johnson J., Fletcher P., Marshall C., Volkmer A., Rohrer J., Hardy C., Rossor M., Warren J.",
-    "year": "2024",
-    "link": "https://jnnp.bmj.com/content/95/5/477.abstract",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Association of Long-Term Blood Pressure Variability with Cerebral Amyloid Angiopathy-related Brain Injury and Cognitive Decline",
-    "authors": "Sveikata L., Zotin M., Schoemaker D., Ma Y., Perosa V., Chokesuwattanaskul A., Charidimou A., Duering M., Gurol E., Assal F., Greenberg S., Viswanathan A.",
-    "year": "2024",
-    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10925352/",
-    "categories": ["neuro", "cogn"],
-    "badge": ""
-  },
-  {
-    "title": "Data\u2010driven neuroanatomical subtype trajectories of primary progressive aphasia",
-    "authors": "Taylor B., Bocchetta M., Shand C., Todd E., Chokesuwattanaskul A., Crutch S., Rohrer J., Warren J., Hardy C., Oxtoby N.",
-    "year": "2023",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.076663",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "A new synthesis of aberrant reward processing in frontotemporal dementias",
-    "authors": "Chokesuwattanaskul A., Jiang H., Bond R., Leeuwen J., Sivasathiaseelan H., Hardy C., Rohrer J., Warren J.",
-    "year": "2023",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.065013",
-    "categories": [],
-    "badge": ""
-  },
-  {
-    "title": "Abstract WMP14: white matter free water drives diffusion abnormalities and correlates with conventional MRI markers of small vessel disease in cerebral amyloid angiopathy",
-    "authors": "Zotin M., Chokesuwattanaskul A., Schoemaker D., Sveikata L., Greenberg S., Viswanathan A.",
-    "year": "2022",
-    "link": "https://www.ahajournals.org/doi/abs/10.1161/str.53.suppl_1.WMP14",
-    "categories": [],
-    "badge": "Abstract"
-  },
-  {
-    "title": "Association of Hypoxia Measured by Oxygen Desaturation Index (ODI) in OSA with Delis-Kaplan Executive Function System (D-KEFS) Tests in Middle-Aged and Older Adults",
-    "authors": "Chokesuwattanaskul A.",
-    "year": "2019",
-    "link": "https://digital.car.chula.ac.th/chulaetd/8745/",
-    "categories": [],
-    "badge": ""
+    "publish_date": "2025-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2809262",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
   },
   {
     "title": "White Matter Free Water in Cerebral Amyloid Angiopathy: a Diffusion-Based Study (P9-13.012)",
     "authors": "Guarda S., Zotin M., Brink H., Schoemaker D., Chokesuwattanaskul A., Greenberg S., Viswanathan A.",
     "year": "2025",
+    "publish_date": "2025-12-31",
     "link": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000208499",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Dementia risk reduction between DOACs and VKAs in AF: A systematic review and meta\u2010analysis",
-    "authors": "Chokesuwattanaskul A., Prasitlumkum N., Cooley R., Bunch T., Chokesuwattanaskul R., Navaravong L.",
-    "year": "2024",
-    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/joa3.13142",
+    "title": "Unveiling the potential of the Digits-in-Noise test as a hearing screening tool for older adults with cognitive impairment",
+    "authors": "Limkitisupasin P., Nilchaeng P., Chokesuwattanaskul A., Tangwongchai S., Bamiou D., Utoomprurkporn N.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/13872877251376949",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "sage",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Suboptimal visual cues integration in location estimation paradigm",
+    "authors": "Phusuwan W., Kasemsantitham A., Chunharas C.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2809380",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Remembering multiple objects in the same category leads to better performance at a sacrifice of higher false alarm",
+    "authors": "Chareunsouk P., Sena A., Chunharas C.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2809844",
     "categories": [],
-    "badge": ""
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Reduced Efficiency in the Right Fronto-Parietal Attentional Network During Distractor Suppression in Mild Cognitive Impairment",
+    "authors": "Oboun J., Charoenpoonpanich P., Raksapatcharawong A., Chunharas C., Chatnuntawech I., Amornbunchornvej C., Itthipuripat S.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://arxiv.org/abs/2507.01433",
+    "categories": [
+      "comp",
+      "cogn"
+    ],
+    "badge": "Preprint",
+    "journal_badge": {
+      "label": "arxiv",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Proactive enhancement of ‘to-be-attended’and ‘to-be-ignored’features during cued visual search in older and younger adults",
+    "authors": "Patumhirunruksa P., Stoermer V., Chunharas C.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2810356",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Identifying Mild Cognitive Impairment and Healthy Aging Using EEG Visual Working Memory Task with XGBoost",
+    "authors": "Yuvasuta N., Prom-On S., Chunharas C., Lertladaluck K., Benjasupawa K., Wiwatphonthana P., Itthipuripat S.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11100843/",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "ieeexplore",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Hearing impairment in neurodegenerative disorders",
+    "authors": "SHARRAD D., CHOKESUWATTANASKUL A., LEVETT B., VOLKMER A., HARDY C., WARREN J.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://books.google.com/books?hl=en&lr=&id=bnKLEQAAQBAJ&oi=fnd&pg=PA186&dq=info:shonORMyOMIJ:scholar.google.com&ots=SzyWCTzfnf&sig=KAMMAdu8bXnpqPGHi0uQnPnpRz8",
+    "categories": [
+      "clin",
+      "comp"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "books",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Depression and the prefrontal-hippocampal pathway-A multimodal neuroimaging study in transgender women",
+    "authors": "Jarukasemkit S., Tam K., Yoadsanit S., Easley T., Modi H., Stahl L., Kampaengtip A., Chansakul T., Janamnuaysook R., Hiransuthikul A., Chunharas C., Bijsterbosch J.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666497625000074",
+    "categories": [
+      "clin"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Data-driven neuroanatomical subtypes of primary progressive aphasia",
+    "authors": "Taylor B., Bocchetta M., Shand C., Todd E., Chokesuwattanaskul A., Crutch S., Warren J., Rohrer J., Hardy C., Oxtoby N.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://academic.oup.com/brain/article-abstract/148/3/955/7815055",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "brain",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Beyond Swaps: How Working Memory Combines Gist and Item Information",
+    "authors": "Poungtubtim C., Chunharas C., Brady T.",
+    "year": "2025",
+    "publish_date": "2025-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2809821",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The real‐world implementation strategies for plasma p‐tau217 in tertiary care memory clinics in Thailand",
+    "authors": "Thanapornsangsuth P., Booncharoen K., Khieukhajee J., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Supharatpariyakorn T., Chunharas C., Likitjaroen Y., Hemachudha T.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.092457",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Symptom‐led staging for semantic and non‐fluent/agrammatic variants of primary progressive aphasia",
+    "authors": "Hardy C., Taylor‐Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., Volkmer A., Crutch S., Warren J.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.13415",
+    "categories": [
+      "clin"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Symptom‐based staging for logopenic variant primary progressive aphasia",
+    "authors": "Hardy C., Taylor‐Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., O'Shea F., Volkmer A., Crutch S., Warren J.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.16304",
+    "categories": [
+      "clin"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Sustained attention operates via dissociable neural mechanisms across different eccentric locations",
+    "authors": "Phangwiwat T., Phunchongharn P., Wongsawat Y., Chatnuntawech I., Wang S., Chunharas C., Sprague T., Woodman G., Itthipuripat S.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://www.nature.com/articles/s41598-024-61171-7",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "sci rep",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Stronger adaptation of middle-to-late ERP components to object silhouette images before versus after object priming in Aphantasia",
+    "authors": "SINGTOKUM N., Benjasupawan K., Poungtubtim C., Chunamchai S., Chunharas C.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801016",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Spatial proximity and object-based grouping effects on visual working memory",
+    "authors": "Panyanirun N., Chunharas C., Brady T.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2800931",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Relationship Between Plasma Phosphorylated Tau and Tau‐PET Spatial Patterns in Thai Patients with Amnestic Mild Cognitive Impairment or Mild Dementia Due to Probable Alzheimer's Disease: A Parcel‐wise Analysis",
+    "authors": "Thanprasertsuk S., Jarukasemkit S., Booncharoen K., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Supharatpariyakorn T., Likitjaroen Y., Hemachudha T., Chunharas C., Thanapornsangsuth P.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.088888",
+    "categories": [
+      "clin",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Primary progressive aphasia: six questions in search of an answer",
+    "authors": "Belder C., Marshall C., Jiang J., Mazzeo S., Chokesuwattanaskul A., Rohrer J., Volkmer A., Hardy C., Warren J.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://link.springer.com/article/10.1007/s00415-023-12030-4",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Primary progressive aphasia in Italian and English: a cross-linguistic cohort study",
+    "authors": "Mazzeo S., Hardy C., Jiang J., Morinelli C., Moschini V., Brooks E., Johnson J., Chokesuwattanaskul A., Giacomucci G., Volkmer A., Rohrer J., Ingannato A., Bagnoli S., Padiglioni S., Nacmias B., Sorbi S., Bessi V., Warren J.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000210058",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Predicting dementia conversion using montreal cognitive assessment score-based mild cognitive impairment subtyping and cognitive decline cascade analysis with unsupervised machine learning",
+    "authors": "Bhukdee D., Hiransuthikul A., Sriswasdi S., Chunharas C.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=5916623758876665923&hl=en&oi=scholarr",
+    "categories": [
+      "comp",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Inhomogeneities in human responses to zero-coherence dot motion persist as increasingly more sensory evidence is added",
+    "authors": "Jongmekwamsuk K., Chunharas C., Rademaker R.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801645",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
   },
   {
     "title": "Inappropriate trusting behaviour in dementia",
     "authors": "Chokesuwattanaskul A., Penn D., Albero C., Johnson J., Benhamou E., Russell L., Hardy C., Marshall C., Rohrer J., Warren J.",
     "year": "2024",
+    "publish_date": "2024-12-31",
     "link": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1433135/full",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Processing of acoustically degraded emotional prosody in Alzheimer\u2019s disease and primary progressive aphasia",
-    "authors": "Jiang J., Requena\u2010Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Warren J., Hardy C.",
-    "year": "2023",
-    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.079633",
+    "title": "Developing a Multi-site Hyperscanning Procedure for Investigating Interbrain Synchrony Underlying Remote Social Interaction",
+    "authors": "Limtragooltongchai S., Yamtuan K., Gracia J., Chunharas C., Sriravanasan R., Chaisilprungraung T., Itthipuripat S.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://link.springer.com/chapter/10.1007/978-981-96-3294-7_11",
+    "categories": [
+      "neuro"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "brain",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Dementia risk reduction between DOACs and VKAs in AF: A systematic review and meta‐analysis",
+    "authors": "Chokesuwattanaskul A., Prasitlumkum N., Cooley R., Bunch T., Chokesuwattanaskul R., Navaravong L.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/joa3.13142",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "wiley",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "The speech\u2010to\u2010song illusion in frontotemporal dementia and Alzheimer\u2019s disease",
-    "authors": "Jiang J., Requena\u2010Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Hardy C., Warren J.",
+    "title": "Conflicting sensory information sharpens the neural representations of early selective visuospatial attention",
+    "authors": "Sookprao P., Benjasupawan K., Phangwiwat T., Chatnuntawech I., Lertladaluck K., Gutchess A., Chunharas C., Itthipuripat S.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://www.jneurosci.org/content/44/33/e2012232024.abstract",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jneurosci",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Comprehension of acoustically degraded emotional prosody in Alzheimer’s disease and primary progressive aphasia",
+    "authors": "Jiang J., Johnson J., Requena-Komuro M., Benhamou E., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Nortley R., Weil R., Volkmer A., Marshall C., Bamiou D., Warren J., Hardy C.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://www.nature.com/articles/s41598-024-82694-z",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "sci rep",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Chunking as an object: What comes together, goes together",
+    "authors": "Poungtubtim C., Chunharas C., Brady T.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2801222",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Brain network is greater than sum of its regions: how plasma tau levels associate with tau‐PET limbic network while clinical scores demonstrate strong link with tau‐PET dorsal attentional network",
+    "authors": "Jarukasemkit S., Thanprasertsuk S., Booncharoen K., Luechaipanit W., Chongsuksantikul A., Supharatpariyakorn T., Likitjaroen Y., Hemachudha T., Thanapornsangsuth P., Chunharas C.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.086024",
+    "categories": [
+      "clin",
+      "neuro",
+      "comp",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Binary reversals: a diagnostic sign in primary progressive aphasia",
+    "authors": "Mulroy E., Core L., Chokesuwattanaskul A., Johnson J., Fletcher P., Marshall C., Volkmer A., Rohrer J., Hardy C., Rossor M., Warren J.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://jnnp.bmj.com/content/95/5/477.abstract",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Association of Long-Term Blood Pressure Variability with Cerebral Amyloid Angiopathy-related Brain Injury and Cognitive Decline",
+    "authors": "Sveikata L., Zotin M., Schoemaker D., Ma Y., Perosa V., Chokesuwattanaskul A., Charidimou A., Duering M., Gurol E., Assal F., Greenberg S., Viswanathan A.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10925352/",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "pmc",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Association Between Baseline Plasma p‐tau181 Levels and Cognitive Trajectory in Healthy Geriatric Populations",
+    "authors": "Samalapa R., Thanapornsangsuth P., Hemachudha P., Luechaipanit W., Haethaisong T., Chongsuksantikul A., Boonyaprapatsara G., Chunharas C., Hemachudha T., Praditpornsilpa K.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.092823",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "A gradual transition toward categorical representations along the visual hierarchy during working memory, but not perception",
+    "authors": "Chunharas C., Wolff M., Hettwer M., Rademaker R.",
+    "year": "2024",
+    "publish_date": "2024-12-31",
+    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10245673/",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "pmc",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Visual representations shift from a retinal to a real-world reference frame during visual working memory",
+    "authors": "Servetnik M., Hauer N., Wolff M., Chunharas C., Rademaker R.",
     "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2791693",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Using deep learning model on drawing tasks as a screening tool for mild cognitive impairment in older adults with sensory impairments",
+    "authors": "Chunharas C., Chatnuntawech I., Ruengchaijatuporn N., Teerapittayanon S., Chotibut T., Raksasat R., Sriswasdi S., Itthipuripat S., Petchlorlian A., Chunamchai S.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.077963",
+    "categories": [
+      "comp",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The speech‐to‐song illusion in frontotemporal dementia and Alzheimer’s disease",
+    "authors": "Jiang J., Requena‐Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Hardy C., Warren J.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.077847",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Processing of acoustically degraded speech in primary progressive aphasia and Alzheimer\u2019s disease",
-    "authors": "Jiang J., Requena\u2010Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Russell L., Warren J., Hardy C.",
+    "title": "The problematic syndrome of right temporal lobe atrophy: Unweaving the phenotypic rainbow",
+    "authors": "Belder C., Chokesuwattanaskul A., Marshall C., Hardy C., Rohrer J., Warren J.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://www.frontiersin.org/articles/10.3389/fneur.2022.1082828/full",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The architecture of abnormal reward behaviour in dementia: multimodal hedonic phenotypes and brain substrate",
+    "authors": "Chokesuwattanaskul A., Jiang H., Bond R., Jimenez D., Russell L., Sivasathiaseelan H., Johnson J., Benhamou E., Agustus J., Leeuwen J., Chokesuwattanaskul P., Hardy C., Marshall C., Rohrer J., Warren J.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://academic.oup.com/braincomms/article-abstract/5/2/fcad027/7031784",
+    "categories": [
+      "neuro"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "brain",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Symptom-led staging for primary progressive aphasia",
+    "authors": "Hardy C., Taylor-Rubin C., Taylor B., Harding E., Gonzalez A., Jiang J., Thompson L., Kingma R., Chokesuwattanaskul A., Walker F., Barker S., Brotherhood E., Waddington C., Wood O., Zimmermann N., Kupeli N., Yong K., Camic P., Stott J., Marshall C., Oxtoby N., Rohrer J., Volkmer A., Crutch S., Warren J.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10055437/",
+    "categories": [
+      "clin"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "pmc",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Risk Prediction of Cardioembolic Stroke using Clinical Data and Non-contrast CT",
+    "authors": "Jakkrawankul P., Chunharas C., Akarathanawat W., Vorasayan P., Chunamchai S., Pratanwanich P., Punyabukkana P., Chuangsuwanich E.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10207950/",
+    "categories": [
+      "clin"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "ieeexplore",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Processing of acoustically degraded emotional prosody in Alzheimer’s disease and primary progressive aphasia",
+    "authors": "Jiang J., Requena‐Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Warren J., Hardy C.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.079633",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Feature-based attention warps the perception of visual features",
+    "authors": "Chapman A., Chunharas C., Störmer V.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://www.nature.com/articles/s41598-023-33488-2",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "sci rep",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Data‐driven neuroanatomical subtype trajectories of primary progressive aphasia",
+    "authors": "Taylor B., Bocchetta M., Shand C., Todd E., Chokesuwattanaskul A., Crutch S., Rohrer J., Warren J., Hardy C., Oxtoby N.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.076663",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Comprehension of acoustically degraded speech in Alzheimer’s disease and primary progressive aphasia",
+    "authors": "Jiang J., Johnson J., Requena-Komuro M., Benhamou E., Sivasathiaseelan H., Chokesuwattanaskul A., Nelson A., Nortley R., Weil R., Volkmer A., Marshall C., Bamiou D., Warren J., Hardy C.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://academic.oup.com/brain/article-abstract/146/10/4065/7162992",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "brain",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Chunking, attraction, repulsion and ensemble effects are ubiquitous in visual working memory",
+    "authors": "Chunharas C., Brady T.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=12858430077491521660&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Attentive pairwise interaction network for AI-assisted clock drawing test assessment of early visuospatial deficits",
+    "authors": "Raksasat R., Teerapittayanon S., Itthipuripat S., Praditpornsilpa K., Petchlorlian A., Chotibut T., Chunharas C., Chatnuntawech I.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://www.nature.com/articles/s41598-023-44723-1",
+    "categories": [
+      "comp"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "sci rep",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Apathy in patients with cerebral amyloid angiopathy: a multimodal neuroimaging study",
+    "authors": "Chokesuwattanaskul A., Zotin M., Schoemaker D., Sveikata L., Gurol M., Greenberg S., Viswanathan A.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000207200",
+    "categories": [
+      "clin"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "AI-assisted monitoring of COVID-19 community isolation in Thailand",
+    "authors": "Ruengchaijatuporn N., Kittipongdaja P., Sompong T., Jakkrawankul P., Torvorapanit P., Chantasrisawad N., Chintanapakdee W., Tongbai T., Petchlorlian A., Sriborrirux W., Chunharas C., Putcharoen O., Chuangsuwanich E., Sriswasdi S.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://ieeexplore.ieee.org/abstract/document/10208057/",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "ieeexplore",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "A proposed scheme for comprehensive and systematic evaluation of normal pressure hydrocephalus",
+    "authors": "Pitaksuteepong P., Supharatpariyakorn T., Wangsawatwong P., Thanprasertsuk S., Chunamchai S., Chunharas C., Pobpan P., Sringean J., Paprad T., Hemachudha T., Thanapornsangsuth P.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.076369",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "A new synthesis of aberrant reward processing in frontotemporal dementias",
+    "authors": "Chokesuwattanaskul A., Jiang H., Bond R., Leeuwen J., Sivasathiaseelan H., Hardy C., Rohrer J., Warren J.",
+    "year": "2023",
+    "publish_date": "2023-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.065013",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Using automatic speech recognition to assess Thai speech language fluency in the Montreal cognitive assessment (MoCA)",
+    "authors": "Kantithammakorn P., Punyabukkana P., Pratanwanich P., Hemrungrojn S., Chunharas C., Wanvarie D.",
     "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://www.mdpi.com/1424-8220/22/4/1583",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "mdpi",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The reduced fidelity of selective sensory information processing in the elderly with mild cognitive impairment",
+    "authors": "Benjasupawan K., Sookprao P., Chotibut T., Chatnuntawech I., Itthipuripat S., Chunharas C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784586",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The reduced distractibility to the low-valued and non-rewarding stimuli underlies the neural development of value-based attention",
+    "authors": "Wiwatphonthana P., Sookprao P., Puvacharoonkul P., Chunharas C., Learladaluck K., Itthipuripat S.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784327",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "The neural cascading of early and late selection mechanisms in response to cognitive conflict",
+    "authors": "Itthipuripat S., Sookprao P., Wiwatphonthana P., Learladaluck K., Wilaiprasitporn T., Chatnuntawech I., Serences J., Chunharas C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784419",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Symposium 12. What do inter-item biases in perception and visual working memory tell about vision?",
+    "authors": "Rademaker R., Chunharas C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=3849195331651140980&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Sural-sparing pattern: A study against electrodiagnostic subtypes of Guillain–Barre syndrome",
+    "authors": "Pasutharnchat N., Ratanasirisawad V., Santananukarn M., Taychargumpoo C., Amornvit J., Chunharas C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2467981X22000336",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Slower visual perception and alpha oscillation as a potential neural markers of visual hallucination in Parkinson’s Disease",
+    "authors": "Chunharas C., Tantithanarat N., Itthipuripat S., Sudayuworn T., Bhidayasiri R.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784594",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Selecting the most important features for predicting mild cognitive impairment from Thai verbal fluency assessments",
+    "authors": "Metarugcheep S., Punyabukkana P., Wanvarie D., Hemrungrojn S., Chunharas C., Pratanwanich P.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://www.mdpi.com/1424-8220/22/15/5813",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "mdpi",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Processing of acoustically degraded speech in primary progressive aphasia and Alzheimer’s disease",
+    "authors": "Jiang J., Requena‐Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Russell L., Warren J., Hardy C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.064673",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Processing of acoustically degraded emotional prosody in primary progressive aphasia and Alzheimer\u2019s disease",
-    "authors": "Jiang J., Requena\u2010Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Russell L., Warren J., Hardy C.",
+    "title": "Processing of acoustically degraded emotional prosody in primary progressive aphasia and Alzheimer’s disease",
+    "authors": "Jiang J., Requena‐Komuro M., Benhamou E., Johnson J., Sivasathiaseelan H., Chokesuwattanaskul A., Russell L., Warren J., Hardy C.",
     "year": "2022",
+    "publish_date": "2022-12-31",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.064695",
     "categories": [],
-    "badge": ""
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Pattern of cortical thinning in patients with mild cognitive impairment associated with obstructive sleep apnea compared to patients with age\u2010associated mild cognitive impairment: Neuroimaging/differential diagnosis",
+    "title": "Primary progressive aphasia: ReADing the clinical GRANularity",
+    "authors": "Chokesuwattanaskul A., Marshall C., Harskamp N., Houlden H., Rohrer J., Hardy C., Warren J.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://pn.bmj.com/content/22/6/509.abstract",
+    "categories": [
+      "clin"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Optimal tuning of feature-based attention warps the perception of visual features",
+    "authors": "Chapman A., Chunharas C., Störmer V.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=7640307051355914355&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "More but Less: Enhanced early sensory-evoked responses but reduced attentional focus and delayed sensory integration in healthy aging",
+    "authors": "Sookprao P., Benjasupawan K., Lertladaluck K., Chotibut T., Chatnuntawech I., Chunharas C., Itthipuripat S.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2784598",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Clusters of Cognitive Performance among Aging People Living with HIV: the Application of Unsupervised Machine Learning (P13-3.001)",
+    "authors": "Hiransuthikul A., Rattananupong T., Phusuwan W., Chunharas C., Apornpong T., Lohsoonthorn V., Avihingsanon A.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.98.18_supplement.227",
+    "categories": [
+      "comp",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "An explainable self-attention deep neural network for detecting mild cognitive impairment using multi-input digital drawing tasks",
+    "authors": "Ruengchaijatuporn N., Chatnuntawech I., Teerapittayanon S., Sriswasdi S., Itthipuripat S., Hemrungrojn S., Bunyabukkana P., Petchlorlian A., Chunamchai S., Chotibut T., Chunharas C.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://link.springer.com/article/10.1186/s13195-022-01043-2",
+    "categories": [
+      "neuro",
+      "comp",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "springer",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "An adaptive perspective on visual working memory distortions.",
+    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://psycnet.apa.org/fulltext/2022-31804-001.html",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "psycnet",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Abstract WMP14: white matter free water drives diffusion abnormalities and correlates with conventional MRI markers of small vessel disease in cerebral amyloid angiopathy",
+    "authors": "Zotin M., Chokesuwattanaskul A., Schoemaker D., Sveikata L., Greenberg S., Viswanathan A.",
+    "year": "2022",
+    "publish_date": "2022-12-31",
+    "link": "https://www.ahajournals.org/doi/abs/10.1161/str.53.suppl_1.WMP14",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "ahajournals",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Sustained attention operates via dissociable neural mechanisms across different eccentric locations",
+    "authors": "Phangwiwat T., Punchongharn P., Chunharas C., Sprague T., Wang S., Woodman G., Itthipuripat S.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=14017343795095150222&hl=en&oi=scholarr",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Sampling Frequency of Visual Perception in Parkinson’s Disease is Slower Than Normal Aging (4231)",
+    "authors": "Tantithanarat N., Chunharas C., Bhidayasiri R.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.96.15_supplement.4231",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Founder effect of the TTTCA repeat insertions in SAMD12 causing BAFME1",
+    "authors": "Yeetong P., Chunharas C., Pongpanich M., Bennett M., Srichomthong C., Pasutharnchat N., Suphapeetiporn K., Bahlo M., Shotelersuk V.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://www.nature.com/articles/s41431-020-00729-1",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "nature",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Diagnostic accuracy of smart gadgets/wearable devices in detecting atrial fibrillation: a systematic review and meta-analysis",
+    "authors": "Prasitlumkum N., Cheungpasitporn W., Chokesuwattanaskul A., Thangjui S., Thongprayoon C., Bathini T., Vallabhajosyula S., Kanitsoraphan C., Leesutipornchai T., Chokesuwattanaskul R.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1875213620301807",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Determining In-Depth Information of Mild Cognitive Impairment: Clustering Using Unsupervised Machine Learning (1352)",
+    "authors": "Hiransuthikul A., Chunharas C., Thongkam A., Muadmanee W., Chotibut T., Phusuwan W., Petchlorlian A., Praditpornsilpa K.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.96.15_supplement.1352",
+    "categories": [
+      "comp",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Compact MoCA: a shortened alternative for MCI screening among healthy aging individuals",
+    "authors": "Muadmanee W., Hiransuthikul A., Chunharas C., Thongkam A., Petchlorlian A., Praditpornsilpa K.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.050413",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Associations between hypoxia parameters in obstructive sleep apnea and cognition, cortical thickness, and white matter integrity in middle-aged and older adults",
+    "authors": "Chokesuwattanaskul A., Chirakalwasan N., Jaimchariyatam N., Pitakvej N., Sarutikriangkri Y., Chunharas C., Phanthumchinda K., Likitjaroen Y.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://link.springer.com/article/10.1007/s11325-020-02215-w",
+    "categories": [
+      "comp"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "springer",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "A gradual transition from veridical to categorical representations along the visual hierarchy for memory but not perception.",
+    "authors": "Chunharas C., Serences J., Rademaker R.",
+    "year": "2021",
+    "publish_date": "2021-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2777164",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Pattern of cortical thinning in patients with mild cognitive impairment associated with obstructive sleep apnea compared to patients with age‐associated mild cognitive impairment: Neuroimaging/differential diagnosis",
     "authors": "Thanapornsangsuth P., Chokesuwattanaskul A., Phanthumchinda K., Likitjaroen Y.",
     "year": "2020",
+    "publish_date": "2020-12-31",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.042559",
-    "categories": ["clin", "cogn"],
-    "badge": ""
+    "categories": [
+      "clin",
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
   },
   {
-    "title": "Comparison of sub\u2010tests in working memory index among posterior cortical atrophy, Alzheimer\u2019s disease and age\u2010associated memory impairment: Neuropsychology/Early detection of cognitive decline with neuropsychological tests",
+    "title": "Impact of obstructive sleep apnea on silent cerebral small vessel disease: a systematic review and meta-analysis",
+    "authors": "Chokesuwattanaskul A., Lertjitbanjong P., Thongprayoon C., Bathini T., Sharma K., Mao M., Cheungpasitporn W., Chokesuwattanaskul R.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/S1389945719316491",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Impact of Circadian Blood Pressure Pattern on Silent Cerebral Small Vessel Disease: A Systematic Review and Meta‐Analysis",
+    "authors": "Chokesuwattanaskul A., Cheungpasitporn W., Thongprayoon C., Vallabhajosyula S., Bathini T., Mao M., Cato L., Chokesuwattanaskul R.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://www.ahajournals.org/doi/abs/10.1161/JAHA.119.016299",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "ahajournals",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Feature-based attention warps perception of color",
+    "authors": "Barszcz A., Chapman A., Chunharas C., Störmer V.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2771117",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Constructing calendars in the brain",
+    "authors": "Ramachandran V., Chunharas C., Marcus Z.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2019.1694040",
+    "categories": [
+      "neuro"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "t&f",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Comparison of sub‐tests in working memory index among posterior cortical atrophy, Alzheimer’s disease and age‐associated memory impairment: Neuropsychology/Early detection of cognitive decline with neuropsychological tests",
     "authors": "Sarutikriangkri Y., Chokesuwattanaskul A., Phanthumchinda K., Likitjaroen Y.",
     "year": "2020",
+    "publish_date": "2020-12-31",
     "link": "https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.044360",
-    "categories": ["cogn"],
-    "badge": "Abstract"
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "alz&dementia",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Bouba-Kiki: Cross-domain resonance and the origins of synesthesia, metaphor, and words in the human mind",
+    "authors": "Ramachandran V., Marcus Z., Chunharas C.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/B9780128124925000012",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Adaptive read-out: the role of sensory adaptation in serial dependence",
+    "authors": "Sheehan T., Chunharas C., Serences J.",
+    "year": "2020",
+    "publish_date": "2020-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2771307",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "TTTCA repeat insertions in an intron of YEATS2 in benign adult familial myoclonic epilepsy type 4",
+    "authors": "Yeetong P., Pongpanich M., Srichomthong C., Assawapitaksakul A., Shotelersuk V., Tantirukdham N., Chunharas C., Suphapeetiporn K., Shotelersuk V.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://academic.oup.com/brain/article-abstract/142/11/3360/5572219",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "brain",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Simultaneous Representation of Mnemonic and Sensory Information in Human Visual Cortex",
+    "authors": "Rademaker R., Chunharas C., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=9453458453840536734&hl=en&oi=scholarr",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Separating memoranda in depth increases visual working memory performance",
+    "authors": "Chunharas C., Rademaker R., Sprague T., Brady T., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2720495",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Multivariate analysis of BOLD activation patterns recovers graded depth representations in human visual and parietal cortex",
+    "authors": "Henderson M., Vo V., Chunharas C., Sprague T., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://www.eneuro.org/content/6/4/ENEURO.0362-18.2019.abstract",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "eneuro",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Is set size six really set size six? Relational coding in visual working memory.",
+    "authors": "Chunharas C., Brady T.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2750444",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Inter-item interference and systematic biases in visual memory",
+    "authors": "Chunharas C.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://search.proquest.com/openview/1894e895e9d75f8edc02cfc09f66eb22/1?pq-origsite=gscholar&cbl=18750&diss=y",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "search",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Coexisting representations of sensory and mnemonic information in human visual cortex",
+    "authors": "Rademaker R., Chunharas C., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://www.nature.com/articles/s41593-019-0428-x",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "nature",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Association of Hypoxia Measured by Oxygen Desaturation Index (ODI) in OSA with Delis-Kaplan Executive Function System (D-KEFS) Tests in Middle-Aged and Older Adults",
+    "authors": "Chokesuwattanaskul A.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://digital.car.chula.ac.th/chulaetd/8745/",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "digital",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Adaptive memory distortion in visual working memory. PsyArXiv",
+    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=15220598963537290031&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Adaptive distortions in visual working memory",
+    "authors": "Chunharas C., Rademaker R., Brady T., Serences J.",
+    "year": "2019",
+    "publish_date": "2019-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=15286788789455962639&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Simultaneous representation of sensory and mnemonic information in human visual cortex",
+    "authors": "Rademaker R., Chunharas C., Serences J.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://www.biorxiv.org/content/10.1101/339200.abstract",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Preprint",
+    "journal_badge": {
+      "label": "biorxiv",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Simultaneous representation of mnemonic and sensory information in human visual cortex",
+    "authors": "Rademaker R., Chunharas C., Serences J.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2699362",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Similar items repel each other in visual working memory",
+    "authors": "Chunharas C., Brady T., Rademaker R., Serences J.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2699669",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Selective amplification of salient features of visual memories during early memory consolidation",
+    "authors": "Chunharas C., Brady T., Ramachandran V.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://scholar.google.com/scholar?cluster=14615061688056256239&hl=en&oi=scholarr",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "scholar",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Relief from intractable phantom pain by combining psilocybin and mirror visual-feedback (MVF)",
+    "authors": "Ramachandran V., Chunharas C., Marcus Z., Furnish T., Lin A.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2018.1468469",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "t&f",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Features Can Be Bound in Blindsight Without Consciousness (P1. 197)",
+    "authors": "Chunharas C., Ramachandran V.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://www.neurology.org/doi/abs/10.1212/WNL.90.15_supplement.P1.197",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "neurology",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Effect of grouping, segmentation, and vestibular stimulation on the autokinetic effect",
+    "authors": "Ramachandran V., Chunharas C., Croft R., Batal N.",
+    "year": "2018",
+    "publish_date": "2018-12-31",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/2041669517752716",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "sage",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Trigger Features for Conveying Facial Expressions: The Role of Segmentation",
+    "authors": "Ramachandran V., Chunharas C., Smythies M.",
+    "year": "2017",
+    "publish_date": "2017-12-31",
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/2041669517737792",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "sage",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Remembering stimuli in different depth planes increases visual working memory precision and reduces swap errors.",
+    "authors": "Chunharas C., Rosanne R., Sprague T., Brady T., Serences J.",
+    "year": "2017",
+    "publish_date": "2017-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2651723",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Dissociable biases in orientation recall: The oblique effect follows retinal coordinates, while repulsion from cardinal follows real-world coordinates.",
+    "authors": "Rademaker R., Chunharas C., Mamassian P., Serences J.",
+    "year": "2017",
+    "publish_date": "2017-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2650993",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Reconstructing 3D stimuli using BOLD activation patterns recovers hierarchical depth processing in human visual and parietal cortex",
+    "authors": "Henderson M., Chunharas C., Vo V., Sprague T., Serences J.",
+    "year": "2016",
+    "publish_date": "2016-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2550283",
+    "categories": [
+      "neuro",
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Individual differences in depth discrimination predicts differences in visual working memory for stimuli rendered in 3D",
+    "authors": "Chunharas C., Itthipuripat S., Sprague T., Ester E., Serences J.",
+    "year": "2016",
+    "publish_date": "2016-12-31",
+    "link": "https://jov.arvojournals.org/article.aspx?articleid=2551410",
+    "categories": [
+      "cogn"
+    ],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "jov",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Hypothesis concerning embodied calendars: A case study of number form, color spreading, and taste-color synaesthesia",
+    "authors": "Ramachandran V., Chunharas C., Marcus Z.",
+    "year": "2016",
+    "publish_date": "2016-12-31",
+    "link": "https://www.sciencedirect.com/science/article/pii/S030698771630281X",
+    "categories": [],
+    "badge": "",
+    "journal_badge": {
+      "label": "elsevier",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "Calendars in the brain; their perceptual characteristics and possible neural substrate",
+    "authors": "Ramachandran V., Vajanaphanich M., Chunharas C.",
+    "year": "2016",
+    "publish_date": "2016-12-31",
+    "link": "https://www.tandfonline.com/doi/abs/10.1080/13554794.2016.1250913",
+    "categories": [
+      "neuro"
+    ],
+    "badge": "",
+    "journal_badge": {
+      "label": "t&f",
+      "tier": null,
+      "color": null
+    }
+  },
+  {
+    "title": "A newly identified locus for benign adult familial myoclonic epilepsy on chromosome 3q26. 32-3q28",
+    "authors": "Yeetong P., Ausavarat S., Bhidayasiri R., Piravej K., Pasutharnchat N., Desudchit T., Chunharas C., Loplumlert J., Limotai C., Suphapeetiporn K., Shotelersuk V.",
+    "year": "2013",
+    "publish_date": "2013-12-31",
+    "link": "https://www.nature.com/articles/ejhg2012133",
+    "categories": [],
+    "badge": "Abstract",
+    "journal_badge": {
+      "label": "nature",
+      "tier": null,
+      "color": null
+    }
   }
 ]
