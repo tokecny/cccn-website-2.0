@@ -14,7 +14,7 @@ export type Publication = {
   year: string;
   link: string;
   categories: string[];
-  badge: string;
+  type: string;
 };
 
 const filters = [
@@ -118,9 +118,9 @@ export default function Publications() {
             transition={{ delay: idx * 0.05 }}
           >
             <Card className="relative rounded-2xl shadow-md hover:shadow-lg transition-all h-full flex flex-col justify-between border border-pink-100">
-              {pub.badge && (
+              {pub.type && (
                 <Badge className="absolute top-3 right-3 bg-pink-500 text-pink-100 text-xs font-semibold">
-                  {pub.badge}
+                  {pub.type}
                 </Badge>
               )}
               <CardContent className="p-6 flex flex-col gap-2">
@@ -157,6 +157,11 @@ export default function Publications() {
           </Button>
         </div>
       )}
+
+      {/* Footer credit */}
+      <p className="mt-12 px-6 text-center text-xs text-pink-900/50">
+        Bibliographic data sourced from OpenAlex (CC0) and supplemented with Crossref for DOI metadata.
+      </p>
     </>
   );
 }
