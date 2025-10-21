@@ -71,40 +71,16 @@ export default function Resources() {
               Limbic Lounge
             </h3>
             <div className="space-y-3 text-gray-800 text-sm">
-              <p>
-                📖{" "}
+               <p>
+                🎥 The wonders of the brain on 
                 <a
-                  href="https://www.the101.world/author/chaipat-chunharas/"
-                  target="_blank"
-                  className="text-pink-500 hover:underline"
-                >
-                  BrainBug
-                </a>{" "}
-                : Cognitive Neuroscience articles for a broad audience <br></br>
-                <b>@ 101.world.</b>
-              </p>
-              <p>
-                🎥 Dr. Sirawaj Itthipuripat and Dr. Chaipat Chunharas on
-                <a
-                  href="https://www.youtube.com/watch?v=xDWEmsFyJCU&t=97s"
+                  href="https://www.youtube.com/watch?v=odDBItsvNrg"
                   target="_blank"
                   className="text-pink-500 hover:underline ml-1"
                 >
-                  the topic of Neuroscience
+                  ความ(ไม่)รู้รอบตัว
                 </a>{" "}
-                <br></br>
-                <b>@ The Standard.</b>
-              </p>
-              <p>
-                🎥 A casual conversation on brains — featuring
-                <a
-                  href="https://www.youtube.com/watch?v=w9W8wivMyXo&list=PLnngDzPu334Ddj6YmFD6ADnhGk4Rfqqdm"
-                  target="_blank"
-                  className="text-pink-500 hover:underline ml-1"
-                >
-                  Brain Code Cast
-                </a>{" "}
-                <b>@ WiTcast.</b>
+                <b>@ GoodDayPodcast.</b>
               </p>
               <p>
                 🎥 Another brainy session with Dr. Chaipat on
@@ -119,6 +95,47 @@ export default function Resources() {
                 <b>@ Salmon Podcast.</b>
               </p>
               <p>
+                🎥 A casual conversation on brains — featuring
+                <a
+                  href="https://www.youtube.com/watch?v=w9W8wivMyXo&list=PLnngDzPu334Ddj6YmFD6ADnhGk4Rfqqdm"
+                  target="_blank"
+                  className="text-pink-500 hover:underline ml-1"
+                >
+                  Brain Code Cast
+                </a>{" "}
+                <b>@ WiTcast.</b>
+              </p>
+              <p>
+                🎥 Exploring other fascinating aspects of the brain with
+                <a
+                  href="https://www.youtube.com/watch?v=-fa65u2Ymvg"
+                  target="_blank"
+                  className="text-pink-500 hover:underline ml-1"
+                >
+                  Top to Toe EP144
+                </a>{" "}
+                &
+                <a
+                  href="https://www.youtube.com/watch?v=gqv7gn689tQ"
+                  target="_blank"
+                  className="text-pink-500 hover:underline ml-1"
+                >
+                  EP164
+                </a>{" "}
+                <b>@ The Standard Podcast.</b>
+              </p>
+              <p>
+                🎥 Dr. Sirawaj Itthipuripat and Dr. Chaipat Chunharas on
+                <a
+                  href="https://www.youtube.com/watch?v=xDWEmsFyJCU&t=97s"
+                  target="_blank"
+                  className="text-pink-500 hover:underline ml-1"
+                >
+                  the topic of Neuroscience
+                </a>{" "}
+                <b>@ The Standard.</b>
+              </p>
+              <p>
                 📖 Discover
                 <a
                   href="https://bookscape.co/?s=%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A0%E0%B8%B1%E0%B8%97%E0%B8%A3"
@@ -129,6 +146,18 @@ export default function Resources() {
                 </a>{" "}
                 that Dr. Chaipat has lovingly translated with<br></br>{" "}
                 <b>Bookscape Publishing</b>
+              </p>
+              <p>
+                📖{" "}
+                <a
+                  href="https://www.the101.world/author/chaipat-chunharas/"
+                  target="_blank"
+                  className="text-pink-500 hover:underline ml-1"
+                >
+                  BrainBug
+                </a>{" "}
+                : Cognitive Neuroscience articles for a broad audience <br></br>
+                <b>@ 101.world.</b>
               </p>
             </div>
           </div>
