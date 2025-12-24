@@ -89,7 +89,7 @@ const ALBUMS: LabAlbum[] = [
   {
     id: "vss-2025",
     title: "VSS 2025",
-    location: "St Pete Beach - Florida",
+    location: "St. Pete Beach - Florida",
     category: "conference",
     year: 2025,
     images: [ 
@@ -99,7 +99,6 @@ const ALBUMS: LabAlbum[] = [
       { src: "/gallery/vss2025/vss-2025-5.jpg", alt: "CCCN Lab attended VSS 2025" },
       { src: "/gallery/vss2025/vss-2025-6.jpg", alt: "CCCN Lab attended VSS 2025" },
       { src: "/gallery/vss2025/vss-2025-7.jpg", alt: "CCCN Lab attended VSS 2025" },
-      { src: "/gallery/vss2025/vss-2025-8.jpg", alt: "CCCN Lab attended VSS 2025" },
     ],
   },
   {
@@ -135,7 +134,7 @@ const ALBUMS: LabAlbum[] = [
   {
     id: "vss-2024",
     title: "VSS 2024",
-    location: "St Pete Beach - Florida",
+    location: "St. Pete Beach - Florida",
     category: "conference",
     year: 2024,
     images: [
@@ -157,43 +156,11 @@ type AlbumCardProps = {
 function AlbumCard({ album }: AlbumCardProps) {
   const [index, setIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false);
 
-  // สำหรับจับ swipe บน touch screen
+  // สำหรับจับ swipe
   const touchStartX = useRef<number | null>(null);
 
-  // เช็กว่าเป็นจอ desktop หรือไม่ (>= 1024px)
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const mq = window.matchMedia("(min-width: 1024px)");
-
-    const update = () => {
-      setIsDesktop(mq.matches);
-    };
-
-    update();
-    mq.addEventListener("change", update);
-
-    return () => {
-      mq.removeEventListener("change", update);
-    };
-  }, []);
-
-  // auto-slide เฉพาะ desktop + ไม่ hover
-  useEffect(() => {
-    if (!isDesktop) return;
-    if (album.images.length <= 1 || isHovered) return;
-
-    const timer = setInterval(
-      () => setIndex((prev) => (prev + 1) % album.images.length),
-      3000,
-    );
-
-    return () => clearInterval(timer);
-  }, [album.images.length, isHovered, isDesktop]);
-
-  // ฟังก์ชันเปลี่ยนรูป
+  // เปลี่ยนรูปถัดไป / ก่อนหน้า
   const goNext = () =>
     setIndex((prev) => (prev + 1) % album.images.length);
   const goPrev = () =>
@@ -201,7 +168,46 @@ function AlbumCard({ album }: AlbumCardProps) {
       prev === 0 ? album.images.length - 1 : prev - 1,
     );
 
-  // touch handlers สำหรับ tablet / mobile
+  // ✅ auto-slide เฉพาะตอนเป็น desktop + ไม่ hover
+  // ทั้งหมดอยู่ใน useEffect (ฝั่ง client เท่านั้น) เลยไม่ไปยุ่งกับ HTML จาก server
+  useEffect(() => {
+    if (album.images.length <= 1) return;
+    if (isHovered) return;
+    if (typeof window === "undefined") return;
+
+    const mq = window.matchMedia("(min-width: 1024px)");
+    if (!mq.matches) {
+      // ถ้าตอนนี้ไม่ใช่ desktop ก็ไม่ต้องทำอะไร
+      return;
+    }
+
+    const startTimer = () =>
+      window.setInterval(() => {
+        setIndex((prev) => (prev + 1) % album.images.length);
+      }, 3500);
+
+    let timer = startTimer();
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      // ถ้า resize จาก mobile -> desktop ค่อยเริ่ม timer
+      if (e.matches) {
+        clearInterval(timer);
+        timer = startTimer();
+      } else {
+        // ถ้า resize จาก desktop -> mobile ให้หยุด
+        clearInterval(timer);
+      }
+    };
+
+    mq.addEventListener("change", handleChange);
+
+    return () => {
+      clearInterval(timer);
+      mq.removeEventListener("change", handleChange);
+    };
+  }, [album.images.length, isHovered]);
+
+  // touch handlers สำหรับ swipe บน mobile / tablet
   const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
     touchStartX.current = e.touches[0].clientX;
   };
@@ -214,11 +220,9 @@ function AlbumCard({ album }: AlbumCardProps) {
 
     if (Math.abs(diffX) > threshold) {
       if (diffX < 0) {
-        // ปัดซ้าย → next
-        goNext();
+        goNext(); // ปัดซ้าย → รูปถัดไป
       } else {
-        // ปัดขวา → prev
-        goPrev();
+        goPrev(); // ปัดขวา → รูปก่อนหน้า
       }
     }
 
@@ -236,7 +240,7 @@ function AlbumCard({ album }: AlbumCardProps) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* โซนรูป: desktop = auto-slide, mobile/tablet = swipe ได้ */}
+      {/* zone รูป: desktop = auto-slide, mobile/tablet = swipe ได้ */}
       <div
         className="relative aspect-[4/3] w-full overflow-hidden"
         onTouchStart={handleTouchStart}
