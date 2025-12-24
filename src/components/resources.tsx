@@ -283,7 +283,7 @@ export default function Resources() {
               <p>
                 🗄️ A collection of academic
                 <a
-                  href="https://drive.google.com/drive/folders/15ahhazQjqMOKNejjup31pDm-vUuAfeqv?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1M38gooeZLzkg2wLKAdA7b-rhJbSfzmq7?usp=drive_link"
                   target="_blank"
                   className="text-pink-500 hover:underline ml-1"
                 >
@@ -294,7 +294,7 @@ export default function Resources() {
               <p>
                 🗄️ Not just research – we travel, we laugh, we celebrate. These
                 <a
-                  href="https://drive.google.com/drive/folders/1sI1slN4qJEwv2RZkAKfi_XhkKsII2W8m?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1US9TTw_PdiEU7dC9Qtm7Zm2HvAelC_Iw?usp=drive_link"
                   target="_blank"
                   className="text-pink-500 hover:underline ml-1"
                 >

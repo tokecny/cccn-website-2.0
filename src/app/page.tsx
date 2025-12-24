@@ -3,7 +3,8 @@ import Publications from "@/components/publications";
 import { Home } from "@/components/home";
 import { Testimonials } from "@/components/testimonials";
 import { Contact } from "@/components/contact";
-import { Activities } from "@/components/activities";
+import { Calendar } from "@/components/calendar";
+import { Gallery } from "@/components/gallery";
 import Collaborators from "@/components/collaborators";
 import Resources from "@/components/resources";
 import Waves from "@/blocks/Backgrounds/Waves/Waves";
@@ -68,9 +69,22 @@ export default function Landing() {
         {/* Activity Section */}
         <section
           id="activities"
-          className="lg:scroll-mt-16 py-8 bg-pink-100 text-center rounded-lg"
+          className="lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg"
         >
-          <Activities />
+          <div className="mx-auto max-w-7xl px-4">
+            <h2 className="mb-8 text-3xl font-semibold tracking-tight text-pink-500 text-center">
+              Activities &amp; Gallery
+            </h2>
+
+            <div className="grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] lg:items-start lg:h-[560px] ">
+              <div className="flex justify-center">
+                <Calendar />
+              </div>
+              <div>
+                <Gallery />
+              </div>
+            </div>
+          </div>
         </section>
 
         <div className="py-2 md:py-7 lg:py-4 bg-white" />
