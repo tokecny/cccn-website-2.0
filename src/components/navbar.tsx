@@ -31,8 +31,8 @@ export default function Navbar() {
       icon: <Handshake size={20} />,
     },
     {
-      label: "Activities",
-      href: "#activities",
+      label: "Events",
+      href: "#events",
       icon: <CalendarDays size={20} />,
     },
     { label: "Resources", href: "#resources", icon: <PackageOpen size={20} /> },
