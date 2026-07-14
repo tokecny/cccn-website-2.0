@@ -183,17 +183,12 @@ export function Events() {
     <div className="overflow-hidden">
       <Container>
         {/* Heading */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h2
               id="events-heading"
               className="text-3xl font-semibold tracking-tight text-pink-500 mb-8 text-center"
             >
               Events
             </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-        </div>
         {/* Carousel */}
         <div
           ref={scrollRef}

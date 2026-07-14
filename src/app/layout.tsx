@@ -47,7 +47,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=ads_click"
         />
       </head>
-      <body className="scroll-smooth font-sans text-black bg-white">
+      <body className="font-sans text-black bg-white">
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

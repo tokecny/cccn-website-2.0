@@ -40,7 +40,7 @@ export default function Landing() {
         {/* People Section */}
         <section
           id="people"
-          className="lg:scroll-mt-16 py-8 bg-gray-100 text-center rounded-lg"
+          className="py-8 bg-gray-100 text-center rounded-lg"
         >
           <Testimonials />
         </section>
@@ -50,7 +50,7 @@ export default function Landing() {
         {/* Publications Section */}
         <section
           id="publications"
-          className="lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg"
+          className="py-8 bg-pink-100 rounded-lg"
         >
           <Publications />
         </section>
@@ -60,7 +60,7 @@ export default function Landing() {
         {/* Collaborators Section */}
         <section
           id="collaborators"
-          className="lg:scroll-mt-16 py-8 bg-gray-100 rounded-lg"
+          className="py-8 bg-gray-100 rounded-lg"
         >
           <Collaborators />
         </section>
@@ -70,7 +70,7 @@ export default function Landing() {
         {/* Events Section */}
         <section
           id="events"
-          className="lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg"
+          className="py-8 bg-pink-100 rounded-lg"
         >
           <Events />
         </section>
@@ -80,7 +80,7 @@ export default function Landing() {
         {/* Resources Section */}
         <section
           id="resources"
-          className="lg:scroll-mt-16 py-8 bg-gray-100 rounded-lg"
+          className="py-8 bg-gray-100 rounded-lg"
         >
           <Resources />
         </section>
@@ -90,7 +90,7 @@ export default function Landing() {
         {/* Culture Section */}
         <section
           id="culture"
-          className="lg:scroll-mt-16 py-8 bg-pink-100 rounded-lg"
+          className="py-8 bg-pink-100 rounded-lg"
         >
           <Culture />
         </section>
@@ -98,7 +98,9 @@ export default function Landing() {
         <div className="py-2 md:py-7 lg:py-4 bg-white" />
 
         {/* Contact Section */}
-        <section id="contact" className="py-8 bg-gray-100 rounded-lg">
+        <section 
+          id="contact" 
+          className="py-8 bg-gray-100 rounded-lg">
           <Contact />
         </section>
       </div>
