@@ -144,8 +144,8 @@ export default function Navbar() {
               Collaborators
             </a>
             <span>|</span>
-            <a href="#activities" className={linkClass(scrolled)}>
-              Activities
+            <a href="#events" className={linkClass(scrolled)}>
+              Events
             </a>
             <span>|</span>
             <a href="#resources" className={linkClass(scrolled)}>
