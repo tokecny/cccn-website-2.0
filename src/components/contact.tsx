@@ -27,7 +27,7 @@ export function Contact() {
             and collaboration.<br></br>
             <a
               className="text-pink-500 hover:underline transition"
-              href="/cccn-lab-joining-details.pdf"
+              href="/cccn_policy_visitor2026.pdf"
               download
             >
               Read through the details
