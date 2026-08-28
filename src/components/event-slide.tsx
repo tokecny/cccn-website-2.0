@@ -24,6 +24,7 @@ export type EventImage = {
 export type EventSession = {
   date: string;
   location: string;
+  status?: "upcoming" | "completed";
 };
 
 export type LabEvent = {
@@ -40,6 +41,7 @@ export type LabEvent = {
 
   registerUrl?: string;
   learnMoreUrl?: string;
+  learnMoreLabel?: string;
 };
 
 function EventStatusBadge({
@@ -130,6 +132,7 @@ export function EventSlide({
           <div className="mt-8 space-y-4">
             {event.sessions.map((session, index) => {
               const isActive = activeSessionIndex === index;
+              const isCompleted = session.status === "completed";
 
               return (
                 <button
@@ -140,7 +143,11 @@ export function EventSlide({
                   className={clsx(
                     "w-full rounded-2xl border p-4 text-left transition",
                     "focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400",
-                    isActive
+                    isCompleted
+                    ? isActive
+                      ? "border-gray-400 bg-gray-200 shadow-sm"
+                      : "border-gray-200 bg-gray-100 hover:border-gray-300 hover:bg-gray-200"
+                    : isActive
                       ? "border-pink-400 bg-pink-50 shadow-sm"
                       : "border-gray-200 bg-gray-50 hover:border-pink-200 hover:bg-pink-50/50",
                   )}
@@ -149,18 +156,22 @@ export function EventSlide({
                     <CalendarDays
                       className={clsx(
                         "mt-0.5 size-5 shrink-0",
-                        isActive
+                        isCompleted
+                        ? "text-gray-400"
+                        : isActive
                           ? "text-pink-500"
-                          : "text-gray-400",
+                          : "text-gray-400"
                       )}
                     />
 
                     <p
                       className={clsx(
                         "text-sm font-medium sm:text-base",
-                        isActive
+                        isCompleted
+                        ? "text-gray-500"
+                        : isActive
                           ? "text-gray-950"
-                          : "text-gray-800",
+                          : "text-gray-800"
                       )}
                     >
                       {session.date}
@@ -171,13 +182,20 @@ export function EventSlide({
                     <MapPin
                       className={clsx(
                         "mt-0.5 size-5 shrink-0",
-                        isActive
+                        isCompleted
+                        ? "text-gray-400"
+                        : isActive
                           ? "text-pink-500"
-                          : "text-gray-400",
+                          : "text-gray-400"
                       )}
                     />
 
-                    <p className="text-sm text-gray-600 sm:text-base">
+                    <p
+                      className={clsx(
+                        "text-sm sm:text-base",
+                        isCompleted ? "text-gray-500" : "text-gray-600",
+                      )}
+                    >
                       {session.location}
                     </p>
                   </div>
@@ -207,8 +225,8 @@ export function EventSlide({
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-pink-300 px-5 py-2.5 text-sm font-medium text-pink-600 transition hover:border-pink-500 hover:bg-pink-50"
             >
-              Learn More
-              <ArrowRight className="size-4" />
+              {event.learnMoreLabel ?? "Learn More"}
+              <ExternalLink className="size-4" />
             </Link>
           )}
         </div>

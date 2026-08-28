@@ -13,7 +13,7 @@ import {
 
 const events: LabEvent[] = [
     {
-        id: "blb-2026",
+        id: "blb_2026",
         title: "Brain Longevity Bootcamp 2026",
         subtitle: "Brain and Mental Health",
 
@@ -22,19 +22,19 @@ const events: LabEvent[] = [
 
         images: [
             {
-                src: "/events/blb-2026-bangkok.jpg",
+                src: "/events/BLB_BKK.png",
                 alt: "Brain Longevity Bootcamp 2026 Bangkok",
             },
             {
-                src: "/events/blb-2026-chiang-mai.jpg",
+                src: "/events/BLB_CNX.png",
                 alt: "Brain Longevity Bootcamp 2026 Chiang Mai",
             },
             {
-                src: "/events/blb-2026-phuket.jpg",
+                src: "/events/BLB_PK.png",
                 alt: "Brain Longevity Bootcamp 2026 Phuket",
             },
             {
-                src: "/events/blb-2026-khon-kaen.jpg",
+                src: "/events/BLB_KK.png",
                 alt: "Brain Longevity Bootcamp 2026 Khon Kaen",
             },
         ],
@@ -43,25 +43,32 @@ const events: LabEvent[] = [
             {
                 date: "14–16 August 2026",
                 location: "Bangkok",
+                status: "completed"
             },
             {
                 date: "25–27 September 2026",
                 location: "Chiang Mai",
+                status: "upcoming"
             },
             {
                 date: "16–18 October 2026",
                 location: "Phuket",
+                status: "upcoming"
             },
             {
                 date: "6–8 November 2026",
                 location: "Khon Kaen",
+                status: "upcoming"
             },
         ],
 
         category: "Bootcamp",
         status: "open",
 
-        learnMoreUrl: "#",
+        registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfThPN3E1xYhLPqxSn5bAHlnOprpr6P6LzGKedLUYsmjshUDg/viewform",
+
+        learnMoreUrl: "https://www.instagram.com/p/DcakJbMkws5/?igsi=MXI0ZDFvaHJ6Z2Npdw==",
+        learnMoreLabel: "View on Instagram",
     },
     {
         id: "sensory-innovation-sandbox-2026",
@@ -73,22 +80,24 @@ const events: LabEvent[] = [
 
         images: [
                 {
-                    src: "/events/sis-2026.png",
-                    alt: "Brain Longevity Bootcamp 2026 Bangkok",
+                    src: "/events/SIS_2026.png",
+                    alt: "Sensory Innovation Sandbox 2026",
                 },
             ],
 
         sessions: [
         {
             date: "25 July – 5 September 2026",
-            location: "Bangkok, Thailand",
+            location: "Bangkok",
+            status: "completed"
         },
         ],
 
         category: "Program",
-        status: "open",
+        status: "closed",
 
-        learnMoreUrl: "#",
+        learnMoreUrl: "https://www.instagram.com/p/Daffj02zyYW/?igsi=MThod2syMmNuZWwwaQ==",
+        learnMoreLabel: "View on Instagram",
     },
 ];
 
