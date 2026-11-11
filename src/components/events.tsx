@@ -48,22 +48,22 @@ const events: LabEvent[] = [
             {
                 date: "25–27 September 2026",
                 location: "Chiang Mai",
-                status: "upcoming"
+                status: "completed"
             },
             {
                 date: "16–18 October 2026",
                 location: "Phuket",
-                status: "upcoming"
+                status: "completed"
             },
             {
                 date: "6–8 November 2026",
                 location: "Khon Kaen",
-                status: "upcoming"
+                status: "completed"
             },
         ],
 
         category: "Bootcamp",
-        status: "open",
+        status: "closed",
 
         registerUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfThPN3E1xYhLPqxSn5bAHlnOprpr6P6LzGKedLUYsmjshUDg/viewform",
 
